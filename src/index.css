@@ -1,0 +1,452 @@
+/* Header */
+
+#wpadminbar #wp-admin-bar-wccp_free_top_button .ab-icon:before {
+  content: "\f160";
+  color: #02ca02;
+  top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-wccp_free_top_button .ab-icon {
+  transform: rotate(45deg);
+}
+
+img:is([sizes="auto" i], [sizes^="auto," i]) {
+  contain-intrinsic-size: 3000px 1500px;
+}
+
+/* Main Page */
+form#sib_signup_form_1 {
+  padding: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form#sib_signup_form_1 input[type="text"],
+form#sib_signup_form_1 input[type="email"],
+form#sib_signup_form_1 select {
+  width: 100%;
+  border: 1px solid #bbb;
+  height: auto;
+  margin: 5px 0 0 0;
+}
+
+form#sib_signup_form_1 .sib-default-btn {
+  margin: 5px 0;
+  padding: 6px 12px;
+  color: #fff;
+  background-color: #333;
+  border-color: #2e2e2e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4285;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: normal;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+form#sib_signup_form_1 .sib-default-btn:hover {
+  background-color: #444;
+}
+
+form#sib_signup_form_1 p {
+  margin: 10px 0 0 0;
+}
+
+#sib_signup_form_1 .sib-default-btn {
+  width: 100%;
+  max-width: 240px;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  background-color: #000000;
+  font-family: "Avenir Thin", Sans-serif;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 3px 3px 3px 3px !important;
+  margin: 15px 5px 15px 5px !important;
+  text-align: center !important;
+  font-size: 15px !important;
+  font-weight: 400;
+  cursor: pointer !important;
+  transition: all 300ms ease-in-out;
+  padding: 15px 24px !important;
+  text-transform: uppercase !important;
+}
+
+#sib_signup_form_1 {
+  max-width: 400px;
+}
+
+@media (min-width: 767px) {
+  #b_form1 #sib_signup_form_1 {
+    max-width: 100% !important;
+  }
+
+  #b_form1 .sib_signup_box_inside_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #b_form1 .sib-default-btn {
+    padding: 13px 24px !important;
+  }
+}
+
+form#sib_signup_form_1 p.sib-alert-message {
+  padding: 6px 12px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form#sib_signup_form_1 p.sib-alert-message-error {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+form#sib_signup_form_1 p.sib-alert-message-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+
+form#sib_signup_form_1 p.sib-alert-message-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+
+.page-template-100-width .fullwidth-box.cst_testimonials {
+  padding-top: 80px !important;
+  padding-bottom: 0px !important;
+}
+
+.slick-next,
+.slick-prev {
+  width: 35px;
+  height: 35px;
+  z-index: 99;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
+  font-size: 35px;
+}
+
+.slide-1 {
+  background: url("/images/slide-1.jpg") no-repeat;
+  padding: 60px 30px 250px 30px;
+  background-size: cover;
+}
+
+.slide-2 {
+  background: url("/images/slide-2.jpg") no-repeat;
+  padding: 300px 30px 20px 30px;
+  background-size: cover;
+}
+
+.slide-0 {
+  background: url("/images/Cortney-McDermott-Success-Stories-Nancy-B-Hack-Obamas-img.jpg")
+    no-repeat;
+  padding: 450px 30px 20px 30px;
+  background-size: cover;
+}
+
+.slide-1 .slide-content {
+  max-width: 600px;
+  background: rgba(129, 120, 113, 0.75);
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.slide-0 .slide-content,
+.slide-2 .slide-content {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  background: rgba(129, 120, 113, 0.75);
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+}
+
+.slide-content h3 {
+  color: #fff;
+  font-family: "Northwell";
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-size: clamp(31px, 4vw, 48px);
+  line-height: 1.15em;
+  font-weight: 400;
+}
+
+.slide-content .author {
+  font-weight: 700;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+}
+
+.slide-content p {
+  text-align: center;
+  font-size: 17px;
+}
+
+.rotating_testimonials_quotes .slick-next,
+.rotating_testimonials_quotes .slick-prev {
+  background-color: #817871;
+  padding-top: 2.6px;
+}
+
+.rotating_testimonials_quotes .slick-prev {
+  left: 5px;
+}
+
+.rotating_testimonials_quotes .slick-next {
+  right: 5px;
+}
+
+.rotating_testimonials_quotes .slick-next:before,
+.rotating_testimonials_quotes .slick-prev:before {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.cmcd-slick-obama .slick-dots {
+  display: none !important;
+}
+
+@media only screen and (min-width: 760px) and (max-width: 800px) {
+  .cmcd-slick-obama.slide-2 {
+    padding: 345px 30px 20px 30px;
+  }
+
+  .cmcd-slick-obama .slide-1 {
+    padding: 290px 30px 50px 30px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .rotating_testimonials_quotes.slick-slide {
+    display: block;
+    min-height: 790px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 980px) {
+  .slide-0 {
+    padding: 270px 30px 20px 30px;
+    background-size: 100% 100%;
+  }
+
+  .slide-1 {
+    padding: 60px 30px 50px 30px;
+  }
+
+  .cmcd-slick-obama .slick-initialized .slick-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .cmcd-slick-obama .slick-initialized div#slick-slide01 {
+    background-position: right center;
+  }
+}
+
+@media (max-width: 600px) {
+  .slide-0 {
+    padding: 140px 30px 0px 30px;
+    background-size: 100% 100%;
+    background-position: 100% -60px;
+  }
+
+  .slide-1 {
+    padding: 205px 30px 0px 30px;
+  }
+
+  .slide-2 {
+    padding: 180px 30px 20px 30px;
+    background-position: center;
+  }
+
+  .slide-1 .slide-content {
+    padding: 10px;
+  }
+
+  .slide-0 .slide-content,
+  .slide-2 .slide-content {
+    max-width: 100%;
+  }
+
+  .fusion-fullwidth.fullwidth-box.cst_testimonials {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .fusion-fullwidth.fullwidth-box.cst_testimonials .slick-prev {
+    left: 0px;
+  }
+
+  .fusion-fullwidth.fullwidth-box.cst_testimonials .slick-next {
+    right: 0px;
+  }
+
+  .slide-0 .slide-content {
+    margin-top: 40px;
+    padding: 5px 15px 1px !important;
+  }
+
+  .rotating_testimonials_quotes .slick-next,
+  .rotating_testimonials_quotes .slick-prev {
+    width: 25px;
+    height: 28px;
+  }
+
+  .rotating_testimonials_quotes .slick-next:before,
+  .rotating_testimonials_quotes .slick-prev:before {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .slide-1 .slide-content {
+    margin-left: 0px;
+  }
+
+  .cmcd-slick-obama .slick-slide p {
+    font-size: 13px;
+    line-height: 125% !important;
+  }
+}
+
+form#sib_signup_form_1 {
+  padding: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form#sib_signup_form_1 input[type="text"],
+form#sib_signup_form_1 input[type="email"],
+form#sib_signup_form_1 select {
+  width: 100%;
+  border: 1px solid #bbb;
+  height: auto;
+  margin: 5px 0 0 0;
+}
+
+form#sib_signup_form_1 .sib-default-btn {
+  margin: 5px 0;
+  padding: 6px 12px;
+  color: #fff;
+  background-color: #333;
+  border-color: #2e2e2e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4285;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: normal;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+form#sib_signup_form_1 .sib-default-btn:hover {
+  background-color: #444;
+}
+
+form#sib_signup_form_1 p {
+  margin: 10px 0 0 0;
+}
+
+#sib_signup_form_1 .sib-default-btn {
+  width: 100%;
+  max-width: 240px;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+  background-color: #000000;
+  font-family: "Avenir Thin", Sans-serif;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 3px 3px 3px 3px !important;
+  margin: 15px 5px 15px 5px !important;
+  text-align: center !important;
+  font-size: 15px !important;
+  font-weight: 400;
+  cursor: pointer !important;
+  transition: all 300ms ease-in-out;
+  padding: 15px 24px !important;
+  text-transform: uppercase !important;
+}
+
+#sib_signup_form_1 {
+  max-width: 400px;
+}
+
+@media (min-width: 767px) {
+  #b_form1 #sib_signup_form_1 {
+    max-width: 100% !important;
+  }
+
+  #b_form1 .sib_signup_box_inside_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  #b_form1 .sib-default-btn {
+    padding: 13px 24px !important;
+  }
+}
+
+form#sib_signup_form_1 p.sib-alert-message {
+  padding: 6px 12px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form#sib_signup_form_1 p.sib-alert-message-error {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+form#sib_signup_form_1 p.sib-alert-message-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+
+form#sib_signup_form_1 p.sib-alert-message-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
