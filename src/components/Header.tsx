@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -27,8 +28,8 @@ function Header() {
                     >
                       <div className="site-branding ast-site-identity">
                         <span className="site-logo-img">
-                          <a
-                            href="/"
+                          <NavLink
+                            to="/"
                             className="custom-logo-link"
                             rel="home"
                             aria-current="page"
@@ -43,7 +44,7 @@ function Header() {
                               srcSet="images/alisha_jaiswal_logo.png 1x, images/alisha_jaiswal_logo.png 2x"
                               sizes="(max-width: 250px) 100vw, 250px"
                             />
-                          </a>
+                          </NavLink>
                         </span>
                       </div>
                       {/* .site-branding */}
@@ -72,10 +73,7 @@ function Header() {
                                   id="menu-item-118924"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924"
                                 >
-                                  <a
-                                    href="https://www.cortneymcdermott.com/cortney-mcdermott-2/"
-                                    className="menu-link"
-                                  >
+                                  <NavLink to="/about" className="menu-link">
                                     <span className="ast-icon icon-arrow">
                                       <svg
                                         className="ast-arrow-svg"
@@ -94,14 +92,14 @@ function Header() {
                                       </svg>
                                     </span>
                                     <span className="menu-text">About</span>
-                                  </a>
+                                  </NavLink>
                                 </li>
                                 <li
                                   id="menu-item-120577"
                                   className="menu-border menu-item menu-item-type-post_type menu-item-object-page menu-item-120577"
                                 >
-                                  <a
-                                    href="https://www.cortneymcdermott.com/work-together/"
+                                  <NavLink
+                                    to="/work-together"
                                     className="menu-link"
                                   >
                                     <span className="ast-icon icon-arrow">
@@ -124,16 +122,13 @@ function Header() {
                                     <span className="menu-text">
                                       WORK WITH ME
                                     </span>
-                                  </a>
+                                  </NavLink>
                                 </li>
                                 <li
                                   id="menu-item-119500"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500"
                                 >
-                                  <a
-                                    href="https://www.cortneymcdermott.com/book/"
-                                    className="menu-link"
-                                  >
+                                  <NavLink to="/book" className="menu-link">
                                     <span className="ast-icon icon-arrow">
                                       <svg
                                         className="ast-arrow-svg"
@@ -152,16 +147,13 @@ function Header() {
                                       </svg>
                                     </span>
                                     <span className="menu-text">Books</span>
-                                  </a>
+                                  </NavLink>
                                 </li>
                                 <li
                                   id="menu-item-118918"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918"
                                 >
-                                  <a
-                                    href="https://www.cortneymcdermott.com/blog/"
-                                    className="menu-link"
-                                  >
+                                  <NavLink to="/blog" className="menu-link">
                                     <span className="ast-icon icon-arrow">
                                       <svg
                                         className="ast-arrow-svg"
@@ -180,16 +172,13 @@ function Header() {
                                       </svg>
                                     </span>
                                     <span className="menu-text">Blog</span>
-                                  </a>
+                                  </NavLink>
                                 </li>
                                 <li
                                   id="menu-item-118920"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920"
                                 >
-                                  <a
-                                    href="https://www.cortneymcdermott.com/praise/"
-                                    className="menu-link"
-                                  >
+                                  <NavLink to="/praise" className="menu-link">
                                     <span className="ast-icon icon-arrow">
                                       <svg
                                         className="ast-arrow-svg"
@@ -210,14 +199,14 @@ function Header() {
                                     <span className="menu-text">
                                       Success Stories
                                     </span>
-                                  </a>
+                                  </NavLink>
                                 </li>
                                 <li
                                   id="menu-item-118928"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928"
                                 >
-                                  <a
-                                    href="https://www.cortneymcdermott.com/giving-back/"
+                                  <NavLink
+                                    to="/giving-back"
                                     className="menu-link"
                                   >
                                     <span className="ast-icon icon-arrow">
@@ -240,16 +229,13 @@ function Header() {
                                     <span className="menu-text">
                                       Giving Back
                                     </span>
-                                  </a>
+                                  </NavLink>
                                 </li>
                                 <li
                                   id="menu-item-118919"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919"
                                 >
-                                  <a
-                                    href="https://www.cortneymcdermott.com/contact/"
-                                    className="menu-link"
-                                  >
+                                  <NavLink to="/contact" className="menu-link">
                                     <span className="ast-icon icon-arrow">
                                       <svg
                                         className="ast-arrow-svg"
@@ -268,7 +254,7 @@ function Header() {
                                       </svg>
                                     </span>
                                     <span className="menu-text">Contact</span>
-                                  </a>
+                                  </NavLink>
                                 </li>
                               </ul>
                             </div>
@@ -305,23 +291,23 @@ function Header() {
                       itemScope={true}
                     >
                       <span className="site-logo-img">
-                        <a
-                          href="/"
+                        <NavLink
+                          to="/"
                           className="custom-logo-link"
                           rel="home"
                           aria-current="page"
                         >
-                          <h2
-                            style={{
-                              fontFamily: "Dynalight, cursive",
-                              fontWeight: 400,
-                              fontStyle: "normal",
-                              fontSize: "3rem",
-                            }}
-                          >
-                            Alisha Jaiswal
-                          </h2>
-                        </a>
+                          <img
+                            width="250"
+                            height="48"
+                            src="images/alisha_jaiswal_logo.png"
+                            className="custom-logo"
+                            alt="Alisha Jaiswal Ratina logo"
+                            decoding="async"
+                            srcSet="images/alisha_jaiswal_logo.png 1x, images/alisha_jaiswal_logo.png 2x"
+                            sizes="(max-width: 250px) 100vw, 250px"
+                          />
+                        </NavLink>
                       </span>
                     </div>
                     {/* .site-branding */}
@@ -401,10 +387,7 @@ function Header() {
                         className="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile ast-mega-menu-enabled"
                       >
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924">
-                          <a
-                            href="https://www.cortneymcdermott.com/cortney-mcdermott-2/"
-                            className="menu-link"
-                          >
+                          <NavLink to="/about" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
                                 className="ast-arrow-svg"
@@ -423,13 +406,10 @@ function Header() {
                               </svg>
                             </span>
                             <span className="menu-text">About</span>
-                          </a>
+                          </NavLink>
                         </li>
                         <li className="menu-border menu-item menu-item-type-post_type menu-item-object-page menu-item-120577">
-                          <a
-                            href="https://www.cortneymcdermott.com/work-together/"
-                            className="menu-link"
-                          >
+                          <NavLink to="/work-together" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
                                 className="ast-arrow-svg"
@@ -448,13 +428,10 @@ function Header() {
                               </svg>
                             </span>
                             <span className="menu-text">WORK WITH ME</span>
-                          </a>
+                          </NavLink>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
-                          <a
-                            href="https://www.cortneymcdermott.com/book/"
-                            className="menu-link"
-                          >
+                          <NavLink to="/book" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
                                 className="ast-arrow-svg"
@@ -473,13 +450,10 @@ function Header() {
                               </svg>
                             </span>
                             <span className="menu-text">Books</span>
-                          </a>
+                          </NavLink>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
-                          <a
-                            href="https://www.cortneymcdermott.com/blog/"
-                            className="menu-link"
-                          >
+                          <NavLink to="/blog" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
                                 className="ast-arrow-svg"
@@ -498,13 +472,10 @@ function Header() {
                               </svg>
                             </span>
                             <span className="menu-text">Blog</span>
-                          </a>
+                          </NavLink>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
-                          <a
-                            href="https://www.cortneymcdermott.com/praise/"
-                            className="menu-link"
-                          >
+                          <NavLink to="/praise" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
                                 className="ast-arrow-svg"
@@ -523,13 +494,10 @@ function Header() {
                               </svg>
                             </span>
                             <span className="menu-text">Success Stories</span>
-                          </a>
+                          </NavLink>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
-                          <a
-                            href="https://www.cortneymcdermott.com/giving-back/"
-                            className="menu-link"
-                          >
+                          <NavLink to="/giving-back" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
                                 className="ast-arrow-svg"
@@ -548,13 +516,10 @@ function Header() {
                               </svg>
                             </span>
                             <span className="menu-text">Giving Back</span>
-                          </a>
+                          </NavLink>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
-                          <a
-                            href="https://www.cortneymcdermott.com/contact/"
-                            className="menu-link"
-                          >
+                          <NavLink to="/contact" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
                                 className="ast-arrow-svg"
@@ -573,7 +538,7 @@ function Header() {
                               </svg>
                             </span>
                             <span className="menu-text">Contact</span>
-                          </a>
+                          </NavLink>
                         </li>
                       </ul>
                     </div>
@@ -617,18 +582,16 @@ function Header() {
                               rel="home"
                               aria-current="page"
                             >
-                              <h2
-                                style={{
-                                  fontFamily: "Northwell, Sans-serif",
-                                  fontWeight: 400,
-                                  fontSize: "3rem",
-                                  lineHeight: "1rem",
-                                  paddingTop: 15,
-                                  margin: 0,
-                                }}
-                              >
-                                Alisha Jaiswal
-                              </h2>
+                              <img
+                                width="250"
+                                height="48"
+                                src="images/alisha_jaiswal_logo.png"
+                                className="custom-logo"
+                                alt="Alisha Jaiswal Ratina logo"
+                                decoding="async"
+                                srcSet="images/alisha_jaiswal_logo.png 1x, images/alisha_jaiswal_logo.png 2x"
+                                sizes="(max-width: 250px) 100vw, 250px"
+                              />
                             </a>
                           </span>
                         </div>
@@ -655,10 +618,7 @@ function Header() {
                                   className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border stack-on-mobile ast-mega-menu-enabled"
                                 >
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924">
-                                    <a
-                                      href="https://www.cortneymcdermott.com/cortney-mcdermott-2/"
-                                      className="menu-link"
-                                    >
+                                    <NavLink to="/about" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
                                           className="ast-arrow-svg"
@@ -677,11 +637,11 @@ function Header() {
                                         </svg>
                                       </span>
                                       <span className="menu-text">About</span>
-                                    </a>
+                                    </NavLink>
                                   </li>
                                   <li className="menu-border menu-item menu-item-type-post_type menu-item-object-page menu-item-120577">
-                                    <a
-                                      href="https://www.cortneymcdermott.com/work-together/"
+                                    <NavLink
+                                      to="/work-together"
                                       className="menu-link"
                                     >
                                       <span className="ast-icon icon-arrow">
@@ -704,13 +664,10 @@ function Header() {
                                       <span className="menu-text">
                                         WORK WITH ME
                                       </span>
-                                    </a>
+                                    </NavLink>
                                   </li>
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
-                                    <a
-                                      href="https://www.cortneymcdermott.com/book/"
-                                      className="menu-link"
-                                    >
+                                    <NavLink to="/book" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
                                           className="ast-arrow-svg"
@@ -729,13 +686,10 @@ function Header() {
                                         </svg>
                                       </span>
                                       <span className="menu-text">Books</span>
-                                    </a>
+                                    </NavLink>
                                   </li>
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
-                                    <a
-                                      href="https://www.cortneymcdermott.com/blog/"
-                                      className="menu-link"
-                                    >
+                                    <NavLink to="/blog" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
                                           className="ast-arrow-svg"
@@ -754,13 +708,10 @@ function Header() {
                                         </svg>
                                       </span>
                                       <span className="menu-text">Blog</span>
-                                    </a>
+                                    </NavLink>
                                   </li>
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
-                                    <a
-                                      href="https://www.cortneymcdermott.com/praise/"
-                                      className="menu-link"
-                                    >
+                                    <NavLink to="/praise" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
                                           className="ast-arrow-svg"
@@ -781,11 +732,11 @@ function Header() {
                                       <span className="menu-text">
                                         Success Stories
                                       </span>
-                                    </a>
+                                    </NavLink>
                                   </li>
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
-                                    <a
-                                      href="https://www.cortneymcdermott.com/giving-back/"
+                                    <NavLink
+                                      to="/giving-back"
                                       className="menu-link"
                                     >
                                       <span className="ast-icon icon-arrow">
@@ -808,11 +759,11 @@ function Header() {
                                       <span className="menu-text">
                                         Giving Back
                                       </span>
-                                    </a>
+                                    </NavLink>
                                   </li>
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
-                                    <a
-                                      href="https://www.cortneymcdermott.com/contact/"
+                                    <NavLink
+                                      to="/contact"
                                       className="menu-link"
                                     >
                                       <span className="ast-icon icon-arrow">
@@ -833,7 +784,7 @@ function Header() {
                                         </svg>
                                       </span>
                                       <span className="menu-text">Contact</span>
-                                    </a>
+                                    </NavLink>
                                   </li>
                                 </ul>
                               </div>
@@ -870,25 +821,23 @@ function Header() {
                         itemScope={true}
                       >
                         <span className="site-logo-img">
-                          <a
-                            href="/"
+                          <NavLink
+                            to="/"
                             className="custom-logo-link"
                             rel="home"
                             aria-current="page"
                           >
-                            <h2
-                              style={{
-                                fontFamily: "Northwell, Sans-serif",
-                                fontWeight: 400,
-                                fontSize: "3rem",
-                                lineHeight: "1rem",
-                                paddingTop: 15,
-                                margin: 0,
-                              }}
-                            >
-                              Alisha Jaiswal
-                            </h2>
-                          </a>
+                            <img
+                              width="250"
+                              height="48"
+                              src="images/alisha_jaiswal_logo.png"
+                              className="custom-logo"
+                              alt="Alisha Jaiswal Ratina logo"
+                              decoding="async"
+                              srcSet="images/alisha_jaiswal_logo.png 1x, images/alisha_jaiswal_logo.png 2x"
+                              sizes="(max-width: 250px) 100vw, 250px"
+                            />
+                          </NavLink>
                         </span>
                       </div>
                       {/* .site-branding */}
@@ -968,10 +917,7 @@ function Header() {
                           className="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile ast-mega-menu-enabled"
                         >
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924">
-                            <a
-                              href="https://www.cortneymcdermott.com/cortney-mcdermott-2/"
-                              className="menu-link"
-                            >
+                            <NavLink to="/about" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
                                   className="ast-arrow-svg"
@@ -990,13 +936,10 @@ function Header() {
                                 </svg>
                               </span>
                               <span className="menu-text">About</span>
-                            </a>
+                            </NavLink>
                           </li>
                           <li className="menu-border menu-item menu-item-type-post_type menu-item-object-page menu-item-120577">
-                            <a
-                              href="https://www.cortneymcdermott.com/work-together/"
-                              className="menu-link"
-                            >
+                            <NavLink to="/work-together" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
                                   className="ast-arrow-svg"
@@ -1015,13 +958,10 @@ function Header() {
                                 </svg>
                               </span>
                               <span className="menu-text">WORK WITH ME</span>
-                            </a>
+                            </NavLink>
                           </li>
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
-                            <a
-                              href="https://www.cortneymcdermott.com/book/"
-                              className="menu-link"
-                            >
+                            <NavLink to="/book" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
                                   className="ast-arrow-svg"
@@ -1040,13 +980,10 @@ function Header() {
                                 </svg>
                               </span>
                               <span className="menu-text">Books</span>
-                            </a>
+                            </NavLink>
                           </li>
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
-                            <a
-                              href="https://www.cortneymcdermott.com/blog/"
-                              className="menu-link"
-                            >
+                            <NavLink to="/blog" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
                                   className="ast-arrow-svg"
@@ -1065,13 +1002,10 @@ function Header() {
                                 </svg>
                               </span>
                               <span className="menu-text">Blog</span>
-                            </a>
+                            </NavLink>
                           </li>
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
-                            <a
-                              href="https://www.cortneymcdermott.com/praise/"
-                              className="menu-link"
-                            >
+                            <NavLink to="/praise" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
                                   className="ast-arrow-svg"
@@ -1090,13 +1024,10 @@ function Header() {
                                 </svg>
                               </span>
                               <span className="menu-text">Success Stories</span>
-                            </a>
+                            </NavLink>
                           </li>
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
-                            <a
-                              href="https://www.cortneymcdermott.com/giving-back/"
-                              className="menu-link"
-                            >
+                            <NavLink to="/giving-back" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
                                   className="ast-arrow-svg"
@@ -1115,13 +1046,10 @@ function Header() {
                                 </svg>
                               </span>
                               <span className="menu-text">Giving Back</span>
-                            </a>
+                            </NavLink>
                           </li>
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
-                            <a
-                              href="https://www.cortneymcdermott.com/contact/"
-                              className="menu-link"
-                            >
+                            <NavLink to="/contact" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
                                   className="ast-arrow-svg"
@@ -1140,7 +1068,7 @@ function Header() {
                                 </svg>
                               </span>
                               <span className="menu-text">Contact</span>
-                            </a>
+                            </NavLink>
                           </li>
                         </ul>
                       </div>

@@ -1,0 +1,2182 @@
+.elementor-13 .elementor-element.elementor-element-ca03eb9 {
+  --display: flex;
+  --min-height: 100vh;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --justify-content: center;
+}
+.elementor-13
+  .elementor-element.elementor-element-ca03eb9:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-13
+  .elementor-element.elementor-element-ca03eb9
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../images/praise/NeckerBransonCort-banner-color.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-13 .elementor-element.elementor-element-22cbe3e {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-5a68691 {
+  --display: flex;
+}
+.elementor-widget-heading .elementor-heading-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+  color: var(--e-global-color-primary);
+}
+.elementor-13
+  .elementor-element.elementor-element-0bb71fc
+  > .elementor-widget-container {
+  padding: 0px 0px 0px 0px;
+}
+.elementor-13 .elementor-element.elementor-element-0bb71fc.elementor-element {
+  --align-self: flex-start;
+}
+.elementor-13 .elementor-element.elementor-element-0bb71fc {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-0bb71fc
+  .elementor-heading-title {
+  font-family: "Northwell", Sans-serif;
+  font-size: 124px;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-532b918 {
+  --display: flex;
+  --min-height: 100vh;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --justify-content: center;
+}
+.elementor-13
+  .elementor-element.elementor-element-532b918:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-13
+  .elementor-element.elementor-element-532b918
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../images/NeckerBransonCort-banner-color.jpg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-13 .elementor-element.elementor-element-dd055fa {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-21cf7d5 {
+  --display: flex;
+}
+.elementor-13
+  .elementor-element.elementor-element-b718169
+  > .elementor-widget-container {
+  padding: 0px 0px 0px 0px;
+}
+.elementor-13 .elementor-element.elementor-element-b718169.elementor-element {
+  --align-self: flex-start;
+}
+.elementor-13 .elementor-element.elementor-element-b718169 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-b718169
+  .elementor-heading-title {
+  font-family: "Northwell", Sans-serif;
+  font-size: 124px;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #000000;
+}
+.elementor-widget-image .widget-image-caption {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-text-font-weight);
+}
+.elementor-13 .elementor-element.elementor-element-54f47f8 {
+  text-align: center;
+}
+.elementor-13 .elementor-element.elementor-element-54f47f8 img {
+  max-width: 80px;
+}
+.elementor-widget-testimonial-carousel .elementor-testimonial__text {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-text-font-weight);
+}
+.elementor-widget-testimonial-carousel .elementor-testimonial__name {
+  color: var(--e-global-color-text);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.elementor-widget-testimonial-carousel .elementor-testimonial__title {
+  color: var(--e-global-color-primary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-secondary-font-weight);
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3
+  > .elementor-widget-container {
+  padding: 0px 0px 0px 0px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3
+  .elementor-swiper-button {
+  font-size: 0px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3.elementor-testimonial--layout-image_inline
+  .elementor-testimonial__footer,
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3.elementor-testimonial--layout-image_stacked
+  .elementor-testimonial__footer {
+  margin-top: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3.elementor-testimonial--layout-image_above
+  .elementor-testimonial__footer {
+  margin-bottom: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3.elementor-testimonial--layout-image_left
+  .elementor-testimonial__footer {
+  padding-right: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3.elementor-testimonial--layout-image_right
+  .elementor-testimonial__footer {
+  padding-left: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3
+  .elementor-testimonial__text {
+  color: #000000;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 23px;
+  letter-spacing: 6px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3
+  .elementor-testimonial__name {
+  color: #000000;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.elementor-13
+  .elementor-element.elementor-element-fc0fbe3
+  .elementor-testimonial__title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 21px;
+}
+.elementor-13 .elementor-element.elementor-element-f8c6da9 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 80px;
+  --padding-bottom: 0px;
+  --padding-left: 0px;
+  --padding-right: 0px;
+}
+.elementor-13 .elementor-element.elementor-element-0e95c90 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-3d24ff9 {
+  text-align: center;
+}
+.elementor-13 .elementor-element.elementor-element-3d24ff9 img {
+  max-width: 80px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060
+  > .elementor-widget-container {
+  padding: 0px 0px 0px 0px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060
+  .elementor-swiper-button {
+  font-size: 0px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060.elementor-testimonial--layout-image_inline
+  .elementor-testimonial__footer,
+.elementor-13
+  .elementor-element.elementor-element-311d060.elementor-testimonial--layout-image_stacked
+  .elementor-testimonial__footer {
+  margin-top: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060.elementor-testimonial--layout-image_above
+  .elementor-testimonial__footer {
+  margin-bottom: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060.elementor-testimonial--layout-image_left
+  .elementor-testimonial__footer {
+  padding-right: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060.elementor-testimonial--layout-image_right
+  .elementor-testimonial__footer {
+  padding-left: 40px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060
+  .elementor-testimonial__text {
+  color: #000000;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 23px;
+  letter-spacing: 6px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060
+  .elementor-testimonial__name {
+  color: #000000;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.elementor-13
+  .elementor-element.elementor-element-311d060
+  .elementor-testimonial__title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 21px;
+}
+.elementor-13 .elementor-element.elementor-element-17e8984e {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 80px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-093356e {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-ff3fccf {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-c728a80 img {
+  max-width: 200px;
+}
+.elementor-13 .elementor-element.elementor-element-241e0dc {
+  text-align: center;
+}
+.elementor-13 .elementor-element.elementor-element-241e0dc img {
+  max-width: 150px;
+}
+.elementor-13 .elementor-element.elementor-element-e2db225 {
+  --display: flex;
+}
+.elementor-widget-text-editor {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-text-font-weight);
+  color: var(--e-global-color-text);
+}
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked
+  .elementor-drop-cap {
+  background-color: var(--e-global-color-primary);
+}
+.elementor-widget-text-editor.elementor-drop-cap-view-framed
+  .elementor-drop-cap,
+.elementor-widget-text-editor.elementor-drop-cap-view-default
+  .elementor-drop-cap {
+  color: var(--e-global-color-primary);
+  border-color: var(--e-global-color-primary);
+}
+.elementor-13 .elementor-element.elementor-element-ba2a6e7 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-e986d93 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-e986d93
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-7464eab {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-e96af2b {
+  --display: flex;
+}
+.elementor-widget-divider {
+  --divider-color: var(--e-global-color-secondary);
+}
+.elementor-widget-divider .elementor-divider__text {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-secondary-font-weight);
+}
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {
+  background-color: var(--e-global-color-secondary);
+}
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon {
+  color: var(--e-global-color-secondary);
+  border-color: var(--e-global-color-secondary);
+}
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon svg {
+  fill: var(--e-global-color-secondary);
+}
+.elementor-13 .elementor-element.elementor-element-b59f77f {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-b59f77f
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-b59f77f .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-966753d {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-255ec4b {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-84fcb86 {
+  --display: flex;
+  --justify-content: center;
+  --gap: 3px 3px;
+  --row-gap: 3px;
+  --column-gap: 3px;
+}
+.elementor-13 .elementor-element.elementor-element-0b4b995.elementor-element {
+  --align-self: center;
+}
+.elementor-13 .elementor-element.elementor-element-0b4b995 img {
+  max-width: 200px;
+}
+.elementor-13 .elementor-element.elementor-element-ccc1c27 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-5df0e6d {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-99e2e41 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-99e2e41
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-7395df6 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-d19fd47 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-11138f6 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-11138f6
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-11138f6 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-0ebb83a {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-b12f5aa {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-2b7c692 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-a65aa87 img {
+  max-width: 200px;
+}
+.elementor-13 .elementor-element.elementor-element-1497d13 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-abdf103 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-6516b9b {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-6516b9b
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-df91b02 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-70bcc39 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-d0d75af {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-d0d75af
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-d0d75af .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-dde95eb {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-a56f066 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-9b72e1c {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13
+  .elementor-element.elementor-element-d1e301d
+  > .elementor-widget-container {
+  margin: 0px 11px 0px 11px;
+}
+.elementor-13 .elementor-element.elementor-element-d1e301d img {
+  width: 191%;
+  max-width: 191px;
+  height: 68px;
+}
+.elementor-13 .elementor-element.elementor-element-6730005 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-67ac5ba {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-96113f2 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-96113f2
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-4e6c437 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-e12f7c7 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-b0c0dd2 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-b0c0dd2
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-b0c0dd2 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-e98f1eb {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-6bfc025 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-8bd2fc1 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-0f487fd img {
+  width: 200%;
+  max-width: 200px;
+  height: 101px;
+}
+.elementor-13 .elementor-element.elementor-element-e1dc7ec {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-866f6ed {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-ea1d911 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-ea1d911
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-9792a3f {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-f93d430 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-e92a3f0 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-e92a3f0
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-e92a3f0 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-bb42f3a {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-a1f76a7 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-c696bbb {
+  --display: flex;
+  --gap: 0px 0px;
+  --row-gap: 0px;
+  --column-gap: 0px;
+}
+.elementor-13 .elementor-element.elementor-element-d04cbb6 img {
+  width: 213%;
+  max-width: 213px;
+  height: 200px;
+}
+.elementor-13 .elementor-element.elementor-element-3196fef img {
+  width: 213%;
+  max-width: 213px;
+  height: 77.09px;
+}
+.elementor-13 .elementor-element.elementor-element-9905491 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-11e4d8b {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-c977f48 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-c977f48
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-08b303a {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-2371e5c {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-d7fd1df {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-d7fd1df
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-d7fd1df .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-3e21086 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-ebb620d {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-45c2f92 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-085d734 img {
+  width: 213%;
+  max-width: 213px;
+  height: 58.16px;
+}
+.elementor-13 .elementor-element.elementor-element-75e7ec7 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-70345e1 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-f755e3e {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-f755e3e
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-a99e325 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-4720da3 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-bd26a4a {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-bd26a4a
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-bd26a4a .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-14e3774 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-b1b6b8d {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-4c0a03d {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-7e1ae90 img {
+  width: 213%;
+  max-width: 213px;
+  height: 45.47px;
+}
+.elementor-13 .elementor-element.elementor-element-03172c6 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-940655d {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-bc48ce5 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-bc48ce5
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-a858a70 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-2abebe7 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-3b9e3b7 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-3b9e3b7
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-3b9e3b7 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-6593490 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-5bceef3 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-7cfc068 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-0f692c5 img {
+  width: 151%;
+  max-width: 151px;
+  height: 184px;
+}
+.elementor-13 .elementor-element.elementor-element-5bd8985 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-a58203e {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-36f25f9 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-36f25f9
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-1cc4891 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-c0cbd1d {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-57a2fd1 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-57a2fd1
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-57a2fd1 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-0084e5f {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-46ea2ba {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-82f5b98 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-1d0569b img {
+  width: 185%;
+  max-width: 185px;
+  height: 50px;
+}
+.elementor-13 .elementor-element.elementor-element-c434ceb {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-08a0b1a {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-5742f33 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-5742f33
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-eba2ff6 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-c4d3f0f {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-7dbb92a {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-7dbb92a
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-7dbb92a .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-19b416b {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-34d65f3 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-f5170bb {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-eea3645 img {
+  width: 213%;
+  max-width: 213px;
+  height: 119.68px;
+}
+.elementor-13 .elementor-element.elementor-element-ef1949e {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-efb0ebd {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-6bd304d {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-6bd304d
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-6151a5c {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-f59d2ff {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-1f093d1 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-1f093d1
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-1f093d1 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-af792c3 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-e92cbcc {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-c517910 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-e0f0919 img {
+  width: 250%;
+  max-width: 250px;
+  height: 70px;
+}
+.elementor-13 .elementor-element.elementor-element-c9bbddd {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-b9e3332 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-7d3e2a1 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-7d3e2a1
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-06e3fb8 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-d330735 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-00fcb1a {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-00fcb1a
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-00fcb1a .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-7aae120 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-bf2486a {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-b86b70f {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-0ccba61 img {
+  width: 260%;
+  max-width: 260px;
+  height: 44px;
+}
+.elementor-13 .elementor-element.elementor-element-c16602e {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-6609595 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-ef97329 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-ef97329
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-97e5643 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-9cc3dbc {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-9342eb3 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-9342eb3
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-9342eb3 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-fd8284a {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-6950843 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-1561b90 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-c79f217 img {
+  width: 213%;
+  max-width: 213px;
+  height: 121.41px;
+}
+.elementor-13 .elementor-element.elementor-element-d35f8a0 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-84ea412 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-aef205f {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-aef205f
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-b316a93 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-b7952d5 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-496ed69 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-496ed69
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-496ed69 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-6afdd87 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-1b1e2e0 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-6378b22 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-dd31cf4 img {
+  width: 213%;
+  max-width: 213px;
+  height: 146.28px;
+}
+.elementor-13 .elementor-element.elementor-element-0e74d76 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-311993c {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-e0b179b {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-e0b179b
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 22.5px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-9b1b889 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-e055a33 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-106048d {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-106048d
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-106048d .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-ae5f742 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-82325cb {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-27c7501 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-7202c7a img {
+  width: 213%;
+  max-width: 213px;
+  height: 124.8px;
+}
+.elementor-13 .elementor-element.elementor-element-e429c36 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-a858687 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-2c2d9ac {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-2c2d9ac
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 22.5px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-f78590e {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-305311d {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-66f8e34 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-66f8e34
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-66f8e34 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-b7f21a6 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-ed55dcd {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-b26e69d {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-c968892 img {
+  width: 182%;
+  max-width: 182px;
+  height: 83px;
+}
+.elementor-13 .elementor-element.elementor-element-0533cef {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-4d8ae70 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-42c0a81 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-42c0a81
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 22.5px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-2a46164 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-4656f65 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-9717a9f {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-9717a9f
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-9717a9f .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-99154e5 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-3f0c2e5 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-8951225 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-8425406 img {
+  width: 150%;
+  max-width: 150px;
+  height: 150px;
+}
+.elementor-13 .elementor-element.elementor-element-683be2c {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-79a4d72 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-056f2e2 {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-056f2e2
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 22.5px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-ac096ba {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-7996c7a {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-c026d02 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-c026d02
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-c026d02 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-2982290 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 50px;
+  --padding-bottom: 0px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-2009d82 {
+  --display: flex;
+  --flex-direction: row;
+  --container-widget-width: initial;
+  --container-widget-height: 100%;
+  --container-widget-flex-grow: 1;
+  --container-widget-align-self: stretch;
+  --flex-wrap-mobile: wrap;
+}
+.elementor-13 .elementor-element.elementor-element-23cf349 {
+  --display: flex;
+  --justify-content: center;
+}
+.elementor-13 .elementor-element.elementor-element-644e62c img {
+  width: 213%;
+  max-width: 213px;
+  height: 74.08px;
+}
+.elementor-13 .elementor-element.elementor-element-1a5402b {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-5b15784 {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-1bee34b {
+  text-align: left;
+}
+.elementor-13
+  .elementor-element.elementor-element-1bee34b
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 22.5px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-2bcd02d {
+  text-align: justify;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+.elementor-13 .elementor-element.elementor-element-7bd0909 {
+  --display: flex;
+}
+.elementor-13 .elementor-element.elementor-element-1b0f6c9 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-1b0f6c9
+  .elementor-divider-separator {
+  width: 100%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-13 .elementor-element.elementor-element-1b0f6c9 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+.elementor-13 .elementor-element.elementor-element-1fe6b9f1 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 30px;
+  --padding-bottom: 50px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-13 .elementor-element.elementor-element-18cdad5 {
+  text-align: center;
+}
+.elementor-13
+  .elementor-element.elementor-element-18cdad5
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 46px;
+  color: #000000;
+}
+.elementor-widget-button .elementor-button {
+  background-color: var(--e-global-color-accent);
+  font-family: var(--e-global-typography-accent-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-accent-font-weight);
+}
+.elementor-13 .elementor-element.elementor-element-3d47e41 .elementor-button {
+  background-color: #b1a69d;
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+.elementor-13
+  .elementor-element.elementor-element-3d47e41
+  .elementor-button:hover,
+.elementor-13
+  .elementor-element.elementor-element-3d47e41
+  .elementor-button:focus {
+  background-color: #cec7c2;
+}
+@media (max-width: 1024px) {
+  .elementor-13
+    .elementor-element.elementor-element-0bb71fc
+    .elementor-heading-title {
+    font-size: 85px;
+  }
+  .elementor-13
+    .elementor-element.elementor-element-b718169
+    .elementor-heading-title {
+    font-size: 85px;
+  }
+  .elementor-13 .elementor-element.elementor-element-e0f0919 {
+    text-align: center;
+  }
+  .elementor-13 .elementor-element.elementor-element-e0f0919 img {
+    max-width: 100%;
+  }
+  .elementor-13 .elementor-element.elementor-element-0ccba61 img {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-13
+    .elementor-element.elementor-element-ca03eb9:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-13
+    .elementor-element.elementor-element-ca03eb9
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-image: url("../images/praise/NeckerBransonCort-Mobile-1.jpg");
+    background-position: bottom center;
+  }
+  .elementor-13 .elementor-element.elementor-element-ca03eb9 {
+    --min-height: 80vh;
+  }
+  .elementor-13 .elementor-element.elementor-element-0bb71fc {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .elementor-13 .elementor-element.elementor-element-0bb71fc.elementor-element {
+    --align-self: center;
+  }
+  .elementor-13
+    .elementor-element.elementor-element-0bb71fc
+    .elementor-heading-title {
+    font-size: 70px;
+  }
+  .elementor-13
+    .elementor-element.elementor-element-532b918:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-13
+    .elementor-element.elementor-element-532b918
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-image: url("../images/praise/NeckerBransonCort-Mobile-1.jpg");
+    background-position: bottom center;
+  }
+  .elementor-13 .elementor-element.elementor-element-532b918 {
+    --min-height: 80vh;
+  }
+  .elementor-13 .elementor-element.elementor-element-b718169 {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .elementor-13 .elementor-element.elementor-element-b718169.elementor-element {
+    --align-self: center;
+  }
+  .elementor-13
+    .elementor-element.elementor-element-b718169
+    .elementor-heading-title {
+    font-size: 70px;
+  }
+  .elementor-13 .elementor-element.elementor-element-3d47e41 {
+    width: 100%;
+    max-width: 100%;
+  }
+  .elementor-13 .elementor-element.elementor-element-3d47e41 .elementor-button {
+    font-size: 16px;
+    padding: 14px 7px 14px 6px;
+  }
+}
+@media (min-width: 768px) {
+  .elementor-13 .elementor-element.elementor-element-5a68691 {
+    --width: 50%;
+  }
+  .elementor-13 .elementor-element.elementor-element-21cf7d5 {
+    --width: 50%;
+  }
+  .elementor-13 .elementor-element.elementor-element-0e95c90 {
+    --content-width: 800px;
+  }
+  .elementor-13 .elementor-element.elementor-element-ff3fccf {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-84fcb86 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-2b7c692 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-9b72e1c {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-8bd2fc1 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-c696bbb {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-45c2f92 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-4c0a03d {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-7cfc068 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-82f5b98 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-f5170bb {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-c517910 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-b86b70f {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-1561b90 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-6378b22 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-27c7501 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-b26e69d {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-8951225 {
+    --width: 40%;
+  }
+  .elementor-13 .elementor-element.elementor-element-23cf349 {
+    --width: 40%;
+  }
+}
+@media (min-width: 1025px) {
+  .elementor-13
+    .elementor-element.elementor-element-ca03eb9:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-13
+    .elementor-element.elementor-element-ca03eb9
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-attachment: fixed;
+  }
+  .elementor-13
+    .elementor-element.elementor-element-532b918:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-13
+    .elementor-element.elementor-element-532b918
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-attachment: fixed;
+  }
+} /* Start custom CSS for heading, class: .elementor-element-0bb71fc */
+.elementor-13 .elementor-element.elementor-element-0bb71fc h1 {
+  display: flex;
+} /* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-b718169 */
+.elementor-13 .elementor-element.elementor-element-b718169 h1 {
+  display: flex;
+} /* End custom CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+  font-family: "Northwell";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../fonts/northwell_alt-webfont-1.eot");
+  src: url("../fonts/northwell_alt-webfont-1.eot#iefix")
+      format("embedded-opentype"),
+    url("../fonts/northwell_alt-webfont-1.woff") format("woff"),
+    url("../fonts/northwell_alt-webfont-1.ttf") format("truetype");
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+  font-family: "Avenir Thin";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../fonts/AvenirNextLTPro-Thin-1.eot");
+  src: url("../fonts/AvenirNextLTPro-Thin-1.eot#iefix")
+      format("embedded-opentype"),
+    url("../fonts/AvenirNextLTPro-Thin-1.woff") format("woff"),
+    url("../fonts/AvenirNextLTPro-Thin-1.ttf") format("truetype");
+}
+/* End Custom Fonts CSS */
