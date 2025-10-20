@@ -124,7 +124,7 @@ function Header() {
                                     </span>
                                   </NavLink>
                                 </li>
-                                <li
+                                {/* <li
                                   id="menu-item-119500"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500"
                                 >
@@ -148,8 +148,8 @@ function Header() {
                                     </span>
                                     <span className="menu-text">Books</span>
                                   </NavLink>
-                                </li>
-                                <li
+                                </li> */}
+                                {/* <li
                                   id="menu-item-118918"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918"
                                 >
@@ -173,7 +173,7 @@ function Header() {
                                     </span>
                                     <span className="menu-text">Blog</span>
                                   </NavLink>
-                                </li>
+                                </li> */}
                                 <li
                                   id="menu-item-118920"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920"
@@ -201,7 +201,7 @@ function Header() {
                                     </span>
                                   </NavLink>
                                 </li>
-                                <li
+                                {/* <li
                                   id="menu-item-118928"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928"
                                 >
@@ -230,7 +230,7 @@ function Header() {
                                       Giving Back
                                     </span>
                                   </NavLink>
-                                </li>
+                                </li> */}
                                 <li
                                   id="menu-item-118919"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919"
@@ -430,7 +430,7 @@ function Header() {
                             <span className="menu-text">WORK WITH ME</span>
                           </NavLink>
                         </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
+                        {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
                           <NavLink to="/book" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
@@ -451,8 +451,8 @@ function Header() {
                             </span>
                             <span className="menu-text">Books</span>
                           </NavLink>
-                        </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
+                        </li> */}
+                        {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
                           <NavLink to="/blog" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
@@ -473,7 +473,7 @@ function Header() {
                             </span>
                             <span className="menu-text">Blog</span>
                           </NavLink>
-                        </li>
+                        </li> */}
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
                           <NavLink to="/praise" className="menu-link">
                             <span className="ast-icon icon-arrow">
@@ -496,7 +496,7 @@ function Header() {
                             <span className="menu-text">Success Stories</span>
                           </NavLink>
                         </li>
-                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
+                        {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
                           <NavLink to="/giving-back" className="menu-link">
                             <span className="ast-icon icon-arrow">
                               <svg
@@ -517,7 +517,7 @@ function Header() {
                             </span>
                             <span className="menu-text">Giving Back</span>
                           </NavLink>
-                        </li>
+                        </li> */}
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
                           <NavLink to="/contact" className="menu-link">
                             <span className="ast-icon icon-arrow">
@@ -666,7 +666,7 @@ function Header() {
                                       </span>
                                     </NavLink>
                                   </li>
-                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
+                                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
                                     <NavLink to="/book" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
@@ -687,8 +687,8 @@ function Header() {
                                       </span>
                                       <span className="menu-text">Books</span>
                                     </NavLink>
-                                  </li>
-                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
+                                  </li> */}
+                                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
                                     <NavLink to="/blog" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
@@ -709,7 +709,7 @@ function Header() {
                                       </span>
                                       <span className="menu-text">Blog</span>
                                     </NavLink>
-                                  </li>
+                                  </li> */}
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
                                     <NavLink to="/praise" className="menu-link">
                                       <span className="ast-icon icon-arrow">
@@ -734,7 +734,7 @@ function Header() {
                                       </span>
                                     </NavLink>
                                   </li>
-                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
+                                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
                                     <NavLink
                                       to="/giving-back"
                                       className="menu-link"
@@ -760,7 +760,7 @@ function Header() {
                                         Giving Back
                                       </span>
                                     </NavLink>
-                                  </li>
+                                  </li> */}
                                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
                                     <NavLink
                                       to="/contact"
@@ -960,7 +960,7 @@ function Header() {
                               <span className="menu-text">WORK WITH ME</span>
                             </NavLink>
                           </li>
-                          <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
+                          {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-119500">
                             <NavLink to="/book" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
@@ -981,8 +981,8 @@ function Header() {
                               </span>
                               <span className="menu-text">Books</span>
                             </NavLink>
-                          </li>
-                          <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
+                          </li> */}
+                          {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118918">
                             <NavLink to="/blog" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
@@ -1003,7 +1003,7 @@ function Header() {
                               </span>
                               <span className="menu-text">Blog</span>
                             </NavLink>
-                          </li>
+                          </li> */}
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
                             <NavLink to="/praise" className="menu-link">
                               <span className="ast-icon icon-arrow">
@@ -1026,7 +1026,7 @@ function Header() {
                               <span className="menu-text">Success Stories</span>
                             </NavLink>
                           </li>
-                          <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
+                          {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118928">
                             <NavLink to="/giving-back" className="menu-link">
                               <span className="ast-icon icon-arrow">
                                 <svg
@@ -1047,7 +1047,7 @@ function Header() {
                               </span>
                               <span className="menu-text">Giving Back</span>
                             </NavLink>
-                          </li>
+                          </li> */}
                           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
                             <NavLink to="/contact" className="menu-link">
                               <span className="ast-icon icon-arrow">

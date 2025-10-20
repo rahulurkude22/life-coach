@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Footer() {
   return (
     <footer
@@ -65,9 +67,39 @@ function Footer() {
                               >
                                 <div className="elementor-widget-container">
                                   <p className="elementor-heading-title elementor-size-default">
-                                    <a href="mailto:info@cortinc.com">
-                                      info@cortinc.com
-                                    </a>
+                                    <a href="#">info@cortinc.com</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="elementor-element elementor-element-2f3ff2e e-con-full e-flex e-con e-child"
+                              data-id="2f3ff2e"
+                              data-element_type="container"
+                            >
+                              <div
+                                className="elementor-element elementor-element-c5b410e elementor-widget elementor-widget-heading"
+                                data-id="c5b410e"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <h4 className="elementor-heading-title elementor-size-default">
+                                    Facebook
+                                  </h4>
+                                </div>
+                              </div>
+                              <div
+                                className="elementor-element elementor-element-9f0ac7b elementor-widget elementor-widget-heading"
+                                data-id="9f0ac7b"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <p className="elementor-heading-title elementor-size-default">
+                                    <NavLink to="https://www.facebook.com/lifecoachalisha">
+                                      lifecoachalisha
+                                    </NavLink>
                                   </p>
                                 </div>
                               </div>
@@ -97,13 +129,13 @@ function Footer() {
                               >
                                 <div className="elementor-widget-container">
                                   <p className="elementor-heading-title elementor-size-default">
-                                    <a
-                                      href="https://www.linkedin.com/in/cortneymcdermott"
+                                    <NavLink
+                                      to="https://www.linkedin.com/in/worklifebalancecoachalisha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                                       target="_blank"
                                       rel="nofollow"
                                     >
-                                      cortneymcdermott
-                                    </a>
+                                      worklifebalancecoachalisha
+                                    </NavLink>
                                   </p>
                                 </div>
                               </div>
@@ -133,13 +165,13 @@ function Footer() {
                               >
                                 <div className="elementor-widget-container">
                                   <p className="elementor-heading-title elementor-size-default">
-                                    <a
-                                      href="https://www.instagram.com/cortneymcdermott/"
+                                    <NavLink
+                                      to="https://www.instagram.com/lifecoachalisha?igsh=dzhoaHM5dnZhcXRn"
                                       target="_blank"
                                       rel="nofollow"
                                     >
-                                      @cortneymcdermott
-                                    </a>
+                                      @lifecoachalisha
+                                    </NavLink>
                                   </p>
                                 </div>
                               </div>
@@ -168,10 +200,10 @@ function Footer() {
               >
                 <div className="ast-footer-copyright">
                   <p>
-                    Copyright © CM INTERNATIONAL 2017. ALL RIGHTS RESERVED. 2025
-                    Cortney McDermott
-                    <span className="separator"> | </span> Award-winning Writer,
-                    Speaker, and Strategist
+                    Copyright © ALISHA JAISWAL. ALL RIGHTS RESERVED. 2025 Alisha
+                    Jaiswal
+                    <span className="separator"> | </span> ICF Certified Life,
+                    Stress Management Expert and NLP Practitioner
                   </p>
                 </div>
               </div>

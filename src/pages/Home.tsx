@@ -1,3 +1,25 @@
+import type { PropsWithChildren } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
+function QuoteSwiper({ children }: PropsWithChildren) {
+  return (
+    <Swiper
+      slidesPerView={1}
+      autoplay={{ delay: 5000, disableOnInteraction: false }}
+      speed={1000}
+      pagination={{ clickable: true }}
+      modules={[Autoplay, Pagination]}
+      loop={true}
+    >
+      {children}
+    </Swiper>
+  );
+}
+
 function Home() {
   return (
     <div id="content" className="site-content">
@@ -26,10 +48,9 @@ function Home() {
                   decoding="async"
                   width={1920}
                   height={1009}
-                  src="images/10hero-home-1-1.jpg"
+                  src="images/alisha_jaiswal_homepage.png"
                   className="attachment-full size-full wp-image-122603"
                   alt="Cortney Mcdermott International Speaker & Author"
-                  srcSet="images/10hero-home-1-1.jpg 1920w, images/10hero-home-1-1-300x158.jpg 300w, images/10hero-home-1-1-1024x538.jpg 1024w, images/10hero-home-1-1-768x404.jpg 768w, images/10hero-home-1-1-1536x807.jpg 1536w"
                   sizes="(max-width: 1920px) 100vw, 1920px"
                 />
               </div>
@@ -506,12 +527,8 @@ function Home() {
                         aria-roledescription="carousel"
                         aria-label="Testimonials Slides"
                       >
-                        <div className="swiper-wrapper">
-                          <div
-                            className="swiper-slide"
-                            role="group"
-                            aria-roledescription="slide"
-                          >
+                        <QuoteSwiper>
+                          <SwiperSlide>
                             <div className="elementor-testimonial">
                               <div className="elementor-testimonial__content">
                                 <div className="elementor-testimonial__text">
@@ -531,12 +548,8 @@ function Home() {
                                 </cite>
                               </div>
                             </div>
-                          </div>
-                          <div
-                            className="swiper-slide"
-                            role="group"
-                            aria-roledescription="slide"
-                          >
+                          </SwiperSlide>
+                          <SwiperSlide>
                             <div className="elementor-testimonial">
                               <div className="elementor-testimonial__content">
                                 <div className="elementor-testimonial__text">
@@ -558,12 +571,8 @@ function Home() {
                                 </cite>
                               </div>
                             </div>
-                          </div>
-                          <div
-                            className="swiper-slide"
-                            role="group"
-                            aria-roledescription="slide"
-                          >
+                          </SwiperSlide>
+                          <SwiperSlide>
                             <div className="elementor-testimonial">
                               <div className="elementor-testimonial__content">
                                 <div className="elementor-testimonial__text">
@@ -583,8 +592,8 @@ function Home() {
                                 </cite>
                               </div>
                             </div>
-                          </div>
-                        </div>
+                          </SwiperSlide>
+                        </QuoteSwiper>
                         <div
                           className="elementor-swiper-button elementor-swiper-button-prev"
                           role="button"
@@ -650,7 +659,7 @@ function Home() {
                     >
                       <div className="elementor-widget-container">
                         <h2 className="elementor-heading-title elementor-size-default">
-                          Life & Business�<span className="scribble">Blog</span>
+                          Life & Business<span className="scribble">Blog</span>
                         </h2>
                       </div>
                     </div>
