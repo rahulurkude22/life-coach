@@ -69,7 +69,7 @@ function Home() {
                     height={1009}
                     src="images/alisha_jaiswal_homepage.png"
                     className="attachment-full size-full wp-image-122603"
-                    alt="Cortney Mcdermott International Speaker & Author"
+                    alt="Alisha Jaiswal Life Coach and Stress management Expert"
                     sizes="(max-width: 1920px) 100vw, 1920px"
                   />
                 </div>
@@ -211,7 +211,7 @@ function Home() {
                     >
                       <div className="elementor-widget-container">
                         <h2 className="elementor-heading-title elementor-size-default">
-                          Business Solutions{" "}
+                          Life Coaching Solutions{" "}
                           <span className="scribble">for You</span>
                         </h2>
                       </div>
