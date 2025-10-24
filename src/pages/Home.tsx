@@ -37,8 +37,6 @@ function Home() {
     setIsModalOpen(true);
   };
 
-  console.log(videoUrl);
-
   return (
     <>
       <div id="content" className="site-content">
@@ -127,35 +125,6 @@ function Home() {
                 </div>
               </div>
             </div> */}
-
-            <div
-              className="elementor-element elementor-element-e3b6881 elementor-hidden-desktop e-flex e-con-boxed e-con e-parent"
-              data-id="e3b6881"
-              data-element_type="container"
-            >
-              <div className="e-con-inner">
-                <div
-                  className="elementor-element elementor-element-56f29de elementor-widget elementor-widget-image"
-                  data-id="56f29de"
-                  data-element_type="widget"
-                  data-widget_type="image.default"
-                >
-                  <div className="elementor-widget-container">
-                    <img
-                      loading="lazy"
-                      decoding="async"
-                      width="768"
-                      height="199"
-                      src="images/home-logo-media-images-mobile-logos.jpg"
-                      className="attachment-full size-full wp-image-122475"
-                      alt="home-logo-media-images-mobile-logos"
-                      srcSet="images/home-logo-media-images-mobile-logos.jpg 768w, images/home-logo-media-images-mobile-logos-300x78.jpg 300w"
-                      sizes="(max-width: 768px) 100vw, 768px"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div
               className="elementor-element elementor-element-7a46e53 e-flex e-con-boxed e-con e-parent"

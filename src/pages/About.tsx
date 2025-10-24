@@ -179,12 +179,11 @@ function About() {
               >
                 <div className="elementor-widget-container">
                   <p>
-                    Over [X] years of coaching impact Mentored leaders, CEOs and
-                    change-makers across [regions / countries] Trusted by
-                    professionals, teams, and emerging leaders I blend
-                    time-tested frameworks, inner work practices, and high
-                    performance strategies to catalyze sustainable growth in all
-                    domains.
+                    Over 10 years of coaching impact Mentored leaders, CEOs and
+                    change-makers across the globe. Trusted by professionals,
+                    teams, and emerging leaders I blend time-tested frameworks,
+                    inner work practices, and high performance strategies to
+                    catalyze sustainable growth in all domains.
                   </p>
                 </div>
               </div>
@@ -318,7 +317,9 @@ function About() {
                 >
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      <span className="scribble">Speaking</span>
+                      <span className="scribble">
+                        For Moms &amp; Entrepreneurs
+                      </span>
                     </h2>
                   </div>
                 </div>
@@ -330,17 +331,9 @@ function About() {
                 >
                   <div className="elementor-widget-container">
                     <p>
-                      From the TEDx stage to keynoting for leading companies and
-                      universities, it’s an honor to share my message with
-                      audiences I love! My most recent keynote for a Women In
-                      Business gala event was profiled as{" "}
-                      <i>
-                        “unforgettable to see the pure joy, laughter, and love
-                        radiating around the room during Cortney’s time on
-                        stage. Cortney absolutely exceeded every expectation we
-                        had for the event and truly taught us to get out of our
-                        comfort zones, dig deep and be in the moment.”
-                      </i>
+                      I specialize in helping busy moms and female entrepreneurs
+                      who are juggling it all, so they can build a fulfilling
+                      life without sacrificing themselves.{" "}
                     </p>
                   </div>
                 </div>
@@ -416,7 +409,7 @@ function About() {
                 >
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      <span className="scribble">Writing</span>
+                      <span className="scribble">Work-Life Balance</span>
                     </h2>
                   </div>
                 </div>
@@ -429,24 +422,92 @@ function About() {
                   <div className="elementor-widget-container">
                     <p>
                       <i>
-                        Change Starts Within You: Unlock the Confidence to Lead
-                        with Intuition
+                        I help you stop feeling overwhelmed and guilty.
+                        We&#39;ll create a schedule that works for you, so you
+                        have time for both your career and your life outside of
+                        work.
                       </i>
-                      is a book that will challenge you to{" "}
+                      I help you quiet the voice of self-doubt and imposter
+                      syndrome, so you can feel confident and believe in
+                      yourself again.{" "}
                       <span style={{ fontWeight: 400 }}>
-                        rethink success, redefine sustainability, and expand
-                        your potential. The simple, direct advice in the book
-                        was acclaimed as “self-help without being preachy” and
-                        “‘Eat, Pray, Love’ meets the ‘4-Hour Workweek” and it
-                        was named one of Inc.com’s “26 favorite books for high
-                        achievers,” right alongside works by Richard Branson and
-                        Tony Robbins. My writing also appears in many mainstream
-                        business and entrepreneurial publications, such as{" "}
-                        <i>HuffPost</i>, <i>Success Magazine,</i> and{" "}
-                        <em>Create & Cultivate</em>
+                        We&#39;ll create simple, daily routines that stick,
+                        helping you make lasting changes without the burnout.
                       </span>
                       <span style={{ fontWeight: 400 }}>.&nbsp;</span>
                     </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className="elementor-element elementor-element-e0e72df e-flex e-con-boxed e-con e-parent"
+            data-id="e0e72df"
+            data-element_type="container"
+          >
+            <div className="e-con-inner">
+              <div
+                className="elementor-element elementor-element-6062ff1 e-con-full e-flex e-con e-child"
+                data-id="6062ff1"
+                data-element_type="container"
+              >
+                <div
+                  className="elementor-element elementor-element-ad35caf elementor-widget elementor-widget-heading"
+                  data-id="ad35caf"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div className="elementor-widget-container">
+                    <h2 className="elementor-heading-title elementor-size-default">
+                      <span className="scribble">
+                        Become the Master of your Work
+                      </span>
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className="elementor-element elementor-element-bb3fbce elementor-widget elementor-widget-text-editor"
+                  data-id="bb3fbce"
+                  data-element_type="widget"
+                  data-widget_type="text-editor.default"
+                >
+                  <div className="elementor-widget-container">
+                    <p>
+                      Are you ready to create real, lasting change in your
+                      personal and professional life?.{" "}
+                    </p>
+                    <p>
+                      I provide a structured, proven approach that blends
+                      timeless wisdom with modern strategies. Together, we will
+                      cut through the noise to build a life of clarity,
+                      consistent progress, and peak performance..{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="elementor-element elementor-element-59cd1a8 e-con-full e-flex e-con e-child"
+                data-id="59cd1a8"
+                data-element_type="container"
+              >
+                <div
+                  className="elementor-element elementor-element-b0f46c1 elementor-widget elementor-widget-image"
+                  data-id="b0f46c1"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div className="elementor-widget-container">
+                    <img
+                      decoding="async"
+                      width="547"
+                      height="365"
+                      src="images/about/about-5.jpg"
+                      className="attachment-2048x2048 size-2048x2048 wp-image-119939"
+                      alt=""
+                      sizes="(max-width: 547px) 100vw, 547px"
+                    />
                   </div>
                 </div>
               </div>
@@ -509,26 +570,17 @@ function About() {
                 >
                   <div className="elementor-widget-container">
                     <p>
-                      I LOVE<span style={{ fontWeight: 400 }}>�m</span>
                       <span style={{ fontWeight: 400 }}>
-                        editating and running in the hills; homemade pasta;
-                        geeking out on neuroscience and quantum theory;
-                        traveling and living globally; studying languages and
-                        etymology; singing and playing my guitar in local cafés;
-                        composing music; dancing like it’s 1999; into-the-wild
-                        adventures with friends; drawing and playing ukulele
-                        with my daughter Gaia; lots of self-pampering,
-                        especially soaking in a hot bath with a great book …{" "}
+                        Stop wondering what&#39;s possible. Let&#39;s build a
+                        life of health, happiness, and success—tailored uniquely
+                        to you.
                       </span>
+                    </p>
+                    <p>
                       <span style={{ fontWeight: 400 }}>
-                        <img
-                          decoding="async"
-                          draggable="false"
-                          role="img"
-                          className="emoji"
-                          alt="😊"
-                          src="images/1f60a.svg"
-                        />
+                        I help you go from feeling stressed, stuck, and doubting
+                        yourself to being clear, confident, and in control of
+                        your life and career. …{" "}
                       </span>
                     </p>
                   </div>
