@@ -1,6 +1,6 @@
 import { useState, type PropsWithChildren } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -31,6 +31,13 @@ function Home() {
     setVideoUrl(url);
     setIsModalOpen(true);
   };
+
+  const handleExcercise = (url: string) => {
+    setVideoUrl(url);
+    setIsModalOpen(true);
+  };
+
+  console.log(videoUrl);
 
   return (
     <>
@@ -87,7 +94,7 @@ function Home() {
               </div>
             </a>
 
-            <div
+            {/* <div
               className="elementor-element elementor-element-e7ac01b e-con-full elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-parent"
               data-id="e7ac01b"
               data-element_type="container"
@@ -119,7 +126,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div
               className="elementor-element elementor-element-e3b6881 elementor-hidden-desktop e-flex e-con-boxed e-con e-parent"
@@ -190,62 +197,18 @@ function Home() {
                 >
                   <div className="elementor-widget-container">
                     <div className="elementor-shortcode">
-                      <form
-                        id="sib_signup_form_1"
-                        method="post"
-                        className="sib_signup_form"
-                      >
-                        <div className="sib_loader" style={{ display: "none" }}>
-                          <img src="images/spinner.gif" alt="loader" />
-                        </div>
-                        <input
-                          type="hidden"
-                          name="sib_form_action"
-                          value="subscribe_form_submit"
-                        />
-                        <input type="hidden" name="sib_form_id" value="1" />
-                        <input
-                          type="hidden"
-                          name="sib_form_alert_notice"
-                          value="Please fill out this field"
-                        />
-                        <input
-                          type="hidden"
-                          name="sib_form_invalid_email_notice"
-                          value="Your email address is invalid"
-                        />
-                        <input
-                          type="hidden"
-                          name="sib_security"
-                          value="1a17d03814"
-                        />
-                        <div className="sib_signup_box_inside_1">
-                          <div className="sib_msg_disp"></div>
-                          <p className="sib-FULL_NAME-area">
-                            <input
-                              type="text"
-                              className="sib-FULL_NAME-area"
-                              name="FULL_NAME"
-                              placeholder="Name"
-                              required
-                            />
-                          </p>
-                          <p className="sib-email-area">
-                            <input
-                              type="email"
-                              className="sib-email-area"
-                              name="email"
-                              required
-                              placeholder="Email"
-                            />
-                          </p>
-                          <p>
-                            <input
-                              type="submit"
-                              className="sib-default-btn"
-                              value="Download"
-                            />
-                          </p>
+                      <form id="sib_signup_form_1" className="sib_signup_form">
+                        <div
+                          className="sib_signup_box_inside_1"
+                          style={{ display: "flex", justifyContent: "center" }}
+                        >
+                          <a
+                            href="https://topmate.io/unfoldwith_alisha"
+                            target="_blank"
+                            className="sib-default-btn"
+                          >
+                            Book 1-ON-1 Session
+                          </a>
                         </div>
                       </form>
                     </div>
@@ -423,8 +386,7 @@ function Home() {
                         <div className="elementor-button-wrapper">
                           <a
                             className="elementor-button elementor-button-link elementor-size-sm"
-                            href="/praise/"
-                            target="_blank"
+                            href="/praise"
                             rel="nofollow"
                           >
                             <span className="elementor-button-content-wrapper">
@@ -456,46 +418,51 @@ function Home() {
                         <div className="slide-0">
                           <div className="slide-content">
                             <h3>
-                              “Brilliantly innovative & extraordinarily
-                              creative…
+                              “Exceptionally innovative and remarkably
+                              creative…”
                             </h3>
                             <p>
-                              Cortney is deeply committed to creating good in
-                              the world. Her enthusiasm is contagious.
+                              “Alisha is deeply committed to guiding others
+                              toward positive change and personal growth. Her
+                              energy and enthusiasm are truly contagious.”
                             </p>
-                            <div className="author">NADINE B. HACK</div>
+                            <div className="author">RIMJHIM RAI</div>
                             <p>
-                              Top100 Thought Leader on Trustworthy Business
-                              Behaviour & Advisor to Nelson Mandela & President
-                              Obama
+                              “Through her one-on-one sessions and
+                              transformative coaching approach, Alisha empowers
+                              her clients to break through barriers and create
+                              meaningful change in their lives.”
                             </p>
                           </div>
                         </div>
                         <div className="slide-1">
                           <div className="slide-content">
-                            <h3>Get out of your comfort zone </h3>
+                            <h3>
+                              “Transformation starts the moment you step out of
+                              your comfort zone.”
+                            </h3>
                             <p>
-                              Cortney received a standing ovation as the Keynote
-                              Speaker for our Women in Business Annual Gala. She
-                              absolutely exceeded every expectation I had for
-                              the event!
+                              “Alisha empowers her clients to step out of their
+                              comfort zones, challenge limiting beliefs, and
+                              embrace the growth that follows.”
                             </p>
-                            <div className="author">ALLYSSA DORST</div>
-                            <p>
-                              President Women In Business, University of Oregon
-                            </p>
+                            <div className="author">SHEETAL KANDWAL</div>
+                            <p>Professional anchor and model</p>
                           </div>
                         </div>
                         <div className="slide-2">
                           <div className="slide-content">
-                            <h3>Make an impact in the world </h3>
+                            <h3>
+                              “Her mission is to help people create positive
+                              change and make an impact in the world.”
+                            </h3>
                             <p>
-                              Cortney provides an easy-to-follow roadmap to
-                              living a sustainable life where anything and
-                              everything is possible.
+                              “Alisha offers a powerful, easy-to-follow path to
+                              creating a life of purpose, balance, and limitless
+                              potential.”
                             </p>
-                            <div className="author">ÉLAN VITAL MCALLISTER</div>
-                            <p>Tony Award–winning Broadway producer</p>
+                            <div className="author">NEHAL RAI</div>
+                            <p>Signature analyst</p>
                           </div>
                         </div>
                       </div>
@@ -546,19 +513,19 @@ function Home() {
                               <div className="elementor-testimonial">
                                 <div className="elementor-testimonial__content">
                                   <div className="elementor-testimonial__text">
-                                    “Cortney was the first speaker at a
-                                    leadership event on Necker Island. We called
-                                    her the 'firestarter.' She did not
-                                    disappoint.”{" "}
+                                    “Alisha was the inspiring keynote speaker at
+                                    a transformational leadership event. Her
+                                    energy and insight ignited the room—truly a
+                                    catalyst for change.”{" "}
                                   </div>
                                 </div>
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      Sierra Quitiquit
+                                      Jayshree Jhamtani
                                     </span>
                                     <span className="elementor-testimonial__title">
-                                      Pro Athlete & CEO Time for Better.{" "}
+                                      Esscanzaa - House of Perfumes Nagpur.{" "}
                                     </span>
                                   </cite>
                                 </div>
@@ -568,20 +535,19 @@ function Home() {
                               <div className="elementor-testimonial">
                                 <div className="elementor-testimonial__content">
                                   <div className="elementor-testimonial__text">
-                                    “Cortney received a standing ovation as the
-                                    Keynote Speaker for our Women in Business
-                                    Annual Gala. She absolutely exceeded every
-                                    expectation I had for the event!”{" "}
+                                    “Alisha consistently inspires and uplifts
+                                    her audience, exceeding every expectation
+                                    with her powerful presence and insightful
+                                    message.”{" "}
                                   </div>
                                 </div>
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      Allyssa Dorst
+                                      Rubleen Saini
                                     </span>
                                     <span className="elementor-testimonial__title">
-                                      President Women In Business, University of
-                                      Oregon
+                                      DIRECTOR@ IPCS Global Nagpur.
                                     </span>
                                   </cite>
                                 </div>
@@ -591,18 +557,19 @@ function Home() {
                               <div className="elementor-testimonial">
                                 <div className="elementor-testimonial__content">
                                   <div className="elementor-testimonial__text">
-                                    “Cortney provides an easy-to-follow roadmap
-                                    to living a sustainable life where anything
-                                    and everything is possible.”{" "}
+                                    “Alisha offers a clear and empowering
+                                    roadmap to living a balanced, purposeful
+                                    life—where growth and limitless
+                                    possibilities become reality.”{" "}
                                   </div>
                                 </div>
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      Elan Vital Mcallister
+                                      Mansi Bhonsle
                                     </span>
                                     <span className="elementor-testimonial__title">
-                                      Tony Award-winning Broadway Producer
+                                      Senior Faculty at IGCSE, Center Point
                                     </span>
                                   </cite>
                                 </div>
@@ -674,8 +641,8 @@ function Home() {
                       >
                         <div className="elementor-widget-container">
                           <h2 className="elementor-heading-title elementor-size-default">
-                            Life & Business
-                            <span className="scribble">Blog</span>
+                            Life Changing
+                            <span className="scribble">Exercises</span>
                           </h2>
                         </div>
                       </div>
@@ -696,22 +663,25 @@ function Home() {
                       <article
                         className="elementor-post elementor-grid-item post-120726 post type-post status-publish format-standard has-post-thumbnail hentry category-blog category-featured tag-be-confident tag-confidence tag-heart tag-inspiration tag-more-confidence tag-more-confident tag-motivation tag-self-confidence"
                         role="listitem"
+                        style={{ cursor: "pointer" }}
                       >
                         <a
                           className="elementor-post__thumbnail__link"
-                          href="#"
+                          type="button"
                           tabIndex={-1}
+                          onClick={() =>
+                            handleExcercise("videos/exercises/e1.mp4")
+                          }
                         >
                           <div className="elementor-post__thumbnail">
                             <img
                               loading="lazy"
                               decoding="async"
-                              width="768"
-                              height="512"
-                              src="images/08.8-Cool.-Clear.-Confident.-YOU-768x512.png"
+                              width={768}
+                              height={512}
+                              src="images/e1.jpg"
                               className="attachment-medium_large size-medium_large wp-image-120727"
-                              alt=""
-                              srcSet="images/08.8-Cool.-Clear.-Confident.-YOU-768x512.png 768w, images/08.8-Cool.-Clear.-Confident.-YOU-300x200.png 300w, images/08.8-Cool.-Clear.-Confident.-YOU-1024x683.png 1024w, images/08.8-Cool.-Clear.-Confident.-YOU-1536x1024.png 1536w, images/08.8-Cool.-Clear.-Confident.-YOU-2048x1365.png 2048w, images/08.8-Cool.-Clear.-Confident.-YOU-200x133.png 200w, images/08.8-Cool.-Clear.-Confident.-YOU-400x267.png 400w, images/08.8-Cool.-Clear.-Confident.-YOU-600x400.png 600w, images/08.8-Cool.-Clear.-Confident.-YOU-800x533.png 800w, images/08.8-Cool.-Clear.-Confident.-YOU-1200x800.png 1200w"
+                              alt="Excercise one"
                               sizes="(max-width: 768px) 100vw, 768px"
                             />
                           </div>
@@ -721,22 +691,25 @@ function Home() {
                       <article
                         className="elementor-post elementor-grid-item post-120694 post type-post status-publish format-standard has-post-thumbnail hentry category-featured tag-guided-meditation-for-anxiety tag-meditation tag-performance-anxiety"
                         role="listitem"
+                        style={{ cursor: "pointer" }}
                       >
                         <a
                           className="elementor-post__thumbnail__link"
-                          href="#"
                           tabIndex={-1}
+                          type="button"
+                          onClick={() =>
+                            handleExcercise("videos/exercises/e2.mp4")
+                          }
                         >
                           <div className="elementor-post__thumbnail">
                             <img
                               loading="lazy"
                               decoding="async"
-                              width="768"
-                              height="512"
-                              src="images/11-What-to-do-about-performance-anxiety-768x512.png"
+                              width={768}
+                              height={512}
+                              src="images/e2.jpg"
                               className="attachment-medium_large size-medium_large wp-image-120695"
-                              alt=""
-                              srcSet="images/11-What-to-do-about-performance-anxiety-768x512.png 768w, images/11-What-to-do-about-performance-anxiety-300x200.png 300w, images/11-What-to-do-about-performance-anxiety-1024x683.png 1024w, images/11-What-to-do-about-performance-anxiety-1536x1024.png 1536w, images/11-What-to-do-about-performance-anxiety-2048x1365.png 2048w, images/11-What-to-do-about-performance-anxiety-200x133.png 200w, images/11-What-to-do-about-performance-anxiety-400x267.png 400w, images/11-What-to-do-about-performance-anxiety-600x400.png 600w, images/11-What-to-do-about-performance-anxiety-800x533.png 800w, images/11-What-to-do-about-performance-anxiety-1200x800.png 1200w"
+                              alt="Exercise two"
                               sizes="(max-width: 768px) 100vw, 768px"
                             />
                           </div>
@@ -810,68 +783,15 @@ function Home() {
                           <div className="elementor-shortcode">
                             <form
                               id="sib_signup_form_1"
-                              method="post"
                               className="sib_signup_form"
                             >
-                              <div
-                                className="sib_loader"
-                                style={{ display: "none" }}
+                              <a
+                                href="https://topmate.io/unfoldwith_alisha"
+                                target="_blank"
+                                className="sib-default-btn"
                               >
-                                <img src="images/spinner.gif" alt="loader" />
-                              </div>
-                              <input
-                                type="hidden"
-                                name="sib_form_action"
-                                value="subscribe_form_submit"
-                              />
-                              <input
-                                type="hidden"
-                                name="sib_form_id"
-                                value="1"
-                              />
-                              <input
-                                type="hidden"
-                                name="sib_form_alert_notice"
-                                value="Please fill out this field"
-                              />
-                              <input
-                                type="hidden"
-                                name="sib_form_invalid_email_notice"
-                                value="Your email address is invalid"
-                              />
-                              <input
-                                type="hidden"
-                                name="sib_security"
-                                value="1a17d03814"
-                              />
-                              <div className="sib_signup_box_inside_1">
-                                <div className="sib_msg_disp"></div>
-                                <p className="sib-FULL_NAME-area">
-                                  <input
-                                    type="text"
-                                    className="sib-FULL_NAME-area"
-                                    name="FULL_NAME"
-                                    placeholder="Name"
-                                    required
-                                  />
-                                </p>
-                                <p className="sib-email-area">
-                                  <input
-                                    type="email"
-                                    className="sib-email-area"
-                                    name="email"
-                                    required
-                                    placeholder="Email"
-                                  />
-                                </p>
-                                <p>
-                                  <input
-                                    type="submit"
-                                    className="sib-default-btn"
-                                    value="Download"
-                                  />
-                                </p>
-                              </div>
+                                Book 1-ON-1 Session
+                              </a>
                             </form>
                           </div>
                         </div>

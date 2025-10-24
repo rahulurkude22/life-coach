@@ -1,6 +1,14 @@
-import React from "react";
+import { useState } from "react";
+import VideoPlayer from "../components/VideoPlayer";
 
 function About() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [videoUrl, setVideoUrl] = useState("");
+
+  const openModalWithVideo = (url: string) => {
+    setVideoUrl(url);
+    setIsModalOpen(true);
+  };
   return (
     <div id="content" className="site-content">
       <div className="ast-container">
@@ -191,7 +199,8 @@ function About() {
                   <div className="elementor-button-wrapper">
                     <a
                       className="elementor-button elementor-button-link elementor-size-sm"
-                      href="#"
+                      type="button"
+                      onClick={() => openModalWithVideo("videos/intro.mp4")}
                     >
                       <span className="elementor-button-content-wrapper">
                         <span className="elementor-button-icon">
@@ -238,18 +247,9 @@ function About() {
                       decoding="async"
                       width="1440"
                       height="900"
-                      src="images/about/About_New_1mage-.png"
+                      src="images/about/about-1.jpg"
                       className="attachment-2048x2048 size-2048x2048 wp-image-119936"
                       alt="Alisha Jaiswal talking about Education"
-                      srcSet="images/about/About_New_1mage-.png 1440w, 
-                      images/about/About_New_1mage--300x188.png 300w, 
-                      images/about/About_New_1mage--768x480.png 768w, 
-                      images/about/About_New_1mage--1024x640.png 1024w, 
-                      images/about/About_New_1mage--200x125.png 200w, 
-                      images/about/About_New_1mage--400x250.png 400w, 
-                      images/about/About_New_1mage--600x375.png 600w, 
-                      images/about/About_New_1mage--800x500.png 800w, 
-                      images/about/About_New_1mage--1200x750.png 1200w"
                       sizes="(max-width: 1440px) 100vw, 1440px"
                     />
                   </div>
@@ -361,13 +361,9 @@ function About() {
                       decoding="async"
                       width="547"
                       height="365"
-                      src="images/about/women_in_business_web.png"
+                      src="images/about/about-2.png"
                       className="attachment-2048x2048 size-2048x2048 wp-image-119939"
-                      alt="Cortney McDermott Speaking for Women in business event"
-                      srcSet="images/about/women_in_business_web.png 547w, 
-                      images/about/women_in_business_web-300x200.png 300w, 
-                      images/about/women_in_business_web-200x133.png 200w, 
-                      images/women_in_business_web-400x267.png 400w"
+                      alt=""
                       sizes="(max-width: 547px) 100vw, 547px"
                     />
                   </div>
@@ -399,14 +395,9 @@ function About() {
                       decoding="async"
                       width="661"
                       height="456"
-                      src="images/about/writing_web.png"
+                      src="images/about/about-3.png"
                       className="attachment-full size-full wp-image-119958"
-                      alt="Cortney McDermott book writer"
-                      srcSet="images/about/writing_web.png 661w, 
-                      images/about/writing_web-200x138.png 200w, 
-                      images/about/writing_web-300x207.png 300w, 
-                      images/about/writing_web-400x276.png 400w, 
-                      images/about/writing_web-600x414.png 600w"
+                      alt=""
                       sizes="(max-width: 661px) 100vw, 661px"
                     />
                   </div>
@@ -463,83 +454,6 @@ function About() {
           </div>
 
           <div
-            className="elementor-element elementor-element-5593c31 e-flex e-con-boxed e-con e-parent"
-            data-id="5593c31"
-            data-element_type="container"
-          >
-            <div className="e-con-inner">
-              <div
-                className="elementor-element elementor-element-a771157 e-con-full e-flex e-con e-child"
-                data-id="a771157"
-                data-element_type="container"
-              >
-                <div
-                  className="elementor-element elementor-element-32a4fd8 elementor-widget elementor-widget-heading"
-                  data-id="32a4fd8"
-                  data-element_type="widget"
-                  data-widget_type="heading.default"
-                >
-                  <div className="elementor-widget-container">
-                    <h2 className="elementor-heading-title elementor-size-default">
-                      <span className="scribble">Giving Back</span>
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  className="elementor-element elementor-element-53d3418 elementor-widget elementor-widget-text-editor"
-                  data-id="53d3418"
-                  data-element_type="widget"
-                  data-widget_type="text-editor.default"
-                >
-                  <div className="elementor-widget-container">
-                    <p>
-                      Activating and elevating the potential of others is at the
-                      heart of my business model. So I participate in mentoring
-                      programs, pro-bono speaking events and panels, and I also
-                      support organizations around the world that are dedicated
-                      to educating and providing opportunity to people who
-                      wouldn’t otherwise have access, including She’s The First,
-                      Girl Up, and Kiva.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="elementor-element elementor-element-cfdcbd5 e-con-full e-flex e-con e-child"
-                data-id="cfdcbd5"
-                data-element_type="container"
-              >
-                <div
-                  className="elementor-element elementor-element-a0bf8e7 elementor-widget elementor-widget-image"
-                  data-id="a0bf8e7"
-                  data-element_type="widget"
-                  data-widget_type="image.default"
-                >
-                  <div className="elementor-widget-container">
-                    <img
-                      loading="lazy"
-                      decoding="async"
-                      width="1000"
-                      height="667"
-                      src="images/about/GIVINGBACKpic.jpeg"
-                      className="attachment-2048x2048 size-2048x2048 wp-image-119937"
-                      alt="Giving back to community"
-                      srcSet="images/about/GIVINGBACKpic.jpeg 1000w, 
-                      images/about/GIVINGBACKpic-300x200.jpeg 300w, 
-                      images/about/GIVINGBACKpic-768x512.jpeg 768w, 
-                      images/about/GIVINGBACKpic-200x133.jpeg 200w, 
-                      images/about/GIVINGBACKpic-400x267.jpeg 400w, 
-                      images/about/GIVINGBACKpic-600x400.jpeg 600w, 
-                      images/about/GIVINGBACKpic-800x534.jpeg 800w"
-                      sizes="(max-width: 1000px) 100vw, 1000px"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
             className="elementor-element elementor-element-81cd045 e-flex e-con-boxed e-con e-parent"
             data-id="81cd045"
             data-element_type="container"
@@ -562,19 +476,9 @@ function About() {
                       decoding="async"
                       width="1200"
                       height="1200"
-                      src="images/about/ukulele.jpg"
+                      src="images/about/about-4.jpg"
                       className="attachment-full size-full wp-image-119938"
-                      alt="Cortney McDermott playing music"
-                      srcSet="images/about/ukulele.jpg 1200w, 
-                      images/about/ukulele-150x150.jpg 150w, 
-                      images/about/ukulele-300x300.jpg 300w, 
-                      images/about/ukulele-768x768.jpg 768w, 
-                      images/about/ukulele-1024x1024.jpg 1024w, 
-                      images/about/ukulele-66x66.jpg 66w, 
-                      images/about/ukulele-200x200.jpg 200w, 
-                      images/about/ukulele-400x400.jpg 400w, 
-                      images/about/ukulele-600x600.jpg 600w, 
-                      images/about/ukulele-800x800.jpg 800w"
+                      alt=""
                       sizes="(max-width: 1200px) 100vw, 1200px"
                     />
                   </div>
@@ -634,6 +538,11 @@ function About() {
           </div>
         </div>
       </div>
+      <VideoPlayer
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        videoUrl={videoUrl}
+      />
     </div>
   );
 }

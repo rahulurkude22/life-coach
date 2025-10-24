@@ -122,19 +122,19 @@ function Praise() {
                               <div className="elementor-testimonial">
                                 <div className="elementor-testimonial__content">
                                   <div className="elementor-testimonial__text">
-                                    “Cortney was the first speaker at a
-                                    leadership event on Necker Island. We called
-                                    her the 'firestarter.' She did not
-                                    disappoint.”{" "}
+                                    “Alisha was the inspiring keynote speaker at
+                                    a transformational leadership event. Her
+                                    energy and insight ignited the room—truly a
+                                    catalyst for change.”{" "}
                                   </div>
                                 </div>
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      — Sierra Quitiquit
+                                      — Jayshree Jhamtani
                                     </span>
                                     <span className="elementor-testimonial__title">
-                                      Pro Athlete & CEO Time for Better.
+                                      Esscanzaa - House of Perfumes Nagpur.
                                     </span>
                                   </cite>
                                 </div>
@@ -203,18 +203,19 @@ function Praise() {
                             <div className="elementor-testimonial">
                               <div className="elementor-testimonial__content">
                                 <div className="elementor-testimonial__text">
-                                  “Cortney was the first speaker at a leadership
-                                  event on Necker Island. We called her the
-                                  'firestarter.' She did not disappoint.”{" "}
+                                  “Alisha was the inspiring keynote speaker at a
+                                  transformational leadership event. Her energy
+                                  and insight ignited the room—truly a catalyst
+                                  for change.”{" "}
                                 </div>
                               </div>
                               <div className="elementor-testimonial__footer">
                                 <cite className="elementor-testimonial__cite">
                                   <span className="elementor-testimonial__name">
-                                    — Sierra Quitiquit
+                                    — Jayshree Jhamtani
                                   </span>
                                   <span className="elementor-testimonial__title">
-                                    Pro Athlete & CEO Time for Better.{" "}
+                                    Esscanzaa - House of Perfumes Nagpur..{" "}
                                   </span>
                                 </cite>
                               </div>

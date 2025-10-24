@@ -4354,6 +4354,18 @@
   <script src="/js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 
   <script src="/js/mailin-front.js" id="sib-front-js-js"></script>
+  <!-- <script>
+    // jQuery Loader Script
+    jQuery(document).ready(function($){
+
+      $(window).on("load", function() {
+        // Fade out loader and show page content
+        $("#loader").fadeOut(600, function() {
+          $("#root").fadeIn(100);
+        });
+      });
+    })
+  </script> -->
   <script id="wpcp_disable_selection" type="text/javascript">
     var image_save_msg = "You are not allowed to save images!";
     var no_menu_msg = "Context Menu disabled!";
@@ -4668,12 +4680,38 @@
           rgba(255, 255, 255, 0.01) 100%);
     }
   </style>
+  <!-- <style>
+    #loader {
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff url('./images/ajax-loader.gif') no-repeat center center;
+      background-size: 40px;
+    }
+
+   #root {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.8s ease;
+    }
+
+    #root {
+      opacity: 1;
+      pointer-events: auto;
+    }
+   
+  </style> -->
+  
 </head>
 
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope"
   class="home wp-singular page-template page-template-elementor_header_footer page page-id-119542 wp-custom-logo wp-theme-astra wp-child-theme-astra-child unselectable ast-desktop ast-page-builder-template ast-no-sidebar astra-4.11.10 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header ast-full-width-layout ast-sticky-main-shrink ast-sticky-header-shrink ast-inherit-site-logo-sticky ast-primary-sticky-enabled elementor-default elementor-template-full-width elementor-kit-121139 elementor-page elementor-page-119542 astra-addon-4.11.8">
   <!-- <a class="skip-link screen-reader-text" href="#content" title="Skip to content">
     Skip to content</a> -->
+  <div id="loader"></div>
   <div class="hfeed site" id="page">
     <div id="root"></div>
   </div>
@@ -5253,7 +5291,7 @@
   <script src="/js/purify.min.js" id="astra-dom-purify-js"></script>
 
 
-  <script src="/js/swiper.min.js" id="swiper-js"></script>
+  <!-- <script src="/js/swiper.min.js" id="swiper-js"></script> -->
   <!-- <script src="/js/imagesloaded.min.js" id="imagesloaded-js"></script> -->
   <script src="/js/hooks.min.js" id="wp-hooks-js"></script>
   <script src="/js/i18n.min.js" id="wp-i18n-js"></script>
@@ -5301,11 +5339,7 @@
     });
   </script>
 
-  <!-- Contact form scripts -->
-  <!-- <script>document.getElementById("ak_js_1").setAttribute("value", (new Date()).getTime());</script>
-  <script>
-    gform.initializeOnLoaded(function () { gformInitSpinner(1, '/images/spinner.svg', true); jQuery('#gform_ajax_frame_1').on('load', function () { var contents = jQuery(this).contents().find('*').html(); var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0; if (!is_postback) { return; } var form_content = jQuery(this).contents().find('#gform_wrapper_1'); var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0; var is_redirect = contents.indexOf('gformRedirect(){') >= 0; var is_form = form_content.length > 0 && !is_redirect && !is_confirmation; var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100; if (is_form) { jQuery('#gform_wrapper_1').html(form_content.html()); if (form_content.hasClass('gform_validation_error')) { jQuery('#gform_wrapper_1').addClass('gform_validation_error'); } else { jQuery('#gform_wrapper_1').removeClass('gform_validation_error'); } setTimeout(function () { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ }, 50); if (window['gformInitDatepicker']) { gformInitDatepicker(); } if (window['gformInitPriceFields']) { gformInitPriceFields(); } var current_page = jQuery('#gform_source_page_number_1').val(); gformInitSpinner(1, 'https://www.cortneymcdermott.com/wp-content/plugins/gravityforms/images/spinner.svg', true); jQuery(document).trigger('gform_page_loaded', [1, current_page]); window['gf_submitting_1'] = false; } else if (!is_redirect) { var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html(); if (!confirmation_content) { confirmation_content = contents; } jQuery('#gform_wrapper_1').replaceWith(confirmation_content); jQuery(document).trigger('gform_confirmation_loaded', [1]); window['gf_submitting_1'] = false; wp.a11y.speak(jQuery('#gform_confirmation_message_1').text()); } else { jQuery('#gform_1').append(contents); if (window['gformRedirect']) { gformRedirect(); } } jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function () { this.preventDefault(); } }]); if (event && event.defaultPrevented) { return; } const gformWrapperDiv = document.getElementById("gform_wrapper_1"); if (gformWrapperDiv) { const visibilitySpan = document.createElement("span"); visibilitySpan.id = "gform_visibility_test_1"; gformWrapperDiv.insertAdjacentElement("afterend", visibilitySpan); } const visibilityTestDiv = document.getElementById("gform_visibility_test_1"); let postRenderFired = false; function triggerPostRender() { if (postRenderFired) { return; } postRenderFired = true; gform.core.triggerPostRenderEvents(1, current_page); if (visibilityTestDiv) { visibilityTestDiv.parentNode.removeChild(visibilityTestDiv); } } function debounce(func, wait, immediate) { var timeout; return function () { var context = this, args = arguments; var later = function () { timeout = null; if (!immediate) func.apply(context, args); }; var callNow = immediate && !timeout; clearTimeout(timeout); timeout = setTimeout(later, wait); if (callNow) func.apply(context, args); }; } const debouncedTriggerPostRender = debounce(function () { triggerPostRender(); }, 200); if (visibilityTestDiv && visibilityTestDiv.offsetParent === null) { const observer = new MutationObserver((mutations) => { mutations.forEach((mutation) => { if (mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null) { debouncedTriggerPostRender(); observer.disconnect(); } }); }); observer.observe(document.body, { attributes: true, childList: false, subtree: true, attributeFilter: ['style', 'class'], }); } else { triggerPostRender(); } }); });
-  </script> -->
+ 
 </body>
 
 </html>
