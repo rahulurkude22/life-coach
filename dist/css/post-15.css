@@ -1,0 +1,159 @@
+.elementor-15 .elementor-element.elementor-element-66e4111 {
+  --display: flex;
+  --min-height: 100vh;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --justify-content: center;
+}
+.elementor-15
+  .elementor-element.elementor-element-66e4111:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-15
+  .elementor-element.elementor-element-66e4111
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../images/contact/Contact-banner-1.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-15 .elementor-element.elementor-element-11e9090 {
+  --display: flex;
+}
+.elementor-widget-heading .elementor-heading-title {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+  color: var(--e-global-color-primary);
+}
+.elementor-15 .elementor-element.elementor-element-4143326.elementor-element {
+  --align-self: center;
+}
+.elementor-15 .elementor-element.elementor-element-4143326 {
+  text-align: center;
+}
+.elementor-15
+  .elementor-element.elementor-element-4143326
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 1.2em;
+  color: #000000;
+}
+.elementor-15 .elementor-element.elementor-element-56693e98 {
+  --display: flex;
+  --flex-direction: column;
+  --container-widget-width: 100%;
+  --container-widget-height: initial;
+  --container-widget-flex-grow: 0;
+  --container-widget-align-self: initial;
+  --flex-wrap-mobile: wrap;
+  --padding-top: 40px;
+  --padding-bottom: 40px;
+  --padding-left: 10px;
+  --padding-right: 10px;
+}
+.elementor-15 .elementor-element.elementor-element-6a0d1ac8 {
+  --display: flex;
+}
+.elementor-15 .elementor-element.elementor-element-fc3f253 {
+  text-align: center;
+}
+.elementor-15
+  .elementor-element.elementor-element-fc3f253
+  .elementor-heading-title {
+  font-family: "Avenir Thin", Sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 46px;
+  color: #000000;
+}
+.elementor-widget-divider {
+  --divider-color: var(--e-global-color-secondary);
+}
+.elementor-widget-divider .elementor-divider__text {
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-secondary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-secondary-font-weight);
+}
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {
+  background-color: var(--e-global-color-secondary);
+}
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon {
+  color: var(--e-global-color-secondary);
+  border-color: var(--e-global-color-secondary);
+}
+.elementor-widget-divider.elementor-view-framed .elementor-icon,
+.elementor-widget-divider.elementor-view-default .elementor-icon svg {
+  fill: var(--e-global-color-secondary);
+}
+.elementor-15 .elementor-element.elementor-element-29e5b6b1 {
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 1px;
+}
+.elementor-15
+  .elementor-element.elementor-element-29e5b6b1
+  .elementor-divider-separator {
+  width: 7%;
+  margin: 0 auto;
+  margin-center: 0;
+}
+.elementor-15 .elementor-element.elementor-element-29e5b6b1 .elementor-divider {
+  text-align: center;
+  padding-block-start: 15px;
+  padding-block-end: 15px;
+}
+@media (min-width: 1025px) {
+  .elementor-15
+    .elementor-element.elementor-element-66e4111:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-15
+    .elementor-element.elementor-element-66e4111
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-15
+    .elementor-element.elementor-element-66e4111:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-15
+    .elementor-element.elementor-element-66e4111
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-image: url("../images/contact/contact-mob-1.jpg");
+  }
+} /* Start custom CSS for heading, class: .elementor-element-4143326 */
+.elementor-15 .elementor-element.elementor-element-4143326 h1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.elementor-15 .elementor-element.elementor-element-4143326 .scribble {
+  margin-top: 30px;
+  font-size: 170px;
+  line-height: 190px;
+  margin-left: 10px;
+} /* End custom CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+  font-family: "Avenir Thin";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../fonts/AvenirNextLTPro-Thin-1.eot");
+  src: url("../fonts/AvenirNextLTPro-Thin-1.eot#iefix")
+      format("embedded-opentype"),
+    url("../fonts/AvenirNextLTPro-Thin-1.woff") format("woff"),
+    url("../fonts/AvenirNextLTPro-Thin-1.ttf") format("truetype");
+}
+/* End Custom Fonts CSS */
