@@ -9,38 +9,36 @@ interface VideoPlayerProps {
   videoUrl: string;
 }
 
-const modalStyles = {
-  content: {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-    background: "#000",
-    border: "none",
-    padding: 0,
-    overflow: "hidden",
-    width: "80vw",
-    maxWidth: "960px",
-    height: "auto",
-    maxHeight: "80vh",
-    borderRadius: "8px",
-    boxShadow: "0 0 20px rgba(0,0,0,0.5)",
-  },
-  overlay: {
-    backgroundColor: "rgba(0,0,0,0.75)",
-    zIndex: 1000,
-  },
-};
-
 function VideoPlayer({ isOpen, onClose, videoUrl }: VideoPlayerProps) {
   return (
     <Modal
       isOpen={isOpen}
       onRequestClose={onClose}
-      style={modalStyles}
+      style={{
+        overlay: {
+          backgroundColor: "rgba(0,0,0,0.75)",
+          zIndex: 1000,
+        },
+        content: {
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          right: "auto",
+          bottom: "auto",
+          marginRight: "-50%",
+          transform: "translate(-50%, -50%)",
+          background: "#000",
+          border: "none",
+          padding: 0,
+          overflow: "hidden",
+          width: "80vw",
+          maxWidth: "960px",
+          height: "auto",
+          maxHeight: "80vh",
+          borderRadius: "8px",
+          boxShadow: "0 0 20px rgba(0,0,0,0.5)",
+        },
+      }}
       contentLabel="Video Modal"
       ariaHideApp={false}
     >

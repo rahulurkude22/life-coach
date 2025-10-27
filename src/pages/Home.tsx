@@ -2,8 +2,8 @@ import { useState, type PropsWithChildren } from "react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
-import "swiper/css/pagination";
+import "../../node_modules/swiper/swiper.min.css";
+import "../../node_modules/swiper/modules/pagination.css";
 import VideoPlayer from "../components/VideoPlayer";
 
 function QuoteSwiper({ children }: PropsWithChildren) {

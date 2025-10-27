@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Header() {
   const [isMenu, setIsMenu] = useState(false);

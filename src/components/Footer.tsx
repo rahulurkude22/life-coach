@@ -204,11 +204,11 @@ function Footer() {
                                 <div className="elementor-widget-container">
                                   <p className="elementor-heading-title elementor-size-default">
                                     <NavLink
-                                      to="tel:+911234567890"
+                                      to="tel:+919175365952"
                                       target="_top"
                                       rel="nofollow"
                                     >
-                                      +91 1234567890
+                                      +91 9175365952
                                     </NavLink>
                                   </p>
                                 </div>

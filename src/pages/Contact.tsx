@@ -1,43 +1,40 @@
-import React, { useState } from "react";
-
 function Contact() {
-  const [formData, setFormData] = useState<Record<string, string>>({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [status, setStatus] = useState("");
+  // const [formData, setFormData] = useState<Record<string, string>>({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const handleOnChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value, // Save value keyed by input name
-    }));
-  };
+  // const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prev) => ({
+  //     ...prev,
+  //     [name]: value, // Save value keyed by input name
+  //   }));
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
 
-    const data = new FormData();
-    data.append("entry.507336294", formData.name); // Replace with your Google Form IDs
-    data.append("entry.859540346", formData.email);
-    data.append("entry.372968168", formData.message);
+  //   const data = new FormData();
+  //   data.append("entry.507336294", formData.name); // Replace with your Google Form IDs
+  //   data.append("entry.859540346", formData.email);
+  //   data.append("entry.372968168", formData.message);
 
-    fetch(
-      "https://docs.google.com/forms/d/e/1FAIpQLScuCpmaZSCNLp8xHYjO_LvB892-ZJVPTNZO1J3SvEBFcgd0-w/formResponse",
-      {
-        method: "POST",
-        body: data,
-        mode: "no-cors",
-      }
-    )
-      .then(() => setStatus("Message sent!"))
-      .catch(() => setStatus("Error sending message"));
+  //   fetch(
+  //     "https://docs.google.com/forms/d/e/1FAIpQLScuCpmaZSCNLp8xHYjO_LvB892-ZJVPTNZO1J3SvEBFcgd0-w/formResponse",
+  //     {
+  //       method: "POST",
+  //       body: data,
+  //       mode: "no-cors",
+  //     }
+  //   )
+  //     .then(() => setStatus("Message sent!"))
+  //     .catch(() => setStatus("Error sending message"));
 
-    setFormData({ name: "", email: "", message: "" }); // Reset form
-    alert("Form submitted successfully!");
-  };
+  //   setFormData({ name: "", email: "", message: "" }); // Reset form
+  //   alert("Form submitted successfully!");
+  // };
 
   return (
     <div id="content" className="site-content">

@@ -1,5 +1,3 @@
-import React from "react";
-
 import VideoThumbnail from "../components/VideoThumbnail";
 import { videos } from "../utils";
 
