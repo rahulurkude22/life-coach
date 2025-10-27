@@ -1,6 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Contact() {
+  const [formData, setFormData] = useState<Record<string, string>>({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [status, setStatus] = useState("");
+
+  const handleOnChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value, // Save value keyed by input name
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const data = new FormData();
+    data.append("entry.507336294", formData.name); // Replace with your Google Form IDs
+    data.append("entry.859540346", formData.email);
+    data.append("entry.372968168", formData.message);
+
+    fetch(
+      "https://docs.google.com/forms/d/e/1FAIpQLScuCpmaZSCNLp8xHYjO_LvB892-ZJVPTNZO1J3SvEBFcgd0-w/formResponse",
+      {
+        method: "POST",
+        body: data,
+        mode: "no-cors",
+      }
+    )
+      .then(() => setStatus("Message sent!"))
+      .catch(() => setStatus("Error sending message"));
+
+    setFormData({ name: "", email: "", message: "" }); // Reset form
+    alert("Form submitted successfully!");
+  };
+
   return (
     <div id="content" className="site-content">
       <div className="ast-container">
@@ -92,13 +130,10 @@ function Contact() {
                         <div className="gform_heading">
                           <p className="gform_description"></p>
                         </div>
-                        <form
-                          method="post"
-                          encType="multipart/form-data"
+                        {/* <form
                           id="gform_1"
-                          //   action="/contact/"
                           data-formid="1"
-                          noValidate={false}
+                          onSubmit={handleSubmit}
                         >
                           <div className="gform-body gform_body">
                             <ul
@@ -122,7 +157,7 @@ function Contact() {
                                 </label>
                                 <div className="ginput_container ginput_container_text">
                                   <input
-                                    name="input_1"
+                                    name="name"
                                     id="input_1_1"
                                     type="text"
                                     value=""
@@ -130,6 +165,7 @@ function Contact() {
                                     placeholder="Name"
                                     aria-required="true"
                                     aria-invalid="false"
+                                    onChange={handleOnChange}
                                   />
                                 </div>
                               </li>
@@ -150,7 +186,7 @@ function Contact() {
                                 </label>
                                 <div className="ginput_container ginput_container_email">
                                   <input
-                                    name="input_2"
+                                    name="email"
                                     id="input_1_2"
                                     type="email"
                                     value=""
@@ -158,6 +194,7 @@ function Contact() {
                                     placeholder="Email"
                                     aria-required="true"
                                     aria-invalid="false"
+                                    onChange={handleOnChange}
                                   />
                                 </div>
                               </li>
@@ -178,7 +215,7 @@ function Contact() {
                                 </label>
                                 <div className="ginput_container ginput_container_textarea">
                                   <textarea
-                                    name="input_3"
+                                    name="message"
                                     id="input_1_3"
                                     className="textarea medium"
                                     placeholder="Message"
@@ -186,34 +223,8 @@ function Contact() {
                                     aria-invalid="false"
                                     rows={10}
                                     cols={50}
+                                    onChange={handleOnChange}
                                   ></textarea>
-                                </div>
-                              </li>
-                              <li
-                                id="field_1_4"
-                                className="gfield gfield--type-honeypot gform_validation_container field_sublabel_below gfield--has-description field_description_below field_validation_below gfield_visibility_visible"
-                              >
-                                <label
-                                  className="gfield_label gform-field-label"
-                                  htmlFor="input_1_4"
-                                >
-                                  Name
-                                </label>
-                                <div className="ginput_container">
-                                  <input
-                                    name="input_4"
-                                    id="input_1_4"
-                                    type="text"
-                                    value=""
-                                    autoComplete="new-password"
-                                  />
-                                </div>
-                                <div
-                                  className="gfield_description"
-                                  id="gfield_description_1_4"
-                                >
-                                  This field is for validation purposes and
-                                  should be left unchanged.
                                 </div>
                               </li>
                             </ul>
@@ -224,15 +235,21 @@ function Contact() {
                               type="submit"
                               id="gform_submit_button_1"
                               className="gform_button button"
-                              onClick={(e: React.FormEvent) => {
-                                e.preventDefault();
-                                alert("Form submitted");
-                              }}
                             >
                               Submit
                             </button>
                           </div>
-                        </form>
+                        </form> */}
+                        <iframe
+                          src="https://docs.google.com/forms/d/e/1FAIpQLScuCpmaZSCNLp8xHYjO_LvB892-ZJVPTNZO1J3SvEBFcgd0-w/viewform?embedded=true"
+                          width="640"
+                          height="900"
+                          frameBorder={0}
+                          marginHeight={0}
+                          marginWidth={0}
+                        >
+                          Loading…
+                        </iframe>
                       </div>
                     </div>
                   </div>

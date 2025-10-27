@@ -430,7 +430,7 @@ function Home() {
                               creating a life of purpose, balance, and limitless
                               potential.”
                             </p>
-                            <div className="author">NEHAL RAI</div>
+                            <div className="author">SNEHAL RAI</div>
                             <p>Signature analyst</p>
                           </div>
                         </div>

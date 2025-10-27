@@ -39,9 +39,9 @@ export const videos = [
   },
   {
     id: uuidv7(),
-    title: "Nehal Rai",
+    title: "Snehal Rai",
     description:
-      "Hello, everyone. My name is Nehal Rai. I'm a signature analyst. And I'm going to attend Alicia Jaiswal's session today. And it's amazing. It's really outstanding. So normally, you don't have a problem, you should have fun and interactive sessions. Because you can learn something. As I said, if you have anxiety, you can just put your face in your face and see the result. And see the result.. I'm happy. I'm happy coming here. Thank you so much, Alisha.",
+      "Hello, everyone. My name is Snehal Rai. I'm a signature analyst. And I'm going to attend Alicia Jaiswal's session today. And it's amazing. It's really outstanding. So normally, you don't have a problem, you should have fun and interactive sessions. Because you can learn something. As I said, if you have anxiety, you can just put your face in your face and see the result. And see the result.. I'm happy. I'm happy coming here. Thank you so much, Alisha.",
     profession: "Signature Analyst",
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_6.webp",
     src: "./videos/testimonials/CLIENT 6.mp4",

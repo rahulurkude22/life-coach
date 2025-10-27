@@ -177,7 +177,7 @@ function Header() {
                                   </a>
                                 </li>
 
-                                <li
+                                {/* <li
                                   id="menu-item-118919"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919"
                                 >
@@ -201,7 +201,7 @@ function Header() {
                                     </span>
                                     <span className="menu-text">Contact</span>
                                   </a>
-                                </li>
+                                </li> */}
                               </ul>
                             </div>
                           </nav>
@@ -479,7 +479,7 @@ function Header() {
                                     </a>
                                   </li>
 
-                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
+                                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919">
                                     <a href="/contact" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
@@ -500,7 +500,7 @@ function Header() {
                                       </span>
                                       <span className="menu-text">Contact</span>
                                     </a>
-                                  </li>
+                                  </li> */}
                                 </ul>
                               </div>
                             </nav>
@@ -834,11 +834,11 @@ function Header() {
                     <span className="m-menu-text">Success Stories</span>
                   </a>
                 </li>
-                <li className="m-menu-item">
+                {/* <li className="m-menu-item">
                   <a href="/contact" className="m-menu-link">
                     <span className="m-menu-text">Contact</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
