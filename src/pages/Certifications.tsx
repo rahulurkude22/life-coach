@@ -1,5 +1,3 @@
-import React from "react";
-
 function Certifications() {
   return (
     <div id="content" className="site-content">
