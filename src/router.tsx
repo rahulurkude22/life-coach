@@ -3,6 +3,7 @@ import RootLayout from "./layouts/RootLayout";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Praise from "./pages/Praise";
+import Certifications from "./pages/Certifications";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/praise",
         element: <Praise />,
+      },
+      {
+        path: "/certifications",
+        element: <Certifications />,
       },
       { path: "*", element: <>Not found</> },
     ],
