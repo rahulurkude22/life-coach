@@ -25,14 +25,7 @@ function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [videoUrl, setVideoUrl] = useState("");
 
-  // const remoteVideo = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-  const introUrl = "videos/intro.mp4";
-  const openModalWithVideo = (url: string) => {
-    setVideoUrl(url);
-    setIsModalOpen(true);
-  };
-
-  const handleExcercise = (url: string) => {
+  const handleVideo = (url: string) => {
     setVideoUrl(url);
     setIsModalOpen(true);
   };
@@ -53,7 +46,7 @@ function Home() {
               data-element_type="container"
               data-settings="background_background:classic"
               type="button"
-              onClick={() => openModalWithVideo(introUrl)}
+              onClick={() => handleVideo("videos/intro.mp4")}
               style={{ cursor: "pointer" }}
             >
               <div
@@ -238,7 +231,10 @@ function Home() {
                       data-widget_type="image.default"
                     >
                       <div className="elementor-widget-container">
-                        <a href="/work-together/#c-suite-training">
+                        <a
+                          type="button"
+                          onClick={() => handleVideo("videos/c3.mp4")}
+                        >
                           <img
                             loading="lazy"
                             decoding="async"
@@ -265,7 +261,10 @@ function Home() {
                       data-widget_type="image.default"
                     >
                       <div className="elementor-widget-container">
-                        <a href="#">
+                        <a
+                          type="button"
+                          onClick={() => handleVideo("videos/c2.mp4")}
+                        >
                           <img
                             loading="lazy"
                             decoding="async"
@@ -292,7 +291,10 @@ function Home() {
                       data-widget_type="image.default"
                     >
                       <div className="elementor-widget-container">
-                        <a href="#">
+                        <a
+                          type="button"
+                          onClick={() => handleVideo("videos/c1.mp4")}
+                        >
                           <img
                             loading="lazy"
                             decoding="async"
@@ -638,9 +640,7 @@ function Home() {
                           className="elementor-post__thumbnail__link"
                           type="button"
                           tabIndex={-1}
-                          onClick={() =>
-                            handleExcercise("videos/exercises/e1.mp4")
-                          }
+                          onClick={() => handleVideo("videos/exercises/e1.mp4")}
                         >
                           <div className="elementor-post__thumbnail">
                             <img
@@ -666,9 +666,7 @@ function Home() {
                           className="elementor-post__thumbnail__link"
                           tabIndex={-1}
                           type="button"
-                          onClick={() =>
-                            handleExcercise("videos/exercises/e2.mp4")
-                          }
+                          onClick={() => handleVideo("videos/exercises/e2.mp4")}
                         >
                           <div className="elementor-post__thumbnail">
                             <img
