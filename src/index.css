@@ -585,3 +585,21 @@
    border-color: #faebcc;
    color: #8a6d3b;
  }
+
+ #certifications_wrapper {
+   background-image: url("/images/certificates/certifications.png");
+ }
+
+ /* 📱 For small screens */
+ @media (max-width: 768px) {
+   #certifications_wrapper {
+     background-image: url("/images/certificates/certification_mobile.jpg");
+   }
+ }
+
+ /* 📱 For extra-small screens */
+ @media (max-width: 480px) {
+   #certifications_wrapper {
+     background-image: url("/images/certificates/certification_mobile.jpg");
+   }
+ }

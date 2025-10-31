@@ -10,12 +10,10 @@ function Certifications() {
         >
           <div
             className="elementor-element elementor-element-ca03eb9 e-con-full success_banner e-flex e-con e-child"
+            id="certifications_wrapper"
             data-id="ca03eb9"
             data-element_type="container"
             data-settings="{background_background:classNameic,animation:fadein}"
-            style={{
-              background: "url(../images/certificates/certifications.png)",
-            }}
           >
             <div
               className="elementor-element elementor-element-22cbe3e banner_area e-flex e-con-boxed e-con e-child"
