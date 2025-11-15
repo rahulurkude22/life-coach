@@ -52,10 +52,7 @@ function UserLandingModal({ isOpen, setIsOpen }: Props) {
               <a
                 href="https://topmate.io/unfoldwith_alisha"
                 className="modal-cta"
-                onClick={(e) => {
-                  e.preventDefault();
-                  alert("Booking session...");
-                }}
+                target="_blank"
               >
                 Book 1-on-1 Session
               </a>
