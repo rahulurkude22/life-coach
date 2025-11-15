@@ -1,10 +1,11 @@
-import { useState, type PropsWithChildren } from "react";
+import { useEffect, useState, type PropsWithChildren } from "react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "../../node_modules/swiper/swiper.min.css";
 import "../../node_modules/swiper/modules/pagination.css";
 import VideoPlayer from "../components/VideoPlayer";
+import UserLandingModal from "../components/UserLandingModal";
 
 function QuoteSwiper({ children }: PropsWithChildren) {
   return (
@@ -22,6 +23,7 @@ function QuoteSwiper({ children }: PropsWithChildren) {
 }
 
 function Home() {
+  const [isUserModalOpen, setIsUserModalOpen] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [videoUrl, setVideoUrl] = useState("");
 
@@ -29,6 +31,10 @@ function Home() {
     setVideoUrl(url);
     setIsModalOpen(true);
   };
+
+  useEffect(() => {
+    setTimeout(() => setIsUserModalOpen(true), 5000);
+  }, []);
 
   return (
     <>
@@ -133,8 +139,8 @@ function Home() {
                 >
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      Unlock the<span className="scribble">Confidence</span>to
-                      Lead with Intuition
+                      Unlock the<span className="scribble">Confidence</span>Book
+                      a clarity call here.
                     </h2>
                   </div>
                 </div>
@@ -144,11 +150,11 @@ function Home() {
                   data-element_type="widget"
                   data-widget_type="text-editor.default"
                 >
-                  <div className="elementor-widget-container">
+                  {/* <div className="elementor-widget-container">
                     <p>
                       Want a *free* mini meditation to boost your confidence?
                     </p>
-                  </div>
+                  </div> */}
                 </div>
                 <div
                   className="elementor-element elementor-element-b134158 elementor-widget elementor-widget-shortcode"
@@ -263,7 +269,9 @@ function Home() {
                       <div className="elementor-widget-container">
                         <a
                           type="button"
-                          onClick={() => handleVideo("videos/c2.mp4")}
+                          onClick={() =>
+                            handleVideo("videos/group_coaching.mp4")
+                          }
                         >
                           <img
                             loading="lazy"
@@ -293,7 +301,9 @@ function Home() {
                       <div className="elementor-widget-container">
                         <a
                           type="button"
-                          onClick={() => handleVideo("videos/c1.mp4")}
+                          onClick={() =>
+                            handleVideo("videos/corporate_coaching.mp4")
+                          }
                         >
                           <img
                             loading="lazy"
@@ -752,12 +762,8 @@ function Home() {
                               id="sib_signup_form_1"
                               className="sib_signup_form"
                             >
-                              <a
-                                href="https://topmate.io/unfoldwith_alisha"
-                                target="_blank"
-                                className="sib-default-btn"
-                              >
-                                Book 1-ON-1 Session
+                              <a href="#" className="sib-default-btn">
+                                Download
                               </a>
                             </form>
                           </div>
@@ -775,6 +781,10 @@ function Home() {
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         videoUrl={videoUrl}
+      />
+      <UserLandingModal
+        isOpen={isUserModalOpen}
+        setIsOpen={setIsUserModalOpen}
       />
     </>
   );

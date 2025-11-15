@@ -191,6 +191,42 @@ function Footer() {
                               >
                                 <div className="elementor-widget-container">
                                   <h4 className="elementor-heading-title elementor-size-default">
+                                    Youtube
+                                  </h4>
+                                </div>
+                              </div>
+                              <div
+                                className="elementor-element elementor-element-6f30a39 elementor-widget elementor-widget-heading"
+                                data-id="6f30a39"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <p className="elementor-heading-title elementor-size-default">
+                                    <NavLink
+                                      to="https://www.youtube.com/@lifecoachalisha"
+                                      target="_blank"
+                                      rel="nofollow"
+                                    >
+                                      @lifecoachalisha
+                                    </NavLink>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="elementor-element elementor-element-e470b32 e-con-full e-flex e-con e-child"
+                              data-id="e470b32"
+                              data-element_type="container"
+                            >
+                              <div
+                                className="elementor-element elementor-element-40cf54d elementor-widget elementor-widget-heading"
+                                data-id="40cf54d"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <h4 className="elementor-heading-title elementor-size-default">
                                     Contact
                                   </h4>
                                 </div>

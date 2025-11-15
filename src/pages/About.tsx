@@ -179,7 +179,7 @@ function About() {
               >
                 <div className="elementor-widget-container">
                   <p>
-                    Over 10 years of coaching impact Mentored leaders, CEOs and
+                    Over 15 years of coaching impacted 100+ lives, CEOs and
                     change-makers across the globe. Trusted by professionals,
                     teams, and emerging leaders I blend time-tested frameworks,
                     inner work practices, and high performance strategies to

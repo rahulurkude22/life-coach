@@ -592,7 +592,6 @@ function Header() {
                     >
                       <div
                         className="site-branding ast-site-identity"
-                        itemType="https://schema.org/Organization"
                         itemScope={true}
                       >
                         <span className="site-logo-img">

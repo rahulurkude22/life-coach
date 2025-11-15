@@ -68,7 +68,7 @@ function Certifications() {
                       decoding="async"
                       width="1440"
                       height="900"
-                      src="images/certificates/c1.jpg"
+                      src="images/certificates/c1.png"
                       className="attachment-2048x2048 size-2048x2048 wp-image-119936"
                       alt="Alisha Jaiswal talking about Education"
                       sizes="(max-width: 1440px) 100vw, 1440px"
