@@ -20,6 +20,19 @@ function UserLandingModal({ isOpen, setIsOpen }: Props) {
     "Health Issues",
     "Emotional Exhaustion",
     "Loss of Personal Identity",
+    "Overthinking",
+    "Stress",
+    "Anxiety",
+    "Burnout",
+    "Procrastination",
+    "Self-doubt",
+    "Confusion",
+    "Inconsistency",
+    "Overwhelm",
+    "Distrust (in self)",
+    "People-pleasing",
+    "Distraction",
+    "Exhaustion",
   ];
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex items-center justify-center p-4">
@@ -140,7 +153,7 @@ function UserLandingModal({ isOpen, setIsOpen }: Props) {
           margin-bottom: 2.5rem;
           padding: 0 1rem;
           display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(3, 1fr);
           gap: 0.75rem 2rem;
         }
 

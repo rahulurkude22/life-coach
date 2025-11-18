@@ -139,8 +139,11 @@ function Home() {
                 >
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      Unlock the<span className="scribble">Confidence</span>Book
-                      a clarity call here.
+                      Unlock the<span className="scribble">Confidence,</span>
+                      Book a clarity call here.
+                    </h2>
+                    <h2 className="elementor-heading-title elementor-size-default">
+                      Small Shifts, Big Transformations
                     </h2>
                   </div>
                 </div>
@@ -175,7 +178,7 @@ function Home() {
                             target="_blank"
                             className="sib-default-btn"
                           >
-                            Book 1-ON-1 Session
+                            Book Clarity Call
                           </a>
                         </div>
                       </form>
@@ -246,7 +249,7 @@ function Home() {
                             decoding="async"
                             width="600"
                             height="579"
-                            src="images/training.png"
+                            src="images/training.jpg"
                             className="attachment-medium_large size-medium_large wp-image-119858"
                             alt="Training"
                             sizes="(max-width: 600px) 100vw, 600px"
@@ -278,7 +281,7 @@ function Home() {
                             decoding="async"
                             width="600"
                             height="579"
-                            src="images/workshop.png"
+                            src="images/workshop.jpg"
                             className="attachment-medium_large size-medium_large wp-image-119859"
                             alt="Group Coaching"
                             sizes="(max-width: 600px) 100vw, 600px"
@@ -310,7 +313,7 @@ function Home() {
                             decoding="async"
                             width="600"
                             height="579"
-                            src="images/interview.png"
+                            src="images/interview.jpg"
                             className="attachment-medium_large size-medium_large wp-image-119860"
                             alt="1-ON-1 Interview"
                             sizes="(max-width: 600px) 100vw, 600px"
@@ -408,7 +411,8 @@ function Home() {
                               toward positive change and personal growth. Her
                               energy and enthusiasm are truly contagious.”
                             </p>
-                            <div className="author">RIMJHIM RAI</div>
+                            <div className="author">SHUBHRA SHAHARE</div>
+                            <p>Netherlands</p>
                             <p>
                               “Through her one-on-one sessions and
                               transformative coaching approach, Alisha empowers
@@ -428,8 +432,8 @@ function Home() {
                               comfort zones, challenge limiting beliefs, and
                               embrace the growth that follows.”
                             </p>
-                            <div className="author">SHEETAL KANDWAL</div>
-                            <p>Professional anchor and model</p>
+                            <div className="author">PEPPER BLACK</div>
+                            <p>Professional anchor and model, San Franscisco</p>
                           </div>
                         </div>
                         <div className="slide-2">
@@ -444,7 +448,7 @@ function Home() {
                               potential.”
                             </p>
                             <div className="author">SNEHAL RAI</div>
-                            <p>Signature analyst</p>
+                            <p>Signature analyst, India</p>
                           </div>
                         </div>
                       </div>

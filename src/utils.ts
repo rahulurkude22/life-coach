@@ -3,21 +3,31 @@ import { v7 as uuidv7 } from "uuid";
 export const videos = [
   {
     id: uuidv7(),
+    title: "Maria Dhamangaon",
+    description:
+      "I’m meeting Alisha for the first time and just with one session with her. I can already feel the difference in my way of thinking. The perception of seeing a lot of things seems to change. She’s really warm, compassionate, yet very powerful and energetic. So I really like the way a lot of things were expressed. I think a lot of things are in the mind. It’s a mind block. But when you have somebody to guide you in a right way, a lot of things can be cleared. So thank you so much Alisha for all the wonderful insights that you have given throughout the...",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_27.webp",
+    src: "./videos/testimonials/CLIENT 27.mp4",
+  },
+  // Add more here
+  {
+    id: uuidv7(),
+    title: "Snehal Rai",
+    description:
+      "Hello, everyone. My name is Snehal Rai. I'm a signature analyst. And I'm going to attend Alisha Jaiswal's session today. And it's amazing. It's really outstanding. So normally, you don't have a problem, you should have fun and interactive sessions. Because you can learn something. As I said, if you have anxiety, you can just put your face in your face and see the result. And see the result.. I'm happy. I'm happy coming here. Thank you so much, Alisha.",
+    profession: "Signature Analyst",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_6.webp",
+    src: "./videos/testimonials/CLIENT 6.mp4",
+  },
+  {
+    id: uuidv7(),
     title: "Beathe",
     description:
       "Hi, I'm Beathe. I attend today this season, and I feel like we are not alone. There is many people that is the same problem. It's fun to listen to them, and also we had some learning from their problems. I feel more relaxed. I totally recommend it.",
     profession: null,
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_1.webp",
     src: "./videos/testimonials/CLIENT 1.mp4",
-  },
-  {
-    id: uuidv7(),
-    title: "Rimjhim Rai",
-    description:
-      "I was waiting since a very long time for this session with Alisha. We had a very great time. She answered all the questions and all the doubts. She cleared and looking forward for more such classes.. Alisha has us a lot. Was a good session. Thank you.",
-    profession: null,
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_2.webp",
-    src: "./videos/testimonials/CLIENT 2.mp4",
   },
   {
     id: uuidv7(),
@@ -30,39 +40,12 @@ export const videos = [
   },
   {
     id: uuidv7(),
-    title: "Sheetal Kandwal",
+    title: "Mahika Goel",
     description:
-      "Life is itself a learning process. Life coach, I never understood and didn't know. I came here as a interaction. But I got this wheel which I wanted to mark myself as a result of my points. I got to know how many things I'm in, how many things I have, and how many things I have to work on. So at this date, I'm taking a lot of questions. I'm going to go home and do a lot of homework at home, on which I'm going to. I will work, and how can I get in progress, how can I get in personal growth? The thing I have never thought has been ignited, that question has arised. So this was a very helpful session. And I feel like as many girls. I think that all girls who have come here, they are all going to go home and think about their self-growth. I think unfold is the correct name, which has us too, we have a lot of things unfold. After this, the real session is ours. After this, the real session is ours. After this, the real session is ours. Has unfold. After this, the real session will start.",
-    profession: "Professional Anchor & Model",
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_30.webp",
-    src: "./videos/testimonials/CLIENT 30.mp4",
-  },
-  {
-    id: uuidv7(),
-    title: "Snehal Rai",
-    description:
-      "Hello, everyone. My name is Snehal Rai. I'm a signature analyst. And I'm going to attend Alisha Jaiswal's session today. And it's amazing. It's really outstanding. So normally, you don't have a problem, you should have fun and interactive sessions. Because you can learn something. As I said, if you have anxiety, you can just put your face in your face and see the result. And see the result.. I'm happy. I'm happy coming here. Thank you so much, Alisha.",
-    profession: "Signature Analyst",
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_6.webp",
-    src: "./videos/testimonials/CLIENT 6.mp4",
-  },
-  {
-    id: uuidv7(),
-    title: "Lulua Katawala",
-    description:
-      "Hi, this is Lulua from Tricos. I attended two group coaching sessions of Alisha and they have been amazing, life-changing for me. I am an over-thinker and the tools and tips and techniques that she provides are amazing. I would highly recommend everyone to do a one-to-one with Alisha and unfold yourself.",
-    profession: null,
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_11.webp",
-    src: "./videos/testimonials/CLIENT 11.mp4",
-  },
-  {
-    id: uuidv7(),
-    title: "Apoorva Hemrajani",
-    description:
-      "Hello, this is Apoorva Hemrajani, and I took one session from Alisha Adi which really helped me to come out of my clutters. This is the second session that I am taking from her, in which I am able to figure out that the earlier session which I had taken from her — today in my session, that topic was only not there because she really helped me to figure out my things.She basically taught me how to be organized and how we can come out of stress and anxiety. These are such simple techniques and things which really helped me, and this is my second session.I really want you all to actually take a session with her, and it will really help you. She is basically my sister's very good friend, and being a known person to me, I went to her knowing that she could guide me really very well — and she actually did it.So, I would request everyone to take a session from her. It will really help you all. Thank you.",
-    profession: null,
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_12.webp",
-    src: "./videos/testimonials/CLIENT 12.mp4",
+      "Hi I'm Dr. Mahika Goel and I just had a brilliant session with Alisha. Her Unfold with Alisha is a great way to give you a very nice insight. Help you manage your time, manage your life better. She is a very inclusitive soul in terms of helping you in aligning your life. I just had a brilliant group session in which ten girls got together and we had a nice life code session with her. So I think everyone needs life coaching, you might not know it but at the back of the mind you do need it and that's what probably making you exhausted with life. So if...",
+    profession: "Helios Skin Clinic, Nagpur",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_29.webp",
+    src: "./videos/testimonials/CLIENT 29.mp4",
   },
   {
     id: uuidv7(),
@@ -75,12 +58,21 @@ export const videos = [
   },
   {
     id: uuidv7(),
-    title: "Dhanashree",
+    title: "Apoorva Hemrajani",
     description:
-      "To all the beautiful girls and ladies here, Alisha’s session was really good — it was a true stress buster. She is the right person to help you channelize your thoughts and shape the way you want to portray yourself in the future.So, if you want proper direction and guidance for your lifestyle, please connect with Alisha.",
+      "Hello, this is Apoorva Hemrajani, and I took one session from Alisha Adi which really helped me to come out of my clutters. This is the second session that I am taking from her, in which I am able to figure out that the earlier session which I had taken from her — today in my session, that topic was only not there because she really helped me to figure out my things.She basically taught me how to be organized and how we can come out of stress and anxiety. These are such simple techniques and things which really helped me, and this is my second session.I really want you all to actually take a session with her, and it will really help you. She is basically my sister's very good friend, and being a known person to me, I went to her knowing that she could guide me really very well — and she actually did it.So, I would request everyone to take a session from her. It will really help you all. Thank you.",
     profession: null,
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_18.webp",
-    src: "./videos/testimonials/CLIENT 18.mp4",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_12.webp",
+    src: "./videos/testimonials/CLIENT 12.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Sarrah katawala",
+    description:
+      "Hi I'm Sarrah katawala so I'm a practicing company secretary by profession and currently also the chairperson of NA chapter of ICI. So attend live this group coaching today by unfold with Alisha. Alisha also happens to be a very good friend of mine and today the session I just attended because I okay to can attend the session. But once I attended the session I understand how an expert can actually bring changes to your life the way she introduced us to some of the concept, some of the techniques which I generally felt that I don't think anybody has the power to make something better in my...",
+    profession: "Company Secretary",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_25.webp",
+    src: "./videos/testimonials/CLIENT 25.mp4",
   },
   {
     id: uuidv7(),
@@ -91,6 +83,53 @@ export const videos = [
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_22.webp",
     src: "./videos/testimonials/CLIENT 22.mp4",
   },
+  {
+    id: uuidv7(),
+    title: "Dhanashree",
+    description:
+      "To all the beautiful girls and ladies here, Alisha’s session was really good — it was a true stress buster. She is the right person to help you channelize your thoughts and shape the way you want to portray yourself in the future.So, if you want proper direction and guidance for your lifestyle, please connect with Alisha.",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_18.webp",
+    src: "./videos/testimonials/CLIENT 18.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Sheetal Kandwal",
+    description:
+      "Life is itself a learning process. Life coach, I never understood and didn't know. I came here as a interaction. But I got this wheel which I wanted to mark myself as a result of my points. I got to know how many things I'm in, how many things I have, and how many things I have to work on. So at this date, I'm taking a lot of questions. I'm going to go home and do a lot of homework at home, on which I'm going to. I will work, and how can I get in progress, how can I get in personal growth? The thing I have never thought has been ignited, that question has arised. So this was a very helpful session. And I feel like as many girls. I think that all girls who have come here, they are all going to go home and think about their self-growth. I think unfold is the correct name, which has us too, we have a lot of things unfold. After this, the real session is ours. After this, the real session is ours. After this, the real session is ours. Has unfold. After this, the real session will start.",
+    profession: "Professional Anchor & Model",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_30.webp",
+    src: "./videos/testimonials/CLIENT 30.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Dhanshri Ghate",
+    description:
+      "It was an amazing workshop where I learned more about myself, so I’ll recommend Unfold with Alisha to everyone.If you want to know yourself better and understand yourself better, please join her.",
+    profession: "Rich Drive, Nagpur",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_25.webp",
+    src: "./videos/testimonials/CLIENT 25.mp4",
+  },
+  // {
+  //   id: uuidv7(),
+  //   title: "Rimjhim Rai",
+  //   description:
+  //     "I was waiting since a very long time for this session with Alisha. We had a very great time. She answered all the questions and all the doubts. She cleared and looking forward for more such classes.. Alisha has us a lot. Was a good session. Thank you.",
+  //   profession: null,
+  //   thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_2.webp",
+  //   src: "./videos/testimonials/CLIENT 2.mp4",
+  // },
+
+  {
+    id: uuidv7(),
+    title: "Lulua Katawala",
+    description:
+      "Hi, this is Lulua from Tricos. I attended two group coaching sessions of Alisha and they have been amazing, life-changing for me. I am an over-thinker and the tools and tips and techniques that she provides are amazing. I would highly recommend everyone to do a one-to-one with Alisha and unfold yourself.",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_11.webp",
+    src: "./videos/testimonials/CLIENT 11.mp4",
+  },
+
   {
     id: uuidv7(),
     title: "Rubleen Saini",
@@ -109,33 +148,7 @@ export const videos = [
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_24.webp",
     src: "./videos/testimonials/CLIENT 24.mp4",
   },
-  {
-    id: uuidv7(),
-    title: "Sarrah katawala",
-    description:
-      "Hi I'm Sarrah katawala so I'm a practicing company secretary by profession and currently also the chairperson of NA chapter of ICI. So attend live this group coaching today by unfold with Alisha. Alisha also happens to be a very good friend of mine and today the session I just attended because I okay to can attend the session. But once I attended the session I understand how an expert can actually bring changes to your life the way she introduced us to some of the concept, some of the techniques which I generally felt that I don't think anybody has the power to make something better in my...",
-    profession: "Company Secretary",
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_25.webp",
-    src: "./videos/testimonials/CLIENT 25.mp4",
-  },
-  {
-    id: uuidv7(),
-    title: "Dhanshri Ghate",
-    description:
-      "It was an amazing workshop where I learned more about myself, so I’ll recommend Unfold with Alisha to everyone.If you want to know yourself better and understand yourself better, please join her.",
-    profession: "Rich Drive, Nagpur",
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_25.webp",
-    src: "./videos/testimonials/CLIENT 25.mp4",
-  },
-  {
-    id: uuidv7(),
-    title: "Maria Dhamangaon",
-    description:
-      "I’m meeting Alisha for the first time and just with one session with her. I can already feel the difference in my way of thinking. The perception of seeing a lot of things seems to change. She’s really warm, compassionate, yet very powerful and energetic. So I really like the way a lot of things were expressed. I think a lot of things are in the mind. It’s a mind block. But when you have somebody to guide you in a right way, a lot of things can be cleared. So thank you so much Alisha for all the wonderful insights that you have given throughout the...",
-    profession: null,
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_27.webp",
-    src: "./videos/testimonials/CLIENT 27.mp4",
-  },
+
   {
     id: uuidv7(),
     title: "Swati Lad",
@@ -145,15 +158,7 @@ export const videos = [
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_28.webp",
     src: "./videos/testimonials/CLIENT 28.mp4",
   },
-  {
-    id: uuidv7(),
-    title: "Mahika Goel",
-    description:
-      "Hi I'm Dr. Mahika Goel and I just had a brilliant session with Alisha. Her Unfold with Alisha is a great way to give you a very nice insight. Help you manage your time, manage your life better. She is a very inclusitive soul in terms of helping you in aligning your life. I just had a brilliant group session in which ten girls got together and we had a nice life code session with her. So I think everyone needs life coaching, you might not know it but at the back of the mind you do need it and that's what probably making you exhausted with life. So if...",
-    profession: "Helios Skin Clinic, Nagpur",
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_29.webp",
-    src: "./videos/testimonials/CLIENT 29.mp4",
-  },
+
   {
     id: uuidv7(),
     title: "Jayshree Jhamtani",
