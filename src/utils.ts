@@ -3,12 +3,30 @@ import { v7 as uuidv7 } from "uuid";
 export const videos = [
   {
     id: uuidv7(),
+    title: "Shubhra shahare",
+    description:
+      "Alisha is a compassionate coach. In my interactions with her, I have found her questions to be deeply insightful, and she takes the time to sit with you and truly understand where you're coming from. Her ability to take the information you share and guide you toward discovering your own solutions is truly remarkable. I find her to be an extremely grounded and sorted person.She takes her time in responding, with a genuine desire to help and to understand the situation. She creates an environment where you feel comfortable sharing and getting to the root of your thoughts, helping you activate your solution-focused mindset and find great ideas for how to move forward.I wholeheartedly recommend Alisha as a coach and wish her all the best.",
+    profession: "Netherlands",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_32.webp",
+    src: "./videos/testimonials/CLIENT 32.mp4",
+  },
+  {
+    id: uuidv7(),
     title: "Maria Dhamangaon",
     description:
       "I’m meeting Alisha for the first time and just with one session with her. I can already feel the difference in my way of thinking. The perception of seeing a lot of things seems to change. She’s really warm, compassionate, yet very powerful and energetic. So I really like the way a lot of things were expressed. I think a lot of things are in the mind. It’s a mind block. But when you have somebody to guide you in a right way, a lot of things can be cleared. So thank you so much Alisha for all the wonderful insights that you have given throughout the...",
     profession: null,
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_27.webp",
     src: "./videos/testimonials/CLIENT 27.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Pepper Black",
+    description:
+      "I’m meeting Alisha for the first time and just with one session with her. I can already feel the difference in my way of thinking. The perception of seeing a lot of things seems to change. She’s really warm, compassionate, yet very powerful and energetic. So I really like the way a lot of things were expressed. I think a lot of things are in the mind. It’s a mind block. But when you have somebody to guide you in a right way, a lot of things can be cleared. So thank you so much Alisha for all the wonderful insights that you have given throughout the...",
+    profession: "San Franscisco - USA",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_4.webp",
+    src: "./videos/testimonials/CLIENT 4.mp4",
   },
   // Add more here
   {
