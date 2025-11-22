@@ -39,9 +39,27 @@ export const videos = [
   },
   {
     id: uuidv7(),
+    title: "Zainab Kamal",
+    description:
+      "Hello everyone, so recently I attended Alisha Jaiswal's workshop. She is a life coach and she spoke about the different types of stress and anxiety that we have. I think we are living in a world where everyone has some other stress or anxiety and she had a very beautiful way of listening to everyone and had great coaching.coping techniques that one can do. I would highly recommend everyone to be a part of her next upcoming workshop and I'm sure she'll be of great help. Thank you.",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_17.webp",
+    src: "./videos/testimonials/CLIENT 17.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Jamila lakkadshah",
+    description:
+      "Hi everyone,I recently attended a workshop with Alisha Jaiswal on stress and anxiety.Today, I learned about the difference between stress and anxiety, and it made a lot of things clearer for me.",
+    profession: "San Francisco",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_16.webp",
+    src: "./videos/testimonials/CLIENT 16.mp4",
+  },
+  {
+    id: uuidv7(),
     title: "Chandan Banwade",
     description:
-      "Hi, I just wanted to say that working with Alisha as a coach has been transformational for me. Before I went to her, I was feeling really stuck and confused about certain things in my life. After my one-on-one sessions with her, I feel much clearer. I gained a lot of clarity and have much more confidence in my decisions and my next steps. I totally recommend her, and if you're looking for your next life coach, definitely consider Alisha.Thanks.",
+      "Whenever we attend such sessions or workshops, we usually come in with certain thoughts—wondering how it will be, whether I’ll be able to express myself or not. But surprisingly, when I came here, Alisha guided us through very small, simple activities that helped me understand what we should avoid in life and how we can correct things.The session was not only informative but also very interactive, which I really liked. I enjoyed it a lot.Thank you so much.",
     profession: null,
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_9.webp",
     src: "./videos/testimonials/CLIENT 9.mp4",
@@ -156,15 +174,15 @@ export const videos = [
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_25.webp",
     src: "./videos/testimonials/CLIENT 25.mp4",
   },
-  // {
-  //   id: uuidv7(),
-  //   title: "Rimjhim Rai",
-  //   description:
-  //     "I was waiting since a very long time for this session with Alisha. We had a very great time. She answered all the questions and all the doubts. She cleared and looking forward for more such classes.. Alisha has us a lot. Was a good session. Thank you.",
-  //   profession: null,
-  //   thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_2.webp",
-  //   src: "./videos/testimonials/CLIENT 2.mp4",
-  // },
+  {
+    id: uuidv7(),
+    title: "Chhavi Nagori",
+    description:
+      "Thanks, Alicia.It was very, very interactive and very mind-blowing.And a very good message was passed.Thank you",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_10.webp",
+    src: "./videos/testimonials/CLIENT 10.mp4",
+  },
 
   {
     id: uuidv7(),
@@ -213,6 +231,15 @@ export const videos = [
     profession: "Esscenzaa - House of Perfumes Nagpur",
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_31.webp",
     src: "./videos/testimonials/CLIENT 31.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Nandini Motwani",
+    description:
+      "This session was very interesting and I really loved it.And she got a very beautiful smile, which really brightens up your mood.And overall, it was very positive.",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_8.webp",
+    src: "./videos/testimonials/CLIENT 8.mp4",
   },
   {
     id: uuidv7(),
