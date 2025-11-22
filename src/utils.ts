@@ -12,6 +12,15 @@ export const videos = [
   },
   {
     id: uuidv7(),
+    title: "Pepper Black",
+    description:
+      "I’m meeting Alisha for the first time and just with one session with her. I can already feel the difference in my way of thinking. The perception of seeing a lot of things seems to change. She’s really warm, compassionate, yet very powerful and energetic. So I really like the way a lot of things were expressed. I think a lot of things are in the mind. It’s a mind block. But when you have somebody to guide you in a right way, a lot of things can be cleared. So thank you so much Alisha for all the wonderful insights that you have given throughout the...",
+    profession: "San Franscisco - USA",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_4.webp",
+    src: "./videos/testimonials/CLIENT 4.mp4",
+  },
+  {
+    id: uuidv7(),
     title: "Maria Dhamangaon",
     description:
       "I’m meeting Alisha for the first time and just with one session with her. I can already feel the difference in my way of thinking. The perception of seeing a lot of things seems to change. She’s really warm, compassionate, yet very powerful and energetic. So I really like the way a lot of things were expressed. I think a lot of things are in the mind. It’s a mind block. But when you have somebody to guide you in a right way, a lot of things can be cleared. So thank you so much Alisha for all the wonderful insights that you have given throughout the...",
@@ -21,13 +30,23 @@ export const videos = [
   },
   {
     id: uuidv7(),
-    title: "Pepper Black",
+    title: "Sarah Kirmani",
     description:
-      "I’m meeting Alisha for the first time and just with one session with her. I can already feel the difference in my way of thinking. The perception of seeing a lot of things seems to change. She’s really warm, compassionate, yet very powerful and energetic. So I really like the way a lot of things were expressed. I think a lot of things are in the mind. It’s a mind block. But when you have somebody to guide you in a right way, a lot of things can be cleared. So thank you so much Alisha for all the wonderful insights that you have given throughout the...",
-    profession: "San Franscisco - USA",
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_4.webp",
-    src: "./videos/testimonials/CLIENT 4.mp4",
+      "Hi, I just wanted to say that working with Alisha as a coach has been transformational for me. Before I went to her, I was feeling really stuck and confused about certain things in my life. After my one-on-one sessions with her, I feel much clearer. I gained a lot of clarity and have much more confidence in my decisions and my next steps. I totally recommend her, and if you're looking for your next life coach, definitely consider Alisha.Thanks.",
+    profession: "San Francisco",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_21.webp",
+    src: "./videos/testimonials/CLIENT 21.mp4",
   },
+  {
+    id: uuidv7(),
+    title: "Chandan Banwade",
+    description:
+      "Hi, I just wanted to say that working with Alisha as a coach has been transformational for me. Before I went to her, I was feeling really stuck and confused about certain things in my life. After my one-on-one sessions with her, I feel much clearer. I gained a lot of clarity and have much more confidence in my decisions and my next steps. I totally recommend her, and if you're looking for your next life coach, definitely consider Alisha.Thanks.",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_9.webp",
+    src: "./videos/testimonials/CLIENT 9.mp4",
+  },
+
   // Add more here
   {
     id: uuidv7(),
@@ -49,9 +68,9 @@ export const videos = [
   },
   {
     id: uuidv7(),
-    title: "Shivali Khanna",
+    title: "Shivani Khanna",
     description:
-      "Hi, I'm Shivali Khanna. Today, I attended a very good session by Mrs. Alisha. It was a life coach session about time, family, life, career, and how to manage my time for my family and my career. With this session, it was a very self-realization session where I realized what are my goals in life and how I should work towards them, how I should manage my time between my career and my kids. She gave me a lot of coaching tips, a lot of ideas, and how, as a person, I should value my strengths and weaknesses. I I should improve my weaknesses as a person. So yes, it was a great session. I'm feeling very, very light. I came with a very heavy mind, a very overthinking mind, and solutions are the best way to finish a problem. I'm very happy with this session, and I would really, really, I'm thankful to Alisha for helping me out plan my day and to move towards my goal. Thank you so much, Alisha, for this session.",
+      "Hi, I'm Shivani Khanna. Today, I attended a very good session by Mrs. Alisha. It was a life coach session about time, family, life, career, and how to manage my time for my family and my career. With this session, it was a very self-realization session where I realized what are my goals in life and how I should work towards them, how I should manage my time between my career and my kids. She gave me a lot of coaching tips, a lot of ideas, and how, as a person, I should value my strengths and weaknesses. I I should improve my weaknesses as a person. So yes, it was a great session. I'm feeling very, very light. I came with a very heavy mind, a very overthinking mind, and solutions are the best way to finish a problem. I'm very happy with this session, and I would really, really, I'm thankful to Alisha for helping me out plan my day and to move towards my goal. Thank you so much, Alisha, for this session.",
     profession: null,
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_3.webp",
     src: "./videos/testimonials/CLIENT 3.mp4",
@@ -82,6 +101,15 @@ export const videos = [
     profession: null,
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_12.webp",
     src: "./videos/testimonials/CLIENT 12.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Manasi Bhonsle",
+    description:
+      "Hi, I'm Manasi Bhosale, the senior faculty and career lead at Centrepoint School International. I have known Alisha for the last 14 years, and the way she has evolved during this time is truly remarkable. What she is doing now is impacting so many people in such a positive way. Even after just one session, I gained so much clarity of thought and understood how to approach things step by step. She is doing an amazing job and will be a great help to each and every one of us. Thank you.",
+    profession: "Senior Faculty at IGCSE, Center Point",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_20.webp",
+    src: "./videos/testimonials/CLIENT 20.mp4",
   },
   {
     id: uuidv7(),
@@ -185,5 +213,14 @@ export const videos = [
     profession: "Esscenzaa - House of Perfumes Nagpur",
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_31.webp",
     src: "./videos/testimonials/CLIENT 31.mp4",
+  },
+  {
+    id: uuidv7(),
+    title: "Ayush",
+    description:
+      "Hi, my name is Aayush. Today I attended Alisha ma'am's session. She is helping me a lot with my stress issues.I would recommend you to attend Alisha ma'am's sessions.",
+    profession: null,
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_5.webp",
+    src: "./videos/testimonials/CLIENT 5.mp4",
   },
 ];

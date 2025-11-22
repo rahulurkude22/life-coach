@@ -140,25 +140,23 @@ function Home() {
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
                       Unlock the<span className="scribble">Confidence,</span>
+                      <br />
                       Book a clarity call here.
-                    </h2>
-                    <h2 className="elementor-heading-title elementor-size-default">
-                      Small Shifts, Big Transformations
                     </h2>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className="elementor-element elementor-element-2e186d7 elementor-widget elementor-widget-text-editor"
                   data-id="2e186d7"
                   data-element_type="widget"
                   data-widget_type="text-editor.default"
                 >
-                  {/* <div className="elementor-widget-container">
+                  <div className="elementor-widget-container">
                     <p>
                       Want a *free* mini meditation to boost your confidence?
                     </p>
-                  </div> */}
-                </div>
+                  </div>
+                </div> */}
                 <div
                   className="elementor-element elementor-element-b134158 elementor-widget elementor-widget-shortcode"
                   data-id="b134158"
@@ -178,11 +176,25 @@ function Home() {
                             target="_blank"
                             className="sib-default-btn"
                           >
-                            Book Clarity Call
+                            Book a Call
                           </a>
                         </div>
                       </form>
                     </div>
+                  </div>
+                </div>
+                <div
+                  className="elementor-element elementor-element-ddc86cb elementor-widget elementor-widget-global elementor-global-121355 elementor-widget-heading"
+                  data-id="ddc86cb"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div className="elementor-widget-container">
+                    <h2 className="elementor-heading-title elementor-size-default">
+                      <span className="scribble">
+                        Small Shifts, Big Transformations
+                      </span>
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -313,7 +325,7 @@ function Home() {
                             decoding="async"
                             width="600"
                             height="579"
-                            src="images/interview.jpg"
+                            src="images/interview.png"
                             className="attachment-medium_large size-medium_large wp-image-119860"
                             alt="1-ON-1 Interview"
                             sizes="(max-width: 600px) 100vw, 600px"
@@ -433,7 +445,7 @@ function Home() {
                               embrace the growth that follows.”
                             </p>
                             <div className="author">PEPPER BLACK</div>
-                            <p>Professional anchor and model, San Franscisco</p>
+                            <p>San Franscisco</p>
                           </div>
                         </div>
                         <div className="slide-2">
