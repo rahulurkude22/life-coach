@@ -511,8 +511,8 @@ function Home() {
                               <div className="elementor-testimonial">
                                 <div className="elementor-testimonial__content">
                                   <div className="elementor-testimonial__text">
-                                    “Alisha was the inspiring keynote speaker at
-                                    a transformational leadership event. Her
+                                    “Alisha was the inspiring life coach at a
+                                    transformational leadership event. Her
                                     energy and insight ignited the room—truly a
                                     catalyst for change.”{" "}
                                   </div>
