@@ -520,10 +520,10 @@ function Home() {
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      Maria Dhamangaon
+                                      Sheetal Kandwal
                                     </span>
                                     <span className="elementor-testimonial__title">
-                                      Esscanzaa - House of Perfumes Nagpur.{" "}
+                                      Professional Anchor & Model.{" "}
                                     </span>
                                   </cite>
                                 </div>
