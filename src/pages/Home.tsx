@@ -415,8 +415,8 @@ function Home() {
                         <div className="slide-0">
                           <div className="slide-content">
                             <h3>
-                              “Exceptionally innovative and remarkably
-                              creative…”
+                              “A catalyst for growth, vision, and lasting
+                              transformation…”
                             </h3>
                             <p>
                               “Alisha is deeply committed to guiding others
@@ -520,7 +520,7 @@ function Home() {
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      Jayshree Jhamtani
+                                      Maria Dhamangaon
                                     </span>
                                     <span className="elementor-testimonial__title">
                                       Esscanzaa - House of Perfumes Nagpur.{" "}
@@ -542,10 +542,10 @@ function Home() {
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      Rubleen Saini
+                                      Dhanshri Ghate
                                     </span>
                                     <span className="elementor-testimonial__title">
-                                      DIRECTOR@ IPCS Global Nagpur.
+                                      Rich Drive, Nagpur.
                                     </span>
                                   </cite>
                                 </div>
@@ -564,10 +564,10 @@ function Home() {
                                 <div className="elementor-testimonial__footer">
                                   <cite className="elementor-testimonial__cite">
                                     <span className="elementor-testimonial__name">
-                                      Mansi Bhonsle
+                                      Sarah Kirmani
                                     </span>
                                     <span className="elementor-testimonial__title">
-                                      Senior Faculty at IGCSE, Center Point
+                                      San Francisco
                                     </span>
                                   </cite>
                                 </div>

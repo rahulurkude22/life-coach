@@ -201,19 +201,19 @@ function Praise() {
                             <div className="elementor-testimonial">
                               <div className="elementor-testimonial__content">
                                 <div className="elementor-testimonial__text">
-                                  “Alisha was the inspiring keynote speaker at a
-                                  transformational leadership event. Her energy
-                                  and insight ignited the room—truly a catalyst
-                                  for change.”{" "}
+                                  “As a life coach, Alisha inspired everyone in
+                                  the room with her energy and insight. She
+                                  created an atmosphere of real and lasting
+                                  change.”{" "}
                                 </div>
                               </div>
                               <div className="elementor-testimonial__footer">
                                 <cite className="elementor-testimonial__cite">
                                   <span className="elementor-testimonial__name">
-                                    — Jayshree Jhamtani
+                                    — Mahika Goel
                                   </span>
                                   <span className="elementor-testimonial__title">
-                                    Esscanzaa - House of Perfumes Nagpur..{" "}
+                                    Helios Skin Clinic, Nagpur.{" "}
                                   </span>
                                 </cite>
                               </div>

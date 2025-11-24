@@ -171,8 +171,8 @@ export const videos = [
     description:
       "It was an amazing workshop where I learned more about myself, so I’ll recommend Unfold with Alisha to everyone.If you want to know yourself better and understand yourself better, please join her.",
     profession: "Rich Drive, Nagpur",
-    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_25.webp",
-    src: "./videos/testimonials/CLIENT 25.mp4",
+    thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_26.webp",
+    src: "./videos/testimonials/CLIENT 26.mp4",
   },
   {
     id: uuidv7(),
