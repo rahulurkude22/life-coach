@@ -51,7 +51,7 @@ export const videos = [
     title: "Jamila lakkadshah",
     description:
       "Hi everyone,I recently attended a workshop with Alisha Jaiswal on stress and anxiety.Today, I learned about the difference between stress and anxiety, and it made a lot of things clearer for me.",
-    profession: "San Francisco",
+    profession: "Nagpur",
     thumbnail: "./videos/testimonials/thumbnails/anycript_thumbnail_16.webp",
     src: "./videos/testimonials/CLIENT 16.mp4",
   },
