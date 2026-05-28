@@ -67,8 +67,8 @@ function Footer() {
                               >
                                 <div className="elementor-widget-container">
                                   <p className="elementor-heading-title elementor-size-default">
-                                    <a href="mailto:uwidalisha@gmail.com">
-                                      uwidalisha@gmail.com
+                                    <a href="mailto:sales@unfoldwidalisha.com">
+                                      sales@unfoldwidalisha.com
                                     </a>
                                   </p>
                                 </div>
