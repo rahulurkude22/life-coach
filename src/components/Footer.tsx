@@ -40,8 +40,17 @@ function Footer() {
                           className="elementor-element elementor-element-e27eee2 e-flex e-con-boxed e-con e-child"
                           data-id="e27eee2"
                           data-element_type="container"
+                          style={{ maxWidth: "100%", width: "100%" }}
                         >
-                          <div className="e-con-inner">
+                          <div
+                            className="e-con-inner"
+                            style={{
+                              gap: "3rem",
+                              maxWidth: "1600px",
+                              width: "100%",
+                              margin: "0 auto",
+                            }}
+                          >
                             <div
                               className="elementor-element elementor-element-2f3ff2e e-con-full e-flex e-con e-child"
                               data-id="2f3ff2e"
@@ -67,7 +76,10 @@ function Footer() {
                               >
                                 <div className="elementor-widget-container">
                                   <p className="elementor-heading-title elementor-size-default">
-                                    <a href="mailto:sales@unfoldwidalisha.com">
+                                    <a
+                                      href="mailto:sales@unfoldwidalisha.com"
+                                      style={{ whiteSpace: "nowrap" }}
+                                    >
                                       sales@unfoldwidalisha.com
                                     </a>
                                   </p>
@@ -135,6 +147,7 @@ function Footer() {
                                       to="https://www.linkedin.com/in/worklifebalancecoachalisha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                                       target="_blank"
                                       rel="nofollow"
+                                      style={{ whiteSpace: "nowrap" }}
                                     >
                                       worklifebalancecoachalisha
                                     </NavLink>
@@ -154,7 +167,10 @@ function Footer() {
                                 data-widget_type="heading.default"
                               >
                                 <div className="elementor-widget-container">
-                                  <h4 className="elementor-heading-title elementor-size-default">
+                                  <h4
+                                    className="elementor-heading-title elementor-size-default"
+                                    style={{ whiteSpace: "nowrap" }}
+                                  >
                                     Instagram
                                   </h4>
                                 </div>
@@ -207,6 +223,7 @@ function Footer() {
                                       to="https://www.youtube.com/@lifecoachalisha"
                                       target="_blank"
                                       rel="nofollow"
+                                      style={{ whiteSpace: "nowrap" }}
                                     >
                                       @lifecoachalisha
                                     </NavLink>
@@ -226,7 +243,10 @@ function Footer() {
                                 data-widget_type="heading.default"
                               >
                                 <div className="elementor-widget-container">
-                                  <h4 className="elementor-heading-title elementor-size-default">
+                                  <h4
+                                    className="elementor-heading-title elementor-size-default"
+                                    style={{ whiteSpace: "nowrap" }}
+                                  >
                                     Contact
                                   </h4>
                                 </div>
@@ -245,6 +265,56 @@ function Footer() {
                                       rel="nofollow"
                                     >
                                       +91 9175365952
+                                    </NavLink>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="elementor-element elementor-element-e470b32 e-con-full e-flex e-con e-child"
+                              data-id="e470b32"
+                              data-element_type="container"
+                            >
+                              <div
+                                className="elementor-element elementor-element-40cf54d elementor-widget elementor-widget-heading"
+                                data-id="40cf54d"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <h4 className="elementor-heading-title elementor-size-default">
+                                    Address
+                                  </h4>
+                                </div>
+                              </div>
+                              <div
+                                className="elementor-element elementor-element-6f30a39 elementor-widget elementor-widget-heading"
+                                data-id="6f30a39"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <p className="elementor-heading-title elementor-size-default">
+                                    <NavLink
+                                      to="tel:+919175365952"
+                                      target="_top"
+                                      rel="nofollow"
+                                    >
+                                      <p style={{ whiteSpace: "nowrap" }}>
+                                        5th Floor 501 Varad Heights
+                                      </p>
+                                      <p style={{ whiteSpace: "nowrap" }}>
+                                        near Ankur Maternity Home
+                                      </p>
+                                      <p style={{ whiteSpace: "nowrap" }}>
+                                        RPTS Chowk, Surendra Nagar,
+                                      </p>
+                                      <p style={{ whiteSpace: "nowrap" }}>
+                                        Deo Nagar, Nagpur, Maharashtra
+                                      </p>
+                                      <p style={{ whiteSpace: "nowrap" }}>
+                                        440015 Working Hours Sunday: Closed
+                                      </p>
                                     </NavLink>
                                   </p>
                                 </div>
