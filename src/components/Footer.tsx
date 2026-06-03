@@ -1,5 +1,13 @@
+import {
+  FaBuilding,
+  FaLinkedin,
+  FaPhoneAlt,
+  FaYoutube,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import { NavLink } from "react-router-dom";
-
 function Footer() {
   return (
     <footer
@@ -62,7 +70,16 @@ function Footer() {
                                 data-element_type="widget"
                                 data-widget_type="heading.default"
                               >
-                                <div className="elementor-widget-container">
+                                <div
+                                  className="elementor-widget-container"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    gap: "2rem",
+                                  }}
+                                >
+                                  <MdEmail size={40} />
                                   <h4 className="elementor-heading-title elementor-size-default">
                                     Email
                                   </h4>
@@ -97,7 +114,16 @@ function Footer() {
                                 data-element_type="widget"
                                 data-widget_type="heading.default"
                               >
-                                <div className="elementor-widget-container">
+                                <div
+                                  className="elementor-widget-container"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    gap: "2rem",
+                                  }}
+                                >
+                                  <FaFacebook size={40} />
                                   <h4 className="elementor-heading-title elementor-size-default">
                                     Facebook
                                   </h4>
@@ -129,7 +155,16 @@ function Footer() {
                                 data-element_type="widget"
                                 data-widget_type="heading.default"
                               >
-                                <div className="elementor-widget-container">
+                                <div
+                                  className="elementor-widget-container"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    gap: "2rem",
+                                  }}
+                                >
+                                  <FaLinkedin size={40} />
                                   <h4 className="elementor-heading-title elementor-size-default">
                                     LinkedIn
                                   </h4>
@@ -166,7 +201,16 @@ function Footer() {
                                 data-element_type="widget"
                                 data-widget_type="heading.default"
                               >
-                                <div className="elementor-widget-container">
+                                <div
+                                  className="elementor-widget-container"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    gap: "2rem",
+                                  }}
+                                >
+                                  <FaInstagram size={40} />
                                   <h4
                                     className="elementor-heading-title elementor-size-default"
                                     style={{ whiteSpace: "nowrap" }}
@@ -205,7 +249,16 @@ function Footer() {
                                 data-element_type="widget"
                                 data-widget_type="heading.default"
                               >
-                                <div className="elementor-widget-container">
+                                <div
+                                  className="elementor-widget-container"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    gap: "1rem",
+                                  }}
+                                >
+                                  <FaYoutube size={40} />
                                   <h4 className="elementor-heading-title elementor-size-default">
                                     Youtube
                                   </h4>
@@ -242,7 +295,16 @@ function Footer() {
                                 data-element_type="widget"
                                 data-widget_type="heading.default"
                               >
-                                <div className="elementor-widget-container">
+                                <div
+                                  className="elementor-widget-container"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    gap: "1rem",
+                                  }}
+                                >
+                                  <FaPhoneAlt size={40} />
                                   <h4
                                     className="elementor-heading-title elementor-size-default"
                                     style={{ whiteSpace: "nowrap" }}
@@ -270,54 +332,61 @@ function Footer() {
                                 </div>
                               </div>
                             </div>
+                          </div>
+                          <div
+                            className="elementor-element elementor-element-e470b32 e-con-full e-flex e-con e-child"
+                            data-id="e470b32"
+                            data-element_type="container"
+                          >
                             <div
-                              className="elementor-element elementor-element-e470b32 e-con-full e-flex e-con e-child"
-                              data-id="e470b32"
-                              data-element_type="container"
+                              className="elementor-element elementor-element-40cf54d elementor-widget elementor-widget-heading"
+                              data-id="40cf54d"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
                             >
                               <div
-                                className="elementor-element elementor-element-40cf54d elementor-widget elementor-widget-heading"
-                                data-id="40cf54d"
-                                data-element_type="widget"
-                                data-widget_type="heading.default"
+                                className="elementor-widget-container"
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "center",
+                                  alignItems: "center",
+                                  gap: "2rem",
+                                }}
                               >
-                                <div className="elementor-widget-container">
-                                  <h4 className="elementor-heading-title elementor-size-default">
-                                    Address
-                                  </h4>
-                                </div>
+                                <FaBuilding size={40} />
+                                <h4 className="elementor-heading-title elementor-size-default">
+                                  Address
+                                </h4>
                               </div>
-                              <div
-                                className="elementor-element elementor-element-6f30a39 elementor-widget elementor-widget-heading"
-                                data-id="6f30a39"
-                                data-element_type="widget"
-                                data-widget_type="heading.default"
-                              >
-                                <div className="elementor-widget-container">
-                                  <p className="elementor-heading-title elementor-size-default">
-                                    <NavLink
-                                      to="tel:+919175365952"
-                                      target="_top"
-                                      rel="nofollow"
-                                    >
-                                      <p style={{ whiteSpace: "nowrap" }}>
-                                        5th Floor 501 Varad Heights
-                                      </p>
-                                      <p style={{ whiteSpace: "nowrap" }}>
-                                        near Ankur Maternity Home
-                                      </p>
-                                      <p style={{ whiteSpace: "nowrap" }}>
-                                        RPTS Chowk, Surendra Nagar,
-                                      </p>
-                                      <p style={{ whiteSpace: "nowrap" }}>
-                                        Deo Nagar, Nagpur, Maharashtra
-                                      </p>
-                                      <p style={{ whiteSpace: "nowrap" }}>
-                                        440015 Working Hours Sunday: Closed
-                                      </p>
-                                    </NavLink>
-                                  </p>
-                                </div>
+                            </div>
+                            <div
+                              className="elementor-element elementor-element-6f30a39 elementor-widget elementor-widget-heading"
+                              data-id="6f30a39"
+                              data-element_type="widget"
+                              data-widget_type="heading.default"
+                            >
+                              <div className="elementor-widget-container">
+                                <p className="elementor-heading-title elementor-size-default">
+                                  <NavLink
+                                    to="tel:+919175365952"
+                                    target="_top"
+                                    rel="nofollow"
+                                  >
+                                    <p style={{ whiteSpace: "nowrap" }}>
+                                      5th Floor 501 Varad Heights near Ankur
+                                      Maternity Home RPTS Chowk, Surendra Nagar,
+                                      Deo Nagar, Nagpur, Maharashtra 440015
+                                      India
+                                    </p>
+                                    <p style={{ whiteSpace: "nowrap" }}></p>
+                                    <p style={{ whiteSpace: "nowrap" }}></p>
+                                    <p style={{ whiteSpace: "nowrap" }}></p>
+                                    <p style={{ whiteSpace: "nowrap" }}>
+                                      Working Hours Monday to Saturday 10 AM to
+                                      7PM Sunday: Closed
+                                    </p>
+                                  </NavLink>
+                                </p>
                               </div>
                             </div>
                           </div>
