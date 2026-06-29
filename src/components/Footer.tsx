@@ -97,7 +97,7 @@ function Footer() {
                                       href="mailto:sales@unfoldwidalisha.com"
                                       style={{ whiteSpace: "nowrap" }}
                                     >
-                                      sales@unfoldwidalisha.com
+                                      sales@unfoldwithalisha.com
                                     </a>
                                   </p>
                                 </div>
