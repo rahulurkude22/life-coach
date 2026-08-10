@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Praise from "./pages/Praise";
 import Certifications from "./pages/Certifications";
+import Moments from "./pages/Moments";
+import CorporateClients from "./pages/CorporateClients";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: "/certifications",
         element: <Certifications />,
+      },
+      {
+        path: "/moments",
+        element: <Moments />,
+      },
+      {
+        path: "/corporate-clients",
+        element: <CorporateClients />,
       },
       { path: "*", element: <>Not found</> },
     ],

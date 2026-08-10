@@ -57,6 +57,9 @@ function Footer() {
                               maxWidth: "1600px",
                               width: "100%",
                               margin: "0 auto",
+                              display: "flex",
+                              flexWrap: "wrap",
+                              justifyContent: "center",
                             }}
                           >
                             <div
@@ -333,60 +336,71 @@ function Footer() {
                               </div>
                             </div>
                           </div>
+
                           <div
-                            className="elementor-element elementor-element-e470b32 e-con-full e-flex e-con e-child"
-                            data-id="e470b32"
-                            data-element_type="container"
+                            className="e-con-inner"
+                            style={{
+                              gap: "3rem",
+                              maxWidth: "1600px",
+                              width: "100%",
+                              margin: "2rem auto 0 auto",
+                              display: "flex",
+                              justifyContent: "center",
+                            }}
                           >
                             <div
-                              className="elementor-element elementor-element-40cf54d elementor-widget elementor-widget-heading"
-                              data-id="40cf54d"
-                              data-element_type="widget"
-                              data-widget_type="heading.default"
+                              className="elementor-element elementor-element-e470b32 e-con-full e-flex e-con e-child"
+                              data-id="e470b32"
+                              data-element_type="container"
                             >
                               <div
-                                className="elementor-widget-container"
-                                style={{
-                                  display: "flex",
-                                  justifyContent: "center",
-                                  alignItems: "center",
-                                  gap: "2rem",
-                                }}
+                                className="elementor-element elementor-element-40cf54d elementor-widget elementor-widget-heading"
+                                data-id="40cf54d"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
                               >
-                                <FaBuilding size={40} />
-                                <h4 className="elementor-heading-title elementor-size-default">
-                                  Address
-                                </h4>
+                                <div
+                                  className="elementor-widget-container"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                    alignItems: "center",
+                                    gap: "2rem",
+                                  }}
+                                >
+                                  <FaBuilding size={40} />
+                                  <h4 className="elementor-heading-title elementor-size-default">
+                                    Address
+                                  </h4>
+                                </div>
                               </div>
-                            </div>
-                            <div
-                              className="elementor-element elementor-element-6f30a39 elementor-widget elementor-widget-heading"
-                              data-id="6f30a39"
-                              data-element_type="widget"
-                              data-widget_type="heading.default"
-                            >
-                              <div className="elementor-widget-container">
-                                <p className="elementor-heading-title elementor-size-default">
-                                  <NavLink
-                                    to="tel:+919175365952"
-                                    target="_top"
-                                    rel="nofollow"
-                                  >
-                                    <p style={{ whiteSpace: "nowrap" }}>
-                                      5th Floor 501 Varad Heights near Ankur
-                                      Maternity Home RPTS Chowk, Surendra Nagar,
-                                      Deo Nagar, Nagpur, Maharashtra 440015
-                                      India
-                                    </p>
-                                    <p style={{ whiteSpace: "nowrap" }}></p>
-                                    <p style={{ whiteSpace: "nowrap" }}></p>
-                                    <p style={{ whiteSpace: "nowrap" }}></p>
-                                    <p style={{ whiteSpace: "nowrap" }}>
+                              <div
+                                className="elementor-element elementor-element-6f30a39 elementor-widget elementor-widget-heading"
+                                data-id="6f30a39"
+                                data-element_type="widget"
+                                data-widget_type="heading.default"
+                              >
+                                <div className="elementor-widget-container">
+                                  <div className="elementor-heading-title elementor-size-default">
+                                    <a
+                                      href="https://maps.google.com/?q=5th+Floor+501+Varad+Heights+near+Ankur+Maternity+Home+RPTS+Chowk,+Surendra+Nagar,+Deo+Nagar,+Nagpur,+Maharashtra+440015+India"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      style={{ display: "block", textDecoration: "none", color: "inherit" }}
+                                    >
+                                      <p style={{ whiteSpace: "normal", margin: 0 }}>
+                                        5th Floor 501 Varad Heights near Ankur
+                                        Maternity Home RPTS Chowk, Surendra Nagar,
+                                        Deo Nagar, Nagpur, Maharashtra 440015
+                                        India
+                                      </p>
+                                    </a>
+                                    <p style={{ whiteSpace: "normal", marginTop: "1rem", marginBottom: 0 }}>
                                       Working Hours Monday to Saturday 10 AM to
                                       7PM Sunday: Closed
                                     </p>
-                                  </NavLink>
-                                </p>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>

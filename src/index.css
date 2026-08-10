@@ -603,3 +603,17 @@
      background-image: url("/images/certificates/certification_mobile.jpg");
    }
  }
+
+ /* 💻 Force first 6 contact columns inline on desktop footer screens */
+ @media (min-width: 1024px) {
+   .site-footer .e-con-inner:first-of-type > .e-child {
+     flex: 1 0 0 !important;
+     width: auto !important;
+     --width: auto !important;
+   }
+
+   /* Stack the contact columns row and the Address row vertically */
+   .site-footer .elementor-element-e27eee2 {
+     flex-direction: column !important;
+   }
+ }

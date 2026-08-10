@@ -208,7 +208,61 @@ function Header() {
                                     </span>
                                   </a>
                                 </li>
-
+                                <li
+                                  id="menu-item-118920"
+                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920"
+                                >
+                                  <a
+                                    href="/corporate-clients"
+                                    className="menu-link"
+                                  >
+                                    <span className="ast-icon icon-arrow">
+                                      <svg
+                                        className="ast-arrow-svg"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                                        version="1.1"
+                                        x="0px"
+                                        y="0px"
+                                        width="26px"
+                                        height="16.043px"
+                                        viewBox="57 35.171 26 16.043"
+                                        enableBackground="new 57 35.171 26 16.043"
+                                        xmlSpace="preserve"
+                                      >
+                                        <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                                      </svg>
+                                    </span>
+                                    <span className="menu-text">
+                                      Corporate Clients
+                                    </span>
+                                  </a>
+                                </li>
+                                <li
+                                  id="menu-item-118920"
+                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920"
+                                >
+                                  <a href="/moments" className="menu-link">
+                                    <span className="ast-icon icon-arrow">
+                                      <svg
+                                        className="ast-arrow-svg"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                                        version="1.1"
+                                        x="0px"
+                                        y="0px"
+                                        width="26px"
+                                        height="16.043px"
+                                        viewBox="57 35.171 26 16.043"
+                                        enableBackground="new 57 35.171 26 16.043"
+                                        xmlSpace="preserve"
+                                      >
+                                        <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                                      </svg>
+                                    </span>
+                                    <span className="menu-text">Moments</span>
+                                  </a>
+                                </li>
                                 <li
                                   id="menu-item-118919"
                                   className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118919"
@@ -536,6 +590,55 @@ function Header() {
                                       <span className="menu-text">
                                         Certifications
                                       </span>
+                                    </a>
+                                  </li>
+                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
+                                    <a
+                                      href="/corporate-clients"
+                                      className="menu-link"
+                                    >
+                                      <span className="ast-icon icon-arrow">
+                                        <svg
+                                          className="ast-arrow-svg"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                                          version="1.1"
+                                          x="0px"
+                                          y="0px"
+                                          width="26px"
+                                          height="16.043px"
+                                          viewBox="57 35.171 26 16.043"
+                                          enableBackground="new 57 35.171 26 16.043"
+                                          xmlSpace="preserve"
+                                        >
+                                          <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                                        </svg>
+                                      </span>
+                                      <span className="menu-text">
+                                        Corporate Clients
+                                      </span>
+                                    </a>
+                                  </li>
+                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118920">
+                                    <a href="/moments" className="menu-link">
+                                      <span className="ast-icon icon-arrow">
+                                        <svg
+                                          className="ast-arrow-svg"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                                          version="1.1"
+                                          x="0px"
+                                          y="0px"
+                                          width="26px"
+                                          height="16.043px"
+                                          viewBox="57 35.171 26 16.043"
+                                          enableBackground="new 57 35.171 26 16.043"
+                                          xmlSpace="preserve"
+                                        >
+                                          <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
+                                        </svg>
+                                      </span>
+                                      <span className="menu-text">Moments</span>
                                     </a>
                                   </li>
 
