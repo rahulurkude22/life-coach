@@ -1004,6 +1004,18 @@ function Header() {
                 </li>
 
                 <li className="m-menu-item">
+                  <a href="/corporate-clients" className="m-menu-link">
+                    <span className="m-menu-text">Corporate Clients</span>
+                  </a>
+                </li>
+
+                <li className="m-menu-item">
+                  <a href="/moments" className="m-menu-link">
+                    <span className="m-menu-text">Moments</span>
+                  </a>
+                </li>
+
+                <li className="m-menu-item">
                   <a
                     href="#colophon"
                     className="m-menu-link"
