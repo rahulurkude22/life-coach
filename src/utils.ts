@@ -3,6 +3,15 @@ import { v7 as uuidv7 } from "uuid";
 export const videos = [
   {
     id: uuidv7(),
+    title: "Sagar Dixit",
+    description:
+      "Basically, it was a good presentation by Alisha, ma'am. It was quite impressive. And whatever we learned in this session, it will definitely going to improve our professional efficiency, and it will definitely going to improve our day-to-day work and the work management. Thank you.",
+    profession: "Bajaj Steel - HR Manager",
+    thumbnail: "./videos/testimonials/thumbnails/ezgif-frame-001.jpg",
+    src: "./videos/testimonials/CLIENT 35.mp4",
+  },
+  {
+    id: uuidv7(),
     title: "Shubhra shahare",
     description:
       "Alisha is a compassionate coach. In my interactions with her, I have found her questions to be deeply insightful, and she takes the time to sit with you and truly understand where you're coming from. Her ability to take the information you share and guide you toward discovering your own solutions is truly remarkable. I find her to be an extremely grounded and sorted person.She takes her time in responding, with a genuine desire to help and to understand the situation. She creates an environment where you feel comfortable sharing and getting to the root of your thoughts, helping you activate your solution-focused mindset and find great ideas for how to move forward.I wholeheartedly recommend Alisha as a coach and wish her all the best.",

@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { type ReactNode } from "react";
 
 interface StatItem {
-  icon: JSX.Element;
+  icon: ReactNode;
   value: string;
   label: string;
 }
@@ -225,32 +225,12 @@ function CorporateClients() {
             <div className="e-con-inner container-width">
               <div
                 className="section-header-center"
-                style={{ marginBottom: "4rem", padding: "0 10px" }}
+                style={{ marginBottom: "2rem", padding: "50px 10px" }}
               >
                 <div>
-                  <div
-                    style={{
-                      display: "flex",
-                      justifyContent: "center",
-                      marginTop: "4rem",
-                    }}
-                  >
-                    <span
-                      className="scribble"
-                      style={{ textAlign: "center", fontSize: "7rem" }}
-                    >
-                      Corporate{" "}
-                    </span>
-                    <h2
-                      className="challenges-title"
-                      style={{
-                        textTransform: "lowercase",
-                        fontSize: "3.5rem",
-                        color: "#b49b78",
-                      }}
-                    >
-                      Challenges
-                    </h2>{" "}
+                  <div className="section-title-row">
+                    <span className="scribble">Corporate</span>
+                    <h2 className="challenges-title gold-word">challenges</h2>
                   </div>
                   <h2 className="challenges-title">
                     <span className="gold-text">We Solve</span>
@@ -417,34 +397,27 @@ function CorporateClients() {
             <div className="e-con-inner container-width">
               <div
                 className="section-header-center"
-                style={{ marginBottom: "3.5rem", padding: "0 10px" }}
+                style={{ marginBottom: "3.5rem", padding: "50px 10px" }}
               >
-                <img
-                  src="/images/alisha_jaiswal_logo.png"
-                  alt="Unfold with Alisha Logo"
-                  className="about-logo"
-                  style={{ margin: "0 auto 1.5rem auto", display: "block" }}
-                />
-                <h2
-                  className="about-title"
-                  style={{ textAlign: "center", marginBottom: "1.5rem" }}
-                >
-                  About{" "}
-                  <span
-                    className="scribble"
-                    style={{
-                      textTransform: "lowercase",
-                      fontSize: "3.5rem",
-                      color: "#b49b78",
-                    }}
-                  >
-                    Alisha
-                  </span>{" "}
-                  <span className="gold-text">Jaiswal</span>
-                </h2>
+                <div>
+                  <div className="section-title-row">
+                    <span className="scribble">About</span>
+                    <h2 className="about-title gold-word">alisha</h2>
+                  </div>
+                  <h2 className="about-title" style={{ textAlign: "center" }}>
+                    <span className="gold-text">Jaiswal</span>
+                  </h2>
+                </div>
               </div>
 
               <div className="split-layout align-stretch">
+                <div className="about-image-wrapper">
+                  <img
+                    src="/images/corporate_clients/about.webp"
+                    alt="Alisha Jaiswal Yellow Dress Award"
+                    className="about-image"
+                  />
+                </div>
                 <div className="about-details">
                   <div className="elementor-element elementor-widget elementor-widget-text-editor">
                     <div className="elementor-widget-container">
@@ -461,13 +434,6 @@ function CorporateClients() {
                       </p>
                     </div>
                   </div>
-                </div>
-                <div className="about-image-wrapper">
-                  <img
-                    src="/images/corporate_clients/about.webp"
-                    alt="Alisha Jaiswal Yellow Dress Award"
-                    className="about-image"
-                  />
                 </div>
               </div>
 
@@ -487,12 +453,22 @@ function CorporateClients() {
           {/* Section 4: Our Solutions For Your People */}
           <div className="elementor-element e-flex e-con-boxed e-con e-parent section-padding white-bg">
             <div className="e-con-inner container-width">
-              <div className="section-header-center">
-                <h2 className="solutions-title">
-                  OUR SOLUTIONS
-                  <br />
-                  <span className="gold-text">FOR YOUR PEOPLE</span>
-                </h2>
+              <div
+                className="section-header-center"
+                style={{ marginBottom: "3.5rem", padding: "50px 10px" }}
+              >
+                <div>
+                  <div className="section-title-row">
+                    <span className="scribble">Our</span>
+                    <h2 className="solutions-title gold-word">solutions</h2>
+                  </div>
+                  <h2
+                    className="solutions-title"
+                    style={{ textAlign: "center" }}
+                  >
+                    <span className="gold-text">For Your People</span>
+                  </h2>
+                </div>
                 <div className="elementor-element elementor-widget elementor-widget-text-editor">
                   <div className="elementor-widget-container">
                     <p className="solutions-desc">
@@ -522,15 +498,73 @@ function CorporateClients() {
             </div>
           </div>
 
-          {/* Section 5: Training Programs At A Glance */}
+          {/* Section: Our Corporate Clients */}
           <div className="elementor-element e-flex e-con-boxed e-con e-parent section-padding beige-bg">
             <div className="e-con-inner container-width">
-              <div className="section-header-center">
-                <h2 className="table-title">
-                  TRAINING PROGRAMS
-                  <br />
-                  <span className="gold-text">AT A GLANCE</span>
-                </h2>
+              <div
+                className="section-header-center"
+                style={{ marginBottom: "2rem", padding: "50px 10px" }}
+              >
+                <div>
+                  <div className="section-title-row">
+                    <span className="scribble">Our</span>
+                    <h2 className="solutions-title gold-word">corporate</h2>
+                  </div>
+                  <h2 className="solutions-title" style={{ textAlign: "center" }}>
+                    <span className="gold-text">Clients</span>
+                  </h2>
+                </div>
+              </div>
+
+              <div className="logos-container">
+                <div className="logo-item">
+                  <img
+                    src="/images/corporate_clients/ajmera.webp"
+                    alt="Ajmera Logo"
+                    className="logo-img"
+                  />
+                </div>
+                <div className="logo-item">
+                  <img
+                    src="/images/corporate_clients/bajaj_steel.webp"
+                    alt="Bajaj Steel Logo"
+                    className="logo-img"
+                  />
+                </div>
+                <div className="logo-item">
+                  <img
+                    src="/images/corporate_clients/es.webp"
+                    alt="ES Logo"
+                    className="logo-img"
+                  />
+                </div>
+                <div className="logo-item">
+                  <img
+                    src="/images/corporate_clients/growth_acad.webp"
+                    alt="Growth Academy Logo"
+                    className="logo-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 5: Training Programs At A Glance */}
+          <div className="elementor-element e-flex e-con-boxed e-con e-parent section-padding white-bg">
+            <div className="e-con-inner container-width">
+              <div
+                className="section-header-center"
+                style={{ marginBottom: "3.5rem", padding: "50px 10px" }}
+              >
+                <div>
+                  <div className="section-title-row">
+                    <span className="scribble">Training</span>
+                    <h2 className="table-title gold-word">programs</h2>
+                  </div>
+                  <h2 className="table-title" style={{ textAlign: "center" }}>
+                    <span className="gold-text">At A Glance</span>
+                  </h2>
+                </div>
                 <div className="elementor-element elementor-widget elementor-widget-text-editor">
                   <div className="elementor-widget-container">
                     <p className="table-desc">
@@ -727,6 +761,95 @@ function CorporateClients() {
           width: 100%;
         }
 
+        .section-title-row {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+          margin-top: 1rem;
+        }
+
+        .section-title-row .scribble {
+          text-align: center;
+          font-size: 7rem !important;
+          line-height: 1 !important;
+        }
+
+        .section-title-row .gold-word {
+          text-transform: lowercase;
+          font-size: 3.5rem !important;
+          color: #b49b78 !important;
+          margin: 0 !important;
+        }
+
+        @media (max-width: 768px) {
+          .section-title-row {
+            gap: 8px;
+          }
+          .section-title-row .scribble {
+            font-size: 4.5rem !important;
+          }
+          .section-title-row .gold-word {
+            font-size: 2.1rem !important;
+          }
+        }
+
+        /* Logos Section styling */
+        .logos-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 4rem;
+          margin-top: 3rem;
+          width: 100%;
+        }
+
+        .logo-item {
+          flex: 1 1 200px;
+          max-width: 250px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 1.5rem;
+          background: #ffffff;
+          border-radius: 8px;
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+          transition: all 0.3s ease-in-out;
+          border: 1px solid rgba(197, 168, 128, 0.1);
+        }
+
+        .logo-item:hover {
+          transform: translateY(-5px) scale(1.03);
+          box-shadow: 0 10px 30px rgba(197, 168, 128, 0.15);
+          border-color: rgba(197, 168, 128, 0.3);
+        }
+
+        .logo-img {
+          max-height: 70px;
+          max-width: 100%;
+          object-fit: contain;
+          transition: all 0.3s ease-in-out;
+        }
+
+        .logo-item:hover .logo-img {
+          transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+          .logos-container {
+            gap: 2rem;
+          }
+          .logo-item {
+            flex: 1 1 140px;
+            max-width: 160px;
+            padding: 1rem;
+          }
+          .logo-img {
+            max-height: 50px;
+          }
+        }
+
         /* Section 2: Challenges */
         .section-header-left {
           text-align: left;
@@ -754,6 +877,10 @@ function CorporateClients() {
           flex-wrap: wrap;
           gap: 3rem;
           width: 100%;
+          max-width: 1000px;
+          margin: 0 auto;
+          justify-content: center;
+          align-items: center;
         }
 
         .challenges-grid {
@@ -816,10 +943,12 @@ function CorporateClients() {
         }
 
         .about-details {
-          flex: 1 1 45%;
+          flex: 0 1 45%;
+          max-width: 480px;
           display: flex;
           flex-direction: column;
           justify-content: center;
+          text-align: left;
         }
 
         .about-logo {
@@ -1111,7 +1240,7 @@ function CorporateClients() {
           }
 
           .hero-full-banner {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('/images/corporate_clients/hero.webp');
+            background-image: url('/images/corporate_clients/hero.webp');
             min-height: 550px;
           }
 
