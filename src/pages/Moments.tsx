@@ -24,9 +24,15 @@ const galleryItems: GalleryItem[] = [
   },
 ];
 
+const heroVideos = [
+  "/images/moments/hero.mp4",
+  "/images/moments/hero_b.mp4"
+];
+
 function Moments() {
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   const openLightbox = (index: number) => {
     setPhotoIndex(index);
@@ -56,27 +62,121 @@ function Moments() {
           className="elementor elementor-15"
           data-elementor-post-type="page"
         >
-          {/* Header Banner */}
+          {/* Hero Video Banner */}
           <div
-            className="elementor-element e-con-full success_banner e-flex e-con e-child"
             style={{
-              backgroundImage: "url('/images/moments/hero.webp')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              height: "350px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
+              position: "relative",
+              width: "100%",
+              height: "100vh",
+              overflow: "hidden",
             }}
           >
-            <div className="banner_area e-flex e-con-boxed e-con e-child">
-              <div className="e-con-inner">
-                <h1 className="elementor-heading-title elementor-size-default" style={{ color: "#fff", textTransform: "uppercase", fontSize: "3.5rem", fontWeight: "bold", margin: 0, textAlign: "center" }}>
-                  <span className="scribble" style={{ textTransform: "lowercase", fontSize: "4.5rem", marginRight: "1rem", color: "#b49b78" }}>Captured</span> Moments
-                </h1>
+            {/* Autoplay video */}
+            <video
+              key={currentVideoIndex}
+              autoPlay
+              muted
+              playsInline
+              onEnded={() => setCurrentVideoIndex((prev) => (prev + 1) % heroVideos.length)}
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                zIndex: 0,
+              }}
+            >
+              <source src={heroVideos[currentVideoIndex]} type="video/mp4" />
+            </video>
+
+            {/* Dark cinematic overlay */}
+            <div
+              style={{
+                position: "absolute",
+                inset: 0,
+                background: "linear-gradient(to bottom, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.55) 60%, rgba(0,0,0,0.75) 100%)",
+                zIndex: 1,
+              }}
+            />
+
+            {/* Centered text content */}
+            <div
+              style={{
+                position: "relative",
+                zIndex: 2,
+                height: "100%",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "center",
+                padding: "0 1.5rem",
+              }}
+            >
+              <h1
+                style={{
+                  color: "#fff",
+                  fontSize: "clamp(2.5rem, 6vw, 5rem)",
+                  fontWeight: "bold",
+                  margin: 0,
+                  lineHeight: 1.1,
+                  letterSpacing: "1px",
+                  textTransform: "uppercase",
+                  textShadow: "0 4px 24px rgba(0,0,0,0.4)",
+                }}
+              >
+                <span
+                  className="scribble"
+                  style={{
+                    textTransform: "lowercase",
+                    fontSize: "clamp(3rem, 7.5vw, 6.5rem)",
+                    marginRight: "0.5rem",
+                    color: "#c5a880",
+                    display: "inline-block",
+                  }}
+                >
+                  Captured
+                </span>{" "}
+                Moments
+              </h1>
+              <p
+                style={{
+                  color: "rgba(255,255,255,0.82)",
+                  fontSize: "clamp(1rem, 1.8vw, 1.25rem)",
+                  maxWidth: "580px",
+                  marginTop: "1.5rem",
+                  lineHeight: 1.7,
+                  fontFamily: "'Avenir Thin', sans-serif",
+                  textShadow: "0 2px 10px rgba(0,0,0,0.35)",
+                }}
+              >
+                A visual journey of transformation, collaboration, and
+                breakthrough moments with corporate clients and individuals.
+              </p>
+
+              {/* Animated scroll indicator */}
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: "2.5rem",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  gap: "0.4rem",
+                  color: "rgba(255,255,255,0.6)",
+                  fontSize: "0.75rem",
+                  letterSpacing: "2px",
+                  textTransform: "uppercase",
+                }}
+              >
+                <span>Scroll</span>
+                <div className="moments-scroll-arrow" />
               </div>
             </div>
           </div>
+
 
           {/* Gallery Section */}
           <div
@@ -326,6 +426,18 @@ function Moments() {
         @keyframes fadeIn {
           from { opacity: 0; }
           to { opacity: 1; }
+        }
+        .moments-scroll-arrow {
+          width: 22px;
+          height: 22px;
+          border-right: 2px solid rgba(255,255,255,0.5);
+          border-bottom: 2px solid rgba(255,255,255,0.5);
+          transform: rotate(45deg);
+          animation: scrollBounce 1.5s infinite;
+        }
+        @keyframes scrollBounce {
+          0%, 100% { transform: rotate(45deg) translateY(0); opacity: 0.5; }
+          50% { transform: rotate(45deg) translateY(6px); opacity: 1; }
         }
       `}</style>
     </div>

@@ -507,7 +507,7 @@ function CorporateClients() {
               >
                 <div>
                   <div className="section-title-row">
-                    <span className="scribble">Our</span>
+                    <span className="scribble">Few</span>
                     <h2 className="solutions-title gold-word">corporate</h2>
                   </div>
                   <h2 className="solutions-title" style={{ textAlign: "center" }}>
@@ -545,6 +545,13 @@ function CorporateClients() {
                     className="logo-img"
                   />
                 </div>
+              </div>
+
+              {/* & More label */}
+              <div style={{ textAlign: "center", marginTop: "2rem" }}>
+                <p style={{ color: "#b49b78", fontSize: "1.15rem", fontFamily: "'Avenir Thin', sans-serif", letterSpacing: "2px", fontStyle: "italic" }}>
+                  &amp; many more...
+                </p>
               </div>
             </div>
           </div>
