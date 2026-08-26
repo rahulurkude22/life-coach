@@ -7,6 +7,8 @@ import Certifications from "./pages/Certifications";
 import Moments from "./pages/Moments";
 import CorporateClients from "./pages/CorporateClients";
 
+import OfflineEvents from "./pages/OfflineEvents";
+
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -19,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/offline-events",
+        element: <OfflineEvents />,
       },
       {
         path: "/praise",
