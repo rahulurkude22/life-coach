@@ -8,6 +8,7 @@ import Moments from "./pages/Moments";
 import CorporateClients from "./pages/CorporateClients";
 
 import OfflineEvents from "./pages/OfflineEvents";
+import OfflineWorkshop from "./pages/OfflineWorkshop";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,14 @@ const router = createBrowserRouter([
       },
       { path: "*", element: <>Not found</> },
     ],
+  },
+  {
+    path: "/offlineworkshop",
+    element: <OfflineWorkshop />,
+  },
+  {
+    path: "/offline-workshop",
+    element: <OfflineWorkshop />,
   },
 ]);
 
