@@ -6,7 +6,6 @@ const RESERVE_URL = "https://superprofile.bio/e/LwKEHaNi";
 export default function OfflineWorkshop() {
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Load Google Fonts (Fraunces, Inter, Space Mono) & setup scroll observer
   useEffect(() => {
     // 1. Inject Fonts
     const fontId = "ow-fraunces-font";
@@ -20,10 +19,6 @@ export default function OfflineWorkshop() {
     }
 
     // 2. Intersection Observer for Scroll Animations
-    const elements = containerRef.current?.querySelectorAll(
-      ".explore-item, .testi-card"
-    );
-
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -34,6 +29,10 @@ export default function OfflineWorkshop() {
         });
       },
       { threshold: 0.12 }
+    );
+
+    const elements = containerRef.current?.querySelectorAll(
+      ".explore-item, .testi-card"
     );
 
     elements?.forEach((el) => {
@@ -66,7 +65,6 @@ export default function OfflineWorkshop() {
     };
   }, []);
 
-  // 4 Video Testimonials matching the exact client testimonials
   const attendeeVideos = [
     videos.find((v) => v.title.toLowerCase().includes("shubhra")),
     videos.find((v) => v.title.toLowerCase().includes("maria")),
@@ -76,18 +74,13 @@ export default function OfflineWorkshop() {
 
   return (
     <div ref={containerRef} className="ow-new-page">
-      {/* STICKY NAV */}
+      {/* NAV */}
       <header className="nav">
         <div className="nav-inner">
           <div className="nav-brand">
-            Beyond the <span>Finish Line</span>
+            Stop <span>Overthinking</span>
           </div>
-          <a
-            href={RESERVE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nav-cta"
-          >
+          <a href="#reserve" className="nav-cta">
             Reserve Slot
           </a>
         </div>
@@ -97,29 +90,20 @@ export default function OfflineWorkshop() {
       <section className="hero">
         <div className="wrap center">
           <div className="hero-photo">
-            <img
-              src="images/offline_events/alisha-hero.jpg"
-              alt="Alisha Jaiswal"
-            />
+            <img src="images/alisha-hero.jpg" alt="Alisha Jaiswal" />
           </div>
           <div className="eyebrow">A live workshop with Alisha Jaiswal</div>
           <h1>
-            I Achieved Everything.
-            <br />
-            So Why Does Life Still Feel <em>Empty?</em>
+            Overthinking Has Cost You Your Time, Sleep &amp; Relationships.{" "}
+            <em>It's Time to Stop.</em>
           </h1>
           <p className="sub">
-            A 2-hour workshop for people who got the life they wanted — and still
-            feel strangely unsatisfied.
+            A 2-hour workshop to quiet your mind and take back control of your
+            time, sleep, and relationships.
           </p>
 
           <div className="hero-cta-row">
-            <a
-              href={RESERVE_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary"
-            >
+            <a href="#reserve" className="btn-primary">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -160,10 +144,10 @@ export default function OfflineWorkshop() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M5 13l4 4L19 7" />
+                  <path d="M6 6l12 12M18 6L6 18" />
                 </svg>
               </span>
-              Career
+              Your time
             </div>
             <div className="chip">
               <span className="dot">
@@ -175,10 +159,10 @@ export default function OfflineWorkshop() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M5 13l4 4L19 7" />
+                  <path d="M6 6l12 12M18 6L6 18" />
                 </svg>
               </span>
-              Fitness
+              Your sleep
             </div>
             <div className="chip">
               <span className="dot">
@@ -190,10 +174,10 @@ export default function OfflineWorkshop() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M5 13l4 4L19 7" />
+                  <path d="M6 6l12 12M18 6L6 18" />
                 </svg>
               </span>
-              Finances
+              Your relationships
             </div>
             <div className="chip">
               <span className="dot">
@@ -205,13 +189,13 @@ export default function OfflineWorkshop() {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 >
-                  <path d="M5 13l4 4L19 7" />
+                  <path d="M6 6l12 12M18 6L6 18" />
                 </svg>
               </span>
-              Relationships
+              Your focus
             </div>
             <div className="chip pending">
-              <span className="dot"></span>Feeling fulfilled
+              <span className="dot"></span>Peace of mind
             </div>
           </div>
         </div>
@@ -221,14 +205,25 @@ export default function OfflineWorkshop() {
       <section className="reframe">
         <div className="wrap center">
           <p className="reframe-quote">
-            "My life is good… so why don't <span>I</span> feel good?"
+            "I can't switch my mind <span>off.</span>"
           </p>
           <div className="reframe-lines">
-            <p>Maybe you're not lazy.</p>
-            <p>Maybe you're not ungrateful.</p>
-            <p>Maybe you don't need another goal.</p>
-            <p>Maybe you're solving the wrong problem.</p>
+            <p>Maybe you're not broken.</p>
+            <p>Maybe you don't need more willpower.</p>
+            <p>Maybe your mind isn't the enemy.</p>
+            <p>Maybe you just never learned how to quiet it.</p>
           </div>
+        </div>
+      </section>
+
+      {/* HOST LINE */}
+      <section className="host-line">
+        <div className="wrap">
+          <p>
+            In this workshop with <strong>Alisha Jaiswal</strong>, you'll learn
+            to quiet the mental noise and take back control of your time,
+            sleep, and relationships.
+          </p>
         </div>
       </section>
 
@@ -236,80 +231,56 @@ export default function OfflineWorkshop() {
       <section className="explore">
         <div className="wrap center">
           <div className="explore-head">
-            <div className="eyebrow">In this workshop</div>
-            <h2>We'll explore</h2>
+            <div className="eyebrow">About the event</div>
+            <h2>We'll cover</h2>
           </div>
           <div className="explore-list">
             <div className="explore-item">
               <span className="mark">—</span>
-              <h3>Why achieving more doesn't always create more happiness</h3>
+              <h3>Why your mind won't switch off, even when you want it to</h3>
             </div>
             <div className="explore-item">
               <span className="mark">—</span>
-              <h3>The difference between success, satisfaction &amp; fulfilment</h3>
+              <h3>
+                The real cost of overthinking on your time, sleep &amp;
+                relationships
+              </h3>
             </div>
             <div className="explore-item">
               <span className="mark">—</span>
-              <h3>What's actually sitting underneath your dissatisfaction</h3>
+              <h3>The hidden patterns that keep the loop running</h3>
             </div>
             <div className="explore-item">
               <span className="mark">—</span>
-              <h3>The patterns that keep you chasing the next milestone</h3>
+              <h3>How to quiet racing thoughts without forcing them away</h3>
             </div>
             <div className="explore-item">
               <span className="mark">—</span>
-              <h3>Why a "good life" can still feel disconnected</h3>
+              <h3>Simple tools to fall asleep faster and stay present</h3>
             </div>
             <div className="explore-item">
               <span className="mark">—</span>
-              <h3>How to identify what you genuinely need</h3>
+              <h3>How to respond instead of overanalyse — starting today</h3>
             </div>
           </div>
           <p className="explore-foot">
-            This isn't about giving up your ambition. It's about understanding why
-            your achievements aren't giving you the feeling you expected.
+            This isn't about never thinking again. It's about thinking on your
+            terms — not overthinking's.
           </p>
         </div>
-      </section>
-
-      {/* TESTIMONIALS */}
-      <section className="testi">
-        <div className="wrap">
-          <div className="testi-head">
-            <div className="eyebrow">Real stories</div>
-            <h2>Hear it from past attendees</h2>
-          </div>
-        </div>
-        <div className="testi-scroll">
-          {attendeeVideos.map((video) => (
-            <div key={video.id} className="testi-card">
-              <video
-                src={video.src}
-                poster={video.thumbnail}
-                controls
-                playsInline
-                preload="metadata"
-              ></video>
-            </div>
-          ))}
-        </div>
-        <p className="testi-hint">← swipe to see more →</p>
       </section>
 
       {/* ABOUT */}
       <section className="about">
         <div className="wrap">
           <div className="about-photo">
-            <img
-              src="images/offline_events/alisha-about.jpg"
-              alt="Alisha Jaiswal"
-            />
+            <img src="images/alisha-about.jpg" alt="Alisha Jaiswal" />
           </div>
           <div className="eyebrow">Your host</div>
           <h2>Alisha Jaiswal</h2>
           <p>
-            Life coach helping high-achievers close the gap between the life they
-            built and the life they actually feel present in.
+            Life coach helping overthinkers quiet their mind and take back their
+            time, sleep, and relationships.
           </p>
           <a
             href="https://www.instagram.com/lifecoachalisha/"
@@ -325,18 +296,67 @@ export default function OfflineWorkshop() {
         </div>
       </section>
 
+      {/* TESTIMONIALS */}
+      <section className="testi">
+        <div className="wrap">
+          <div className="testi-head">
+            <div className="eyebrow">Real stories</div>
+            <h2>People who stopped overthinking</h2>
+          </div>
+        </div>
+        <div className="testi-scroll">
+          <div className="testi-card">
+            <video
+              src={attendeeVideos[0]?.src || "videos/IMG_0734_web.mp4"}
+              poster={attendeeVideos[0]?.thumbnail || "videos/IMG_0734_web_poster.jpg"}
+              controls
+              playsInline
+              preload="metadata"
+            ></video>
+          </div>
+          <div className="testi-card">
+            <video
+              src={attendeeVideos[1]?.src || "videos/IMG_3306_web.mp4"}
+              poster={attendeeVideos[1]?.thumbnail || "videos/IMG_3306_web_poster.jpg"}
+              controls
+              playsInline
+              preload="metadata"
+            ></video>
+          </div>
+          <div className="testi-card">
+            <video
+              src={attendeeVideos[2]?.src || "videos/IMG_3323_web.mp4"}
+              poster={attendeeVideos[2]?.thumbnail || "videos/IMG_3323_web_poster.jpg"}
+              controls
+              playsInline
+              preload="metadata"
+            ></video>
+          </div>
+          <div className="testi-card">
+            <video
+              src={attendeeVideos[3]?.src || "videos/IMG_9365_web.mp4"}
+              poster={attendeeVideos[3]?.thumbnail || "videos/IMG_9365_web_poster.jpg"}
+              controls
+              playsInline
+              preload="metadata"
+            ></video>
+          </div>
+        </div>
+        <p className="testi-hint">← swipe to see more →</p>
+      </section>
+
       {/* PRICING */}
       <section className="price" id="reserve">
         <div className="wrap">
           <div className="price-card">
             <div className="eyebrow">Reserve your seat</div>
-            <h2>Beyond the Finish Line</h2>
+            <h2>The Overthinking Reset</h2>
 
             <div className="price-row">
-              <span className="price-old">₹1,790</span>
-              <span className="price-new">₹1,100</span>
+              <span className="price-old">₹2,099</span>
+              <span className="price-new">₹990</span>
             </div>
-            <span className="price-tag">Save ₹999 · Early bird</span>
+            <span className="price-tag">Save ₹1,109 · Early bird</span>
 
             <div className="price-meta">
               <div>
@@ -390,9 +410,9 @@ export default function OfflineWorkshop() {
                 Who is this for? <span className="faq-plus">+</span>
               </summary>
               <p>
-                Anyone who's hit their goals — career, fitness, money,
-                relationships — and still feels an unexplained flatness underneath
-                it.
+                Anyone stuck replaying conversations, decisions, or "what ifs"
+                — and losing time, sleep, or peace in their relationships
+                because of it.
               </p>
             </details>
             <details>
@@ -400,8 +420,8 @@ export default function OfflineWorkshop() {
                 Is this therapy? <span className="faq-plus">+</span>
               </summary>
               <p>
-                No. It's a guided reflective workshop, not a clinical session —
-                built to help you understand a pattern, not diagnose one.
+                No. It's a guided, practical workshop, not a clinical session
+                — built to give you tools, not diagnose you.
               </p>
             </details>
             <details>
@@ -415,13 +435,12 @@ export default function OfflineWorkshop() {
             </details>
             <details>
               <summary>
-                Will this make me want less ambition?{" "}
+                Will I stop thinking altogether?{" "}
                 <span className="faq-plus">+</span>
               </summary>
               <p>
-                No. This isn't about giving up your ambition — it's about
-                understanding why your achievements aren't giving you the feeling
-                you expected.
+                No. This isn't about switching your brain off — it's about
+                switching off the loop that isn't serving you.
               </p>
             </details>
           </div>
@@ -431,7 +450,7 @@ export default function OfflineWorkshop() {
       {/* FINAL CTA */}
       <section className="final-cta">
         <div className="wrap">
-          <h2>Let's find out what's missing.</h2>
+          <h2>Ready to quiet your mind?</h2>
           <a
             href={RESERVE_URL}
             target="_blank"
@@ -453,14 +472,14 @@ export default function OfflineWorkshop() {
       </section>
 
       <footer>
-        Beyond the Finish Line — Nagpur · 27 September 2026, 11:00 AM – 1:00 PM
+        The Overthinking Reset — Nagpur · 27 September 2026, 11:00 AM – 1:00 PM
       </footer>
 
       {/* STICKY MOBILE BAR */}
       <div className="sticky-bar">
         <div className="price-block">
-          <span className="price-old">₹1,790</span>
-          <span className="price-new">₹1,100</span>
+          <span className="price-old">₹2,099</span>
+          <span className="price-new">₹990</span>
         </div>
         <a
           href={RESERVE_URL}
@@ -472,7 +491,7 @@ export default function OfflineWorkshop() {
         </a>
       </div>
 
-      {/* EXACT STYLES FROM USER HTML */}
+      {/* STYLES */}
       <style>{`
         .ow-new-page {
           --paper: #FBF7EE;
@@ -486,8 +505,8 @@ export default function OfflineWorkshop() {
           --wine-light: #9C1B27;
           --muted: #8A8074;
           --muted-2: #5C554B;
-          --line: rgba(36,31,26,0.1);
-          --line-gold: rgba(173,124,51,0.28);
+          --line: rgba(36, 31, 26, 0.1);
+          --line-gold: rgba(173, 124, 51, 0.28);
           font-family: 'Inter', sans-serif;
           background: var(--paper);
           color: var(--ink);
@@ -685,8 +704,8 @@ export default function OfflineWorkshop() {
         }
 
         .ow-new-page .hero h1 {
-          font-size: clamp(28px, 7vw, 46px);
-          max-width: 15ch;
+          font-size: clamp(26px, 6.2vw, 40px);
+          max-width: 21ch;
           margin: 0 auto;
           color: var(--ink);
         }
@@ -808,7 +827,7 @@ export default function OfflineWorkshop() {
           width: 15px;
           height: 15px;
           border-radius: 50%;
-          background: var(--gold);
+          background: var(--wine);
           color: #fff;
           display: flex;
           align-items: center;
@@ -817,26 +836,30 @@ export default function OfflineWorkshop() {
         }
 
         .ow-new-page .chip .dot svg {
-          width: 8px;
-          height: 8px;
+          width: 7px;
+          height: 7px;
         }
 
         .ow-new-page .chip.pending {
           border-style: dashed;
-          border-color: var(--wine);
-          color: var(--wine);
+          border-color: var(--gold-deep);
+          color: var(--gold-deep);
           font-style: italic;
         }
 
         .ow-new-page .chip.pending .dot {
           background: transparent;
-          border: 1.5px dashed var(--wine);
+          border: 1.5px dashed var(--gold-deep);
           animation: owPulseBox 1.8s ease-in-out infinite;
         }
 
         @keyframes owPulseBox {
-          0%, 100% { border-color: var(--wine); }
-          50% { border-color: var(--gold-bright); }
+          0%, 100% {
+            border-color: var(--gold-deep);
+          }
+          50% {
+            border-color: var(--gold-bright);
+          }
         }
 
         /* ---------- REFRAME ---------- */
@@ -1049,12 +1072,9 @@ export default function OfflineWorkshop() {
           -webkit-overflow-scrolling: touch;
           padding: 4px 22px 18px;
           scrollbar-width: none;
-        }
-
-        @media (max-width: 900px) {
-          .ow-new-page .testi-scroll {
-            justify-content: flex-start;
-          }
+          max-width: 1040px;
+          margin-left: auto;
+          margin-right: auto;
         }
 
         .ow-new-page .testi-scroll::-webkit-scrollbar {

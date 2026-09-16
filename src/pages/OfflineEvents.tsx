@@ -25,24 +25,24 @@ export default function OfflineEvents() {
 
   const faqs = [
     {
-      question: "Who is this workshop for?",
+      question: "Who is this for?",
       answer:
-        "This experience is designed for working professionals, entrepreneurs, executives, and high achievers who feel a disconnect between their external accomplishments and inner peace or satisfaction.",
+        'Anyone stuck replaying conversations, decisions, or "what ifs" — and losing time, sleep, or peace in their relationships because of it.',
     },
     {
-      question: "What should I bring to the workshop?",
+      question: "Is this therapy?",
       answer:
-        "Just bring an open mind and a willingness to reflect. We provide all workshop materials, workbooks, and writing supplies.",
+        "No. It's a guided, practical workshop, not a clinical session — built to give you tools, not diagnose you.",
     },
     {
-      question: "Is this an individual coaching session or group workshop?",
+      question: "Is this online or in-person?",
       answer:
-        "This is an interactive offline group workshop with curated activities, guided self-reflection, and group discussions facilitated directly by Alisha Jaiswal.",
+        "In-person, in Nagpur. The exact venue is shared with registered participants closer to the date.",
     },
     {
-      question: "Can I transfer my slot to a friend if I can't attend?",
+      question: "Will I stop thinking altogether?",
       answer:
-        "Yes! If you are unable to attend, you can transfer your slot to a colleague or friend by informing our support team at least 24 hours prior to the event.",
+        "No. This isn't about switching your brain off — it's about switching off the loop that isn't serving you.",
     },
   ];
 
@@ -56,19 +56,18 @@ export default function OfflineEvents() {
             <div className="oe-hero-left">
               <div className="oe-live-badge">
                 <span className="oe-pulse-dot" />
-                <span>AN OFFLINE WORKSHOP BY ALISHA JAISWAL</span>
+                <span>A LIVE WORKSHOP WITH ALISHA JAISWAL</span>
               </div>
 
               <h1 className="oe-hero-split-title">
-                I Achieved Everything. <br />
+                Overthinking Has Cost You Your Time, Sleep & Relationships. <br />
                 <span className="oe-script oe-script-gold oe-script-hero-split">
-                  So Why Does Life Still Feel Empty?
+                  It's Time to Stop.
                 </span>
               </h1>
 
               <p className="oe-hero-split-subtitle">
-                A 2-hour offline experience for high achievers who have checked all the boxes,
-                but still feel an underlying empty void inside.
+                A 2-hour workshop to quiet your mind and take back control of your time, sleep, and relationships.
               </p>
 
               {/* Event Meta Specifications */}
@@ -99,16 +98,16 @@ export default function OfflineEvents() {
                 >
                   RESERVE YOUR SLOT NOW
                 </a>
-                <span className="oe-limited-tag-gold">✦ LIMITED SLOTS AVAILABLE</span>
+                <span className="oe-limited-tag-gold">✦ LIMITED SEATS AVAILABLE</span>
               </div>
 
               {/* Target Audience Pills */}
               <div className="oe-tags-container oe-hero-tags">
-                <span className="oe-tag-pill oe-pill-dark">Executives</span>
-                <span className="oe-tag-pill oe-pill-dark">Founders</span>
-                <span className="oe-tag-pill oe-pill-dark">Professionals</span>
-                <span className="oe-tag-pill oe-pill-dark">High Performers</span>
-                <span className="oe-tag-pill oe-pill-gold">100% Interactive</span>
+                <span className="oe-tag-pill oe-pill-dark">Your time</span>
+                <span className="oe-tag-pill oe-pill-dark">Your sleep</span>
+                <span className="oe-tag-pill oe-pill-dark">Your relationships</span>
+                <span className="oe-tag-pill oe-pill-dark">Your focus</span>
+                <span className="oe-tag-pill oe-pill-gold">Peace of mind</span>
               </div>
             </div>
 
@@ -141,28 +140,32 @@ export default function OfflineEvents() {
       <section className="oe-hook-section">
         <div className="oe-container oe-narrow">
           <h2 className="oe-section-heading">
-            <span className="oe-script oe-script-gold">My life is good...</span> <br />
-            so why don't I feel <span className="oe-gold">good?</span>
+            <span className="oe-script oe-script-gold">"I can't switch my mind</span> <br />
+            <span className="oe-gold">off."</span>
           </h2>
 
           <div className="oe-hook-list">
             <div className="oe-hook-item">
               <span className="oe-bullet-star">✓</span>
-              <p>You've built your career, achieved your goals, and earned respect.</p>
+              <p>Maybe you're not broken.</p>
             </div>
             <div className="oe-hook-item">
               <span className="oe-bullet-star">✓</span>
-              <p>You've done everything you were told would make you happy and peaceful.</p>
+              <p>Maybe you don't need more willpower.</p>
             </div>
             <div className="oe-hook-item">
               <span className="oe-bullet-star">✓</span>
-              <p>Yet, there's a constant lingering question: <strong>"Is this really all there is?"</strong></p>
+              <p>Maybe your mind isn't the enemy.</p>
+            </div>
+            <div className="oe-hook-item">
+              <span className="oe-bullet-star">✓</span>
+              <p>Maybe you just never learned how to quiet it.</p>
             </div>
           </div>
 
           <p className="oe-hook-quote">
-            Maybe you aren't doing anything wrong... <br />
-            <span className="oe-script oe-script-gold">Maybe you're just climbing the wrong ladder.</span>
+            In this workshop with <strong>Alisha Jaiswal</strong>, <br />
+            <span className="oe-script oe-script-gold">you'll learn to quiet the mental noise and take back control of your time, sleep, and relationships.</span>
           </p>
         </div>
       </section>
@@ -170,43 +173,43 @@ export default function OfflineEvents() {
       {/* SECTION 3: WHAT WE'LL EXPLORE (BLACK & GOLD ELEGANCE) */}
       <section className="oe-explore-section">
         <div className="oe-container oe-narrow">
-          <span className="oe-section-sub oe-gold" style={{ fontWeight: "normal" }}>WHAT WE WILL COVER</span>
+          <span className="oe-section-sub oe-gold" style={{ fontWeight: "normal" }}>ABOUT THE EVENT</span>
           <h2 className="oe-section-heading oe-heading-white">
             <span style={{ color: "#e0e0e0" }}>We'll</span>{" "}
-            <span className="oe-script oe-script-gold">explore</span>
+            <span className="oe-script oe-script-gold">cover</span>
           </h2>
 
           <div className="oe-explore-cards">
             <div className="oe-explore-card">
               <span className="oe-card-num oe-gold">01</span>
-              <p>Why achieving your goals doesn't always translate into internal peace & fulfillment</p>
+              <p>Why your mind won't switch off, even when you want it to</p>
             </div>
             <div className="oe-explore-card">
               <span className="oe-card-num oe-gold">02</span>
-              <p>The crucial difference between career success and a fulfilled, calm mind</p>
+              <p>The real cost of overthinking on your time, sleep & relationships</p>
             </div>
             <div className="oe-explore-card">
               <span className="oe-card-num oe-gold">03</span>
-              <p>What is actually driving the subtle feeling of dissatisfaction beneath the surface</p>
+              <p>The hidden patterns that keep the loop running</p>
             </div>
             <div className="oe-explore-card">
               <span className="oe-card-num oe-gold">04</span>
-              <p>The silent pressure of constantly proving your worth to everyone around you</p>
+              <p>How to quiet racing thoughts without forcing them away</p>
             </div>
             <div className="oe-explore-card">
               <span className="oe-card-num oe-gold">05</span>
-              <p>Why an outwardly "good life" can still feel emotionally disconnected</p>
+              <p>Simple tools to fall asleep faster and stay present</p>
             </div>
             <div className="oe-explore-card">
               <span className="oe-card-num oe-gold">06</span>
-              <p>How to pinpoint and realign with what your inner self truly, deeply needs</p>
+              <p>How to respond instead of overanalyse — starting today</p>
             </div>
           </div>
 
           <div className="oe-banner-box">
             <p>
-              "This isn't a motivational lecture or a temporary hype session.
-              It is a structured, safe space designed for self-realization and lasting depth."
+              "This isn't about never thinking again.
+              It's about thinking on your terms — not overthinking's."
             </p>
           </div>
         </div>
@@ -218,7 +221,7 @@ export default function OfflineEvents() {
           <div className="oe-header-center">
             <h2 className="oe-section-heading">
               <span className="oe-script oe-script-gold oe-script-lg">Real Stories</span> <br />
-              Hear it from <span className="oe-gold">past attendees</span>
+              People who <span className="oe-gold">stopped overthinking</span>
             </h2>
           </div>
 
@@ -269,12 +272,10 @@ export default function OfflineEvents() {
             <span className="oe-host-sub-badge">YOUR HOST & COACH</span>
             <h2 className="oe-host-name">
               Alisha Jaiswal <br />
-              <span className="oe-script oe-script-gold">Life & Mindset Coach</span>
+              <span className="oe-script oe-script-gold">Life Coach</span>
             </h2>
             <p className="oe-host-text">
-              Alisha Jaiswal is a certified Life & Mindset Coach who works with high performers,
-              executives, and leaders. She helps individuals cut through the noise of external expectations,
-              disentangle burnout, and navigate the journey from superficial success to deep personal fulfillment.
+              Life coach helping overthinkers quiet their mind and take back their time, sleep, and relationships.
             </p>
             <div className="oe-host-action-btns">
               <a
@@ -286,7 +287,7 @@ export default function OfflineEvents() {
                 JOIN THE WORKSHOP
               </a>
               <a
-                href="https://www.instagram.com/lifecoachalisha?igsh=dzhoaHM5dnZhcXRn"
+                href="https://www.instagram.com/lifecoachalisha/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="oe-insta-btn"
@@ -303,14 +304,14 @@ export default function OfflineEvents() {
       <section className="oe-ticket-section">
         <div className="oe-container oe-narrow">
           <div className="oe-ticket-box">
-            <span className="oe-ticket-sub oe-gold">REGISTER TODAY FOR ONLY</span>
+            <span className="oe-ticket-sub oe-gold">RESERVE YOUR SEAT</span>
             <h3 className="oe-ticket-heading">
-              <span className="oe-script oe-script-gold">Beyond the Finish Line</span>
+              <span className="oe-script oe-script-gold">The Overthinking Reset</span>
             </h3>
 
             <div className="oe-price-row">
               <span className="oe-currency oe-gold">₹</span>
-              <span className="oe-amount oe-gold">1,100</span>
+              <span className="oe-amount oe-gold">990</span>
             </div>
 
             <div className="oe-ticket-info-grid">
@@ -339,7 +340,7 @@ export default function OfflineEvents() {
 
             <span className="oe-guarantee-note">
               <FaLock style={{ display: "inline-block", marginRight: "6px", verticalAlign: "-1px", fontSize: "0.85em", color: "rgb(197, 168, 128)" }} />
-              Instant Confirmation via Superprofile • Limited Seats
+              Save ₹1,109 · Early bird · Limited seats · Venue shared after registration
             </span>
           </div>
         </div>
@@ -350,8 +351,8 @@ export default function OfflineEvents() {
         <div className="oe-container oe-narrow">
           <div className="oe-header-center">
             <h2 className="oe-section-heading">
-              <span className="oe-script oe-script-gold">Got Questions?</span> <br />
-              More things <span className="oe-gold">people ask</span>
+              <span className="oe-script oe-script-gold">Before You Reserve</span> <br />
+              A few things <span className="oe-gold">people ask</span>
             </h2>
           </div>
 
@@ -393,8 +394,7 @@ export default function OfflineEvents() {
       <section className="oe-final-banner">
         <div className="oe-container">
           <h2 className="oe-final-heading">
-            <span className="oe-script oe-script-gold">Don't let another year pass</span> <br />
-            <span style={{ color: "#e0e0e0" }}>feeling</span> <span className="oe-gold">missing.</span>
+            <span className="oe-script oe-script-gold">Ready to quiet your mind?</span>
           </h2>
           <a
             href={RESERVE_URL}
@@ -410,8 +410,8 @@ export default function OfflineEvents() {
       {/* STICKY BOTTOM FOOTER BAR */}
       <div className="oe-sticky-footer">
         <div className="oe-sticky-details">
-          <span className="oe-sticky-name">Beyond the Finish Line</span>
-          <span className="oe-sticky-cost oe-gold">₹ 1,100</span>
+          <span className="oe-sticky-name">The Overthinking Reset</span>
+          <span className="oe-sticky-cost oe-gold">₹ 990</span>
         </div>
         <a
           href={RESERVE_URL}
