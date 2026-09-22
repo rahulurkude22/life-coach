@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -7,8 +7,8 @@ import Certifications from "./pages/Certifications";
 import Moments from "./pages/Moments";
 import CorporateClients from "./pages/CorporateClients";
 
-import OfflineEvents from "./pages/OfflineEvents";
-import OfflineWorkshop from "./pages/OfflineWorkshop";
+import OnlineWorkshops from "./pages/OnlineWorkshops";
+import OnlineWorkshop from "./pages/OnlineWorkshop";
 
 const router = createBrowserRouter([
   {
@@ -24,8 +24,12 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
+        path: "/online-workshops",
+        element: <OnlineWorkshops />,
+      },
+      {
         path: "/offline-events",
-        element: <OfflineEvents />,
+        element: <Navigate to="/online-workshops" replace />,
       },
       {
         path: "/praise",
@@ -47,12 +51,20 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: "/offlineworkshop",
-    element: <OfflineWorkshop />,
+    path: "/online-workshop",
+    element: <OnlineWorkshop />,
+  },
+  {
+    path: "/onlineworkshop",
+    element: <OnlineWorkshop />,
   },
   {
     path: "/offline-workshop",
-    element: <OfflineWorkshop />,
+    element: <Navigate to="/online-workshop" replace />,
+  },
+  {
+    path: "/offlineworkshop",
+    element: <Navigate to="/onlineworkshop" replace />,
   },
 ]);
 

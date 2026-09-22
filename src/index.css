@@ -639,8 +639,40 @@
     background-color: rgba(177, 166, 157, 0.08);
   }
 
+  /* Desktop Header Menu Single-Line Flex Layout */
+  @media (min-width: 922px) {
+    .main-header-menu {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      align-items: center !important;
+      justify-content: flex-end !important;
+      white-space: nowrap !important;
+    }
+
+    .main-header-menu > .menu-item {
+      flex-shrink: 0 !important;
+      white-space: nowrap !important;
+    }
+
+    .main-header-menu > .menu-item > .menu-link {
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+      white-space: nowrap !important;
+    }
+
+    .ast-builder-menu-1,
+    .ast-main-header-bar-alignment,
+    .main-header-bar-navigation,
+    .site-navigation,
+    .main-navigation {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      max-width: 100% !important;
+    }
+  }
+
   /* ==========================================================================
-     High-Impact Animated Glassmorphic Offline Events Header Tab with Circulating Border
+     High-Impact Animated Glassmorphic Online Workshops Header Tab with Circulating Border
      ========================================================================== */
 
   .oe-glass-tab {

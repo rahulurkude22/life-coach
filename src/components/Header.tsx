@@ -122,9 +122,9 @@ function Header() {
                                 <li
                                   className="menu-item menu-item-type-post_type menu-item-object-page oe-glass-tab-li"
                                 >
-                                  <a href="/offline-events" className="menu-link oe-glass-tab">
+                                  <a href="/online-workshops" className="menu-link oe-glass-tab">
                                     <span className="oe-pulse-dot-sm" />
-                                    <span className="menu-text">Offline Events</span>
+                                    <span className="menu-text">Online Workshops</span>
                                   </a>
                                 </li>
 
@@ -522,9 +522,9 @@ function Header() {
                                   </li>
 
                                    <li className="menu-item menu-item-type-post_type menu-item-object-page oe-glass-tab-li">
-                                     <a href="/offline-events" className="menu-link oe-glass-tab">
+                                     <a href="/online-workshops" className="menu-link oe-glass-tab">
                                        <span className="oe-pulse-dot-sm" />
-                                       <span className="menu-text">Offline Events</span>
+                                       <span className="menu-text">Online Workshops</span>
                                      </a>
                                    </li>
 
@@ -852,8 +852,8 @@ function Header() {
                             </a>
                           </li>
 
-                           <li className={`menu-item menu-item-type-post_type menu-item-object-page oe-glass-tab-li ${isActive("/offline-events") ? "current-menu-item active-oe-tab" : ""}`}>
-                             <a href="/offline-events" className="menu-link oe-glass-tab">
+                           <li className={`menu-item menu-item-type-post_type menu-item-object-page oe-glass-tab-li ${isActive("/online-workshops") ? "current-menu-item active-oe-tab" : ""}`}>
+                             <a href="/online-workshops" className="menu-link oe-glass-tab">
                                <span className="ast-icon icon-arrow">
                                  <svg
                                    className="ast-arrow-svg"
@@ -871,7 +871,7 @@ function Header() {
                                    <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
                                  </svg>
                                </span>
-                               <span className="menu-text">Offline Events</span>
+                               <span className="menu-text">Online Workshops</span>
                              </a>
                            </li>
                           <li className="menu-border menu-item menu-item-type-post_type menu-item-object-page menu-item-120577">
@@ -1022,9 +1022,9 @@ function Header() {
                   </a>
                 </li>
                 <li className="m-menu-item oe-glass-tab-li">
-                  <a href="/offline-events" className="m-menu-link oe-glass-tab">
+                  <a href="/online-workshops" className="m-menu-link oe-glass-tab">
                     <span className="oe-pulse-dot-sm" />
-                    <span className="m-menu-text">Offline Events</span>
+                    <span className="m-menu-text">Online Workshops</span>
                   </a>
                 </li>
 

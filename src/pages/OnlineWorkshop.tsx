@@ -3,7 +3,7 @@ import { videos } from "../utils";
 
 const RESERVE_URL = "https://superprofile.bio/e/LwKEHaNi";
 
-export default function OfflineWorkshop() {
+export default function OnlineWorkshop() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -353,10 +353,10 @@ export default function OfflineWorkshop() {
             <h2>The Overthinking Reset</h2>
 
             <div className="price-row">
-              <span className="price-old">₹2,099</span>
-              <span className="price-new">₹990</span>
+              <span className="price-old">₹1,709</span>
+              <span className="price-new">₹499</span>
             </div>
-            <span className="price-tag">Save ₹1,109 · Early bird</span>
+            <span className="price-tag">Save ₹1,210 · Early bird</span>
 
             <div className="price-meta">
               <div>
@@ -369,7 +369,7 @@ export default function OfflineWorkshop() {
               </div>
               <div>
                 <div className="eyebrow">Where</div>
-                <div className="val">Nagpur</div>
+                <div className="val">Online Zoom Session</div>
               </div>
             </div>
 
@@ -429,8 +429,7 @@ export default function OfflineWorkshop() {
                 Is this online or in-person? <span className="faq-plus">+</span>
               </summary>
               <p>
-                In-person, in Nagpur. The exact venue is shared with registered
-                participants closer to the date.
+                Online, via Zoom. The exact link is shared with registered participants closer to the date.
               </p>
             </details>
             <details>
@@ -472,14 +471,14 @@ export default function OfflineWorkshop() {
       </section>
 
       <footer>
-        The Overthinking Reset — Nagpur · 27 September 2026, 11:00 AM – 1:00 PM
+        The Overthinking Reset — Online Zoom Session · 27 September 2026, 11:00 AM – 1:00 PM
       </footer>
 
       {/* STICKY MOBILE BAR */}
       <div className="sticky-bar">
         <div className="price-block">
-          <span className="price-old">₹2,099</span>
-          <span className="price-new">₹990</span>
+          <span className="price-old">₹1,709</span>
+          <span className="price-new">₹499</span>
         </div>
         <a
           href={RESERVE_URL}

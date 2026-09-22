@@ -5,7 +5,7 @@ import { videos } from "../utils";
 
 const RESERVE_URL = "https://superprofile.bio/e/LwKEHaNi";
 
-export default function OfflineEvents() {
+export default function OnlineWorkshops() {
   // Exact 4 female testimonial videos matching the user request (excluding male person):
   // 1. Shubhra Shahare (Netherlands)
   // 2. Maria Dhamangaon (Yellow top)
@@ -311,7 +311,7 @@ export default function OfflineEvents() {
 
             <div className="oe-price-row">
               <span className="oe-currency oe-gold">₹</span>
-              <span className="oe-amount oe-gold">990</span>
+              <span className="oe-amount oe-gold">499</span>
             </div>
 
             <div className="oe-ticket-info-grid">
@@ -325,7 +325,7 @@ export default function OfflineEvents() {
               </div>
               <div className="oe-info-item">
                 <span className="oe-info-lbl">WHERE</span>
-                <span className="oe-info-val">Zoom - online</span>
+                <span className="oe-info-val">Online Zoom Session</span>
               </div>
             </div>
 
@@ -340,7 +340,7 @@ export default function OfflineEvents() {
 
             <span className="oe-guarantee-note">
               <FaLock style={{ display: "inline-block", marginRight: "6px", verticalAlign: "-1px", fontSize: "0.85em", color: "rgb(197, 168, 128)" }} />
-              Save ₹1,109 · Early bird · Limited seats · Zoom link shared after registration
+              Save ₹1,210 · Early bird · Limited seats · Zoom link shared after registration
             </span>
           </div>
         </div>
@@ -411,7 +411,7 @@ export default function OfflineEvents() {
       <div className="oe-sticky-footer">
         <div className="oe-sticky-details">
           <span className="oe-sticky-name">The Overthinking Reset</span>
-          <span className="oe-sticky-cost oe-gold">₹ 990</span>
+          <span className="oe-sticky-cost oe-gold">₹ 499</span>
         </div>
         <a
           href={RESERVE_URL}
