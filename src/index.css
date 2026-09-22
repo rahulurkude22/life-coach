@@ -606,7 +606,7 @@
 
  /* 💻 Force first 6 contact columns inline on desktop footer screens */
  @media (min-width: 1024px) {
-   .site-footer .e-con-inner:first-of-type > .e-child {
+   .site-footer .e-con-inner:first-of-type>.e-child {
      flex: 1 0 0 !important;
      width: auto !important;
      --width: auto !important;
@@ -617,3 +617,135 @@
      flex-direction: column !important;
    }
  }
+
+ /* Header Active Menu Highlight Styling */
+ .main-header-menu .menu-item.current-menu-item>.menu-link,
+ .main-header-menu .menu-item.current-menu-item>.menu-link .menu-text {
+   color: #b1a69d !important;
+   font-weight: 600 !important;
+ }
+
+ .main-header-menu .menu-item.current-menu-item>.menu-link,
+ .main-header-menu .menu-item>.menu-link {
+   border-bottom: none !important;
+   box-shadow: none !important;
+ }
+
+  .m-menu-list .m-menu-item.current-menu-item>.m-menu-link,
+  .m-menu-list .m-menu-item.current-menu-item>.m-menu-link .m-menu-text {
+    color: #b1a69d !important;
+    font-weight: 600 !important;
+    border-left: 3px solid #b1a69d;
+    background-color: rgba(177, 166, 157, 0.08);
+  }
+
+  /* ==========================================================================
+     High-Impact Animated Glassmorphic Offline Events Header Tab with Circulating Border
+     ========================================================================== */
+
+  .oe-glass-tab {
+    position: relative !important;
+    overflow: hidden !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    border-radius: 20px !important;
+    padding: 7px 19px !important;
+    margin: 2px 4px !important;
+    background: transparent !important;
+    border: none !important;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 6px 20px rgba(197, 168, 128, 0.25), 0 0 12px rgba(197, 168, 128, 0.35) !important;
+    animation: oeTabFloat 3.2s infinite ease-in-out !important;
+  }
+
+  /* Circulating 360-Degree Border Beam (Background Rotating Conic Gradient Layer) */
+  .oe-glass-tab::after {
+    content: '' !important;
+    position: absolute !important;
+    inset: -150% !important;
+    background: conic-gradient(
+      from 0deg,
+      rgba(197, 168, 128, 0.1) 0deg,
+      rgba(197, 168, 128, 0.25) 220deg,
+      rgba(255, 240, 200, 1) 320deg,
+      rgb(197, 168, 128) 360deg
+    ) !important;
+    animation: oeRotateBorder 2.4s linear infinite !important;
+    z-index: 1 !important;
+  }
+
+  @keyframes oeRotateBorder {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  /* Inner Glass Surface Mask (reveals only the 1.5px circulating border around the pill) */
+  .oe-glass-tab::before {
+    content: '' !important;
+    position: absolute !important;
+    inset: 1.5px !important;
+    border-radius: 18.5px !important;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(248, 242, 232, 0.78) 100%) !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    z-index: 2 !important;
+  }
+
+  /* Ensure text & pulse dot sit above all animated background layers */
+  .oe-glass-tab > * {
+    position: relative !important;
+    z-index: 3 !important;
+  }
+
+  /* Live Pulsing Dot Inside Tab */
+  .oe-pulse-dot-sm {
+    width: 7px;
+    height: 7px;
+    background-color: rgb(197, 168, 128);
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 rgba(197, 168, 128, 0.8);
+    animation: oeDotPulse 1.6s infinite ease-in-out;
+  }
+
+  @keyframes oeDotPulse {
+    0% {
+      transform: scale(0.85);
+      box-shadow: 0 0 0 0 rgba(197, 168, 128, 0.8);
+    }
+    70% {
+      transform: scale(1.2);
+      box-shadow: 0 0 0 6px rgba(197, 168, 128, 0);
+    }
+    100% {
+      transform: scale(0.85);
+      box-shadow: 0 0 0 0 rgba(197, 168, 128, 0);
+    }
+  }
+
+  /* Floating Breathing Animation */
+  @keyframes oeTabFloat {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-3px);
+    }
+  }
+
+  .oe-glass-tab .menu-text,
+  .oe-glass-tab .m-menu-text {
+    color: #000000 !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px;
+  }
+
+  .oe-glass-tab:hover {
+    transform: translateY(-5px) scale(1.04) !important;
+    box-shadow: 0 12px 32px rgba(197, 168, 128, 0.5), 0 0 24px rgba(197, 168, 128, 0.85) !important;
+  }

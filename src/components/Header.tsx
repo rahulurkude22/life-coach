@@ -70,7 +70,7 @@ function Header() {
                               >
                                 <li
                                   id="menu-item-118924"
-                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924"
+                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924 current-menu-item"
                                 >
                                   <a href="/" className="menu-link">
                                     <span className="ast-icon icon-arrow">
@@ -95,7 +95,7 @@ function Header() {
                                 </li>
                                 <li
                                   id="menu-item-118924"
-                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924"
+                                  className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924 current-menu-item"
                                 >
                                   <a href="/about" className="menu-link">
                                     <span className="ast-icon icon-arrow">
@@ -120,26 +120,10 @@ function Header() {
                                 </li>
 
                                 <li
-                                  className="menu-item menu-item-type-post_type menu-item-object-page"
+                                  className="menu-item menu-item-type-post_type menu-item-object-page oe-glass-tab-li"
                                 >
-                                  <a href="/offline-events" className="menu-link">
-                                    <span className="ast-icon icon-arrow">
-                                      <svg
-                                        className="ast-arrow-svg"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                                        version="1.1"
-                                        x="0px"
-                                        y="0px"
-                                        width="26px"
-                                        height="16.043px"
-                                        viewBox="57 35.171 26 16.043"
-                                        enableBackground="new 57 35.171 26 16.043"
-                                        xmlSpace="preserve"
-                                      >
-                                        <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
-                                      </svg>
-                                    </span>
+                                  <a href="/offline-events" className="menu-link oe-glass-tab">
+                                    <span className="oe-pulse-dot-sm" />
                                     <span className="menu-text">Offline Events</span>
                                   </a>
                                 </li>
@@ -492,7 +476,7 @@ function Header() {
                                   id="ast-hf-menu-1-sticky"
                                   className="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border stack-on-mobile ast-mega-menu-enabled"
                                 >
-                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924">
+                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924 current-menu-item">
                                     <a href="/" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
@@ -514,7 +498,7 @@ function Header() {
                                       <span className="menu-text">Home</span>
                                     </a>
                                   </li>
-                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924">
+                                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-118924 current-menu-item">
                                     <a href="/about" className="menu-link">
                                       <span className="ast-icon icon-arrow">
                                         <svg
@@ -537,25 +521,9 @@ function Header() {
                                     </a>
                                   </li>
 
-                                   <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                                     <a href="/offline-events" className="menu-link">
-                                       <span className="ast-icon icon-arrow">
-                                         <svg
-                                           className="ast-arrow-svg"
-                                           xmlns="http://www.w3.org/2000/svg"
-                                           xmlnsXlink="http://www.w3.org/1999/xlink"
-                                           version="1.1"
-                                           x="0px"
-                                           y="0px"
-                                           width="26px"
-                                           height="16.043px"
-                                           viewBox="57 35.171 26 16.043"
-                                           enableBackground="new 57 35.171 26 16.043"
-                                           xmlSpace="preserve"
-                                         >
-                                           <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z"></path>
-                                         </svg>
-                                       </span>
+                                   <li className="menu-item menu-item-type-post_type menu-item-object-page oe-glass-tab-li">
+                                     <a href="/offline-events" className="menu-link oe-glass-tab">
+                                       <span className="oe-pulse-dot-sm" />
                                        <span className="menu-text">Offline Events</span>
                                      </a>
                                    </li>
@@ -884,8 +852,8 @@ function Header() {
                             </a>
                           </li>
 
-                           <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                             <a href="/offline-events" className="menu-link">
+                           <li className={`menu-item menu-item-type-post_type menu-item-object-page oe-glass-tab-li ${isActive("/offline-events") ? "current-menu-item active-oe-tab" : ""}`}>
+                             <a href="/offline-events" className="menu-link oe-glass-tab">
                                <span className="ast-icon icon-arrow">
                                  <svg
                                    className="ast-arrow-svg"
@@ -1043,18 +1011,19 @@ function Header() {
           <div className="m-nav-container">
             <nav className="m-main-navigation" aria-label="Site Navigation">
               <ul className="m-menu-list">
-                <li className="m-menu-item">
+                <li className="m-menu-item current-menu-item">
                   <a href="/" className="m-menu-link">
                     <span className="m-menu-text">Home</span>
                   </a>
                 </li>
-                <li className="m-menu-item">
+                <li className="m-menu-item current-menu-item">
                   <a href="/about" className="m-menu-link">
                     <span className="m-menu-text">About</span>
                   </a>
                 </li>
-                <li className="m-menu-item">
-                  <a href="/offline-events" className="m-menu-link">
+                <li className="m-menu-item oe-glass-tab-li">
+                  <a href="/offline-events" className="m-menu-link oe-glass-tab">
+                    <span className="oe-pulse-dot-sm" />
                     <span className="m-menu-text">Offline Events</span>
                   </a>
                 </li>

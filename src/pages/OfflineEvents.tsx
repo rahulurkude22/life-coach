@@ -37,7 +37,7 @@ export default function OfflineEvents() {
     {
       question: "Is this online or in-person?",
       answer:
-        "In-person, in Nagpur. The exact venue is shared with registered participants closer to the date.",
+        "Online, via Zoom. The exact link is shared with registered participants closer to the date.",
     },
     {
       question: "Will I stop thinking altogether?",
@@ -84,7 +84,7 @@ export default function OfflineEvents() {
                 <div className="oe-meta-glass-sep" />
                 <div className="oe-meta-glass-item">
                   <span className="oe-meta-glass-lbl">WHERE</span>
-                  <span className="oe-meta-glass-val">Nagpur</span>
+                  <span className="oe-meta-glass-val">Online Zoom Session</span>
                 </div>
               </div>
 
@@ -325,7 +325,7 @@ export default function OfflineEvents() {
               </div>
               <div className="oe-info-item">
                 <span className="oe-info-lbl">WHERE</span>
-                <span className="oe-info-val">Nagpur</span>
+                <span className="oe-info-val">Zoom - online</span>
               </div>
             </div>
 
@@ -340,7 +340,7 @@ export default function OfflineEvents() {
 
             <span className="oe-guarantee-note">
               <FaLock style={{ display: "inline-block", marginRight: "6px", verticalAlign: "-1px", fontSize: "0.85em", color: "rgb(197, 168, 128)" }} />
-              Save ₹1,109 · Early bird · Limited seats · Venue shared after registration
+              Save ₹1,109 · Early bird · Limited seats · Zoom link shared after registration
             </span>
           </div>
         </div>
@@ -377,7 +377,7 @@ export default function OfflineEvents() {
           </div>
 
           <div className="oe-faq-bottom">
-            <p>Have specific questions regarding the venue or group bookings?</p>
+            <p>Have specific questions regarding the event or group bookings?</p>
             <a
               href={RESERVE_URL}
               target="_blank"
@@ -751,19 +751,51 @@ export default function OfflineEvents() {
           max-width: 620px;
         }
 
-        /* High-Impact Standout Event Meta Specs Bar */
+        /* High-Impact Standout Event Meta Specs Bar with Glassmorphism & Shine */
         .oe-meta-glass-bar {
+          position: relative;
+          overflow: hidden;
           display: flex;
           align-items: center;
           gap: 36px;
-          background: #ffffff !important;
+          background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(247, 244, 239, 0.95) 100%) !important;
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
           border: 2px solid rgb(197, 168, 128) !important;
           padding: 20px 38px;
-          border-radius: 8px;
+          border-radius: 12px;
           margin-bottom: 32px;
           width: 100%;
           max-width: 580px;
-          box-shadow: 0 10px 30px rgba(197, 168, 128, 0.18), 0 4px 12px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 12px 35px rgba(197, 168, 128, 0.2), inset 0 1px 2px rgba(255, 255, 255, 0.9);
+        }
+
+        .oe-meta-glass-bar::before,
+        .oe-ticket-box::before {
+          content: '';
+          position: absolute;
+          top: -50%;
+          left: -75%;
+          width: 60%;
+          height: 200%;
+          background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.6) 50%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          transform: translateX(-100%) skewX(-25deg);
+          animation: oePageGlassShine 4s infinite ease-in-out;
+          pointer-events: none;
+        }
+
+        @keyframes oePageGlassShine {
+          0% {
+            transform: translateX(-150%) skewX(-25deg);
+          }
+          40%, 100% {
+            transform: translateX(350%) skewX(-25deg);
+          }
         }
 
         .oe-meta-glass-item {
@@ -1210,12 +1242,16 @@ export default function OfflineEvents() {
         }
 
         .oe-ticket-box {
-          background: linear-gradient(145deg, #262626 0%, #171717 100%);
+          position: relative;
+          overflow: hidden;
+          background: linear-gradient(145deg, rgba(38, 38, 38, 0.88) 0%, rgba(23, 23, 23, 0.95) 100%);
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
           border: 2px solid rgb(197, 168, 128);
-          border-radius: 8px;
+          border-radius: 12px;
           padding: 55px 45px;
           text-align: center;
-          box-shadow: 0 12px 45px rgba(0,0,0,0.5);
+          box-shadow: 0 16px 50px rgba(0,0,0,0.6), inset 0 1px 1px rgba(255,255,255,0.25);
           color: #ffffff;
           display: flex;
           flex-direction: column;

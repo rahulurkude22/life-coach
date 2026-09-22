@@ -129,7 +129,7 @@ export default function OfflineWorkshop() {
             </div>
             <div className="meta-item">
               <div className="eyebrow">Where</div>
-              <div className="val">Nagpur</div>
+              <div className="val">Online Zoom Session</div>
             </div>
           </div>
 
